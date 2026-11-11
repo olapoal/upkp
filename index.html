@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi KLC-CAT UPKP Kementerian Keuangan - Direktorat Jenderal Perbendaharaan</title>
+  <script>
+    // Inisialisasi awal tema sebelum render body untuk mencegah flicker layar
+    (function() {
+      try {
+        var savedTheme = localStorage.getItem('KLC_CAT_THEME');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+</head>
+<body data-theme="light">
+
+  <!-- ==============================================================================
+       TOP HEADER / NAVBAR (EXACT KLC-CAT STYLE)
+       ============================================================================== -->
+  <header class="top-header" id="topHeader">
+    <div class="brand-section">
+      <div class="brand-logos">
+        <div class="brand-logo-icon" title="Kemenkeu Corporate University">🏛️</div>
+      </div>
+      <div class="brand-titles">
+        <div class="brand-main-title">
+          <span>KLC-CAT UPKP</span>
+          <span class="tobat-badge" style="background: #003366; border: 1px solid rgba(255,255,255,0.4);">DJPb Kemenkeu</span>
+        </div>
+        <div class="brand-sub-title">Computer Assisted Test • Ujian Penyesuaian Kenaikan Pangkat Ditjen Perbendaharaan</div>
+      </div>
+    </div>
+
+    <!-- Active In-Exam Info (Shown during exam) -->
+    <div class="nav-exam-title-box" id="navExamTitleBox" style="display: none;">
+      <div class="nav-exam-title" id="navExamTitle">UPKP V TAHUN 2026 - PERBENDAHARAAN</div>
+      <div class="nav-subtest-title" id="navSubtestTitle">TES POTENSI & TSKKWK</div>
+    </div>
+
+    <!-- Right Controls: Profile info, Timer, Tools -->
+    <div class="nav-actions">
+      <!-- User profile in navbar -->
+      <div class="nav-user-info" id="navUserInfo" style="display: none;">
+        <div class="user-avatar-circle" id="navAvatarCircle">M</div>
+        <div class="user-text-info">
+          <span class="user-fullname" id="navUserFullname">Martono Heri Prayogo, S.E.</span>
+          <span class="user-nip" id="navUserNip">NIP. 198703052009121003</span>
+        </div>
+      </div>
+
+      <!-- KLC Timer Box (Yellow/Orange Pill with Clock Icon) -->
+      <div class="timer-pill-box" id="navTimerBox" style="display: none;">
+        <span>⏱️</span>
+        <span id="examTimerDisplay">02:00:00</span>
+      </div>
+
+      <!-- Mode Gelap / Terang (Dark / Light Mode Toggle) -->
+      <button class="btn-nav-tool btn-nav-theme" id="btnNavThemeToggle" title="Beralih Mode Gelap / Terang (Shortcut: Alt+T)" aria-label="Ganti Mode Gelap / Terang">
+        <span id="navThemeIcon">🌙</span>
+        <span id="navThemeText" style="display: none;">Mode Gelap</span>
+      </button>
+
+      <!-- Zoom & Fullscreen Tools (Slide 21) -->
+      <button class="btn-nav-tool" id="btnZoomOut" title="Perkecil Ukuran Huruf (Ctrl -)" aria-label="Perkecil Ukuran Huruf">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+      </button>
+
+      <button class="btn-nav-tool" id="btnZoomIn" title="Perbesar Ukuran Huruf (Ctrl +)" aria-label="Perbesar Ukuran Huruf">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          <line x1="11" y1="8" x2="11" y2="14"></line>
+          <line x1="8" y1="11" x2="14" y2="11"></line>
+        </svg>
+      </button>
+
+      <button class="btn-nav-tool" id="btnToggleFullscreen" title="Layar Penuh / Safe Exam Browser Mode (F11)" aria-label="Layar Penuh Safe Exam Browser">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==============================================================================
+       MAIN APPLICATION VIEW WRAPPER
+       ============================================================================== -->
+  <main class="main-wrapper">
+
+    <!-- --------------------------------------------------------------------------
+         SCREEN 1: LOGIN KLC-CAT (SLIDES 16 & 17)
+         -------------------------------------------------------------------------- -->
+    <section class="screen-container active-screen" id="screenLogin">
+      <div class="login-screen-wrapper">
+        <div class="login-card-container">
+          <!-- Left Banner -->
+          <div class="login-left-banner">
+            <div>
+              <div style="font-size: 2rem;">🏛️ 🇮🇩</div>
+              <div class="login-cat-brand">
+                <h1>Computer Assisted Test</h1>
+                <p>Kementerian Keuangan Republik Indonesia</p>
+                <p style="font-size: 0.8rem; opacity: 0.85;">Kemenkeu Corporate University • Ditjen Perbendaharaan</p>
+              </div>
+
+              <div class="login-ayang-love-note" style="border-left-color: #38bdf8;">
+                <strong>Petunjuk Pelaksanaan Ujian (Briefing UPKP 2026):</strong><br>
+                "Selamat datang di Aplikasi Simulasi Computer Assisted Test (KLC-CAT) Ujian Penyesuaian Kenaikan Pangkat Kementerian Keuangan. Aplikasi ini diselenggarakan sesuai dengan standar prosedur operasional dan ketentuan Pusat Pembinaan Jabatan Fungsional dan Penjaminan Mutu (Pusbin JFPM) serta Biro SDM Sekretariat Jenderal Kementerian Keuangan."
+              </div>
+            </div>
+
+            <div class="login-copyright">
+              Copyright © 2026 Kemenkeu Corporate University • Kementerian Keuangan Republik Indonesia. All Rights Reserved.
+            </div>
+          </div>
+
+          <!-- Right Form (Single Identity Login) -->
+          <div class="login-right-form">
+            <h2>Silakan Login</h2>
+            <p class="login-subtitle">Masuk menggunakan Akun Tunggal Digital Kemenkeu ID:</p>
+
+            <button type="button" class="btn-kemenkeu-id-login" id="btnShowKemenkeuModal">
+              <span>🆔</span> KEMENKEU ID (KLIK DISINI)
+            </button>
+
+            <button type="button" class="btn-google-login" id="btnGoogleLogin">
+              <span>🇬</span> GOOGLE
+            </button>
+
+            <div class="login-divider">atau login lokal langsung</div>
+
+            <!-- Quick form inputs -->
+            <form id="quickLoginForm">
+              <div class="input-group">
+                <label class="input-label" for="loginInputNama">Nama Lengkap Peserta Ujian:</label>
+                <input type="text" id="loginInputNama" class="input-control" value="Martono Heri Prayogo, S.E." required placeholder="Contoh: Martono Heri Prayogo, S.E.">
+              </div>
+
+              <div class="input-group">
+                <label class="input-label" for="loginInputNip">NIP Peserta (18 Digit):</label>
+                <input type="text" id="loginInputNip" class="input-control" value="198703052009121003" required placeholder="Contoh: 198703052009121003">
+              </div>
+
+              <div class="input-group">
+                <label class="input-label" for="loginInputEmail">Email Peserta (Untuk Pengiriman Hasil Rapor):</label>
+                <input type="email" id="loginInputEmail" class="input-control" value="martono.heri@kemenkeu.go.id" required placeholder="email.anda@kemenkeu.go.id">
+              </div>
+
+              <div class="input-group">
+                <label class="input-label" for="loginInputUnit">Unit Kerja Eselon I / Kantor:</label>
+                <select id="loginInputUnit" class="input-control">
+                  <option value="Direktorat Jenderal Perbendaharaan (DJPb) - KPPN">Direktorat Jenderal Perbendaharaan (DJPb) - KPPN</option>
+                  <option value="Direktorat Jenderal Perbendaharaan (DJPb) - Kanwil DJPb">Direktorat Jenderal Perbendaharaan (DJPb) - Kanwil DJPb</option>
+                  <option value="Direktorat Jenderal Perbendaharaan (DJPb) - Kantor Pusat">Direktorat Jenderal Perbendaharaan (DJPb) - Kantor Pusat</option>
+                  <option value="Sekretariat Jenderal Kementerian Keuangan">Sekretariat Jenderal Kementerian Keuangan</option>
+                  <option value="Direktorat Jenderal Pajak (DJP)">Direktorat Jenderal Pajak (DJP)</option>
+                  <option value="Direktorat Jenderal Bea dan Cukai (DJBC)">Direktorat Jenderal Bea dan Cukai (DJBC)</option>
+                  <option value="Direktorat Jenderal Anggaran (DJA)">Direktorat Jenderal Anggaran (DJA)</option>
+                  <option value="Direktorat Jenderal Kekayaan Negara (DJKN)">Direktorat Jenderal Kekayaan Negara (DJKN)</option>
+                  <option value="BPPK / Pusdiklat">Badan Pendidikan dan Pelatihan Keuangan (BPPK)</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn-lanjut-green" style="width: 100%; margin-top: 10px;">
+                Masuk ke Aplikasi KLC-CAT →
+              </button>
+            </form>
+
+            <button type="button" class="btn-cek-perangkat" id="btnCekPerangkat">
+              🔍 Cek Kesiapan Perangkat & Jaringan Anda
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------
+         SCREEN 2: PROFIL PESERTA SETELAH LOGIN (SLIDE 18)
+         -------------------------------------------------------------------------- -->
+    <section class="screen-container" id="screenProfile">
+      <div class="profile-card">
+        <div class="profile-card-header">
+          <h2>PROFIL PESERTA UJIAN KLC-CAT</h2>
+          <p style="font-size: 0.85rem; opacity: 0.9;">Ujian Penyesuaian Kenaikan Pangkat (UPKP) Tahun 2026</p>
+        </div>
+
+        <div class="profile-avatar-large" id="profileBigAvatar">M</div>
+        <div style="text-align: center; margin-bottom: 1.5rem;">
+          <h3 id="profileDisplayNama" style="font-size: 1.3rem; color: var(--kemenkeu-blue);">Martono Heri Prayogo, S.E.</h3>
+          <span class="meta-pill pill-grade" style="font-size: 0.8rem;">Peserta Terverifikasi Biro SDM</span>
+        </div>
+
+        <table class="profile-details-table">
+          <tbody>
+            <tr>
+              <td class="field-name">USERNAME / SSO</td>
+              <td class="field-val" id="profUsername">martono.heri</td>
+            </tr>
+            <tr>
+              <td class="field-name">NAMA LENGKAP</td>
+              <td class="field-val" id="profNamaLengkap">Martono Heri Prayogo, S.E.</td>
+            </tr>
+            <tr>
+              <td class="field-name">NIP</td>
+              <td class="field-val" id="profNip">198703052009121003</td>
+            </tr>
+            <tr>
+              <td class="field-name">NIK</td>
+              <td class="field-val">3271029876540001</td>
+            </tr>
+            <tr>
+              <td class="field-name">JABATAN</td>
+              <td class="field-val">Pengelola Perbendaharaan / Analis Keuangan APBN</td>
+            </tr>
+            <tr>
+              <td class="field-name">ORGANISASI</td>
+              <td class="field-val">Kementerian Keuangan Republik Indonesia</td>
+            </tr>
+            <tr>
+              <td class="field-name">EMAIL PESERTA</td>
+              <td class="field-val" id="profEmail">martono.heri@kemenkeu.go.id</td>
+            </tr>
+            <tr>
+              <td class="field-name">TELP / HP</td>
+              <td class="field-val">0812-3456-7890</td>
+            </tr>
+            <tr>
+              <td class="field-name">UNIT KERJA</td>
+              <td class="field-val" id="profUnit">Direktorat Jenderal Perbendaharaan (DJPb)</td>
+            </tr>
+            <tr>
+              <td class="field-name">STATUS DEVICE / SEB</td>
+              <td class="field-val" style="color: #10b981;">✓ Safe Exam Browser (SEB 1.0.2) Terverifikasi</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="profile-action-box">
+          <p style="font-size: 0.85rem; color: var(--kemenkeu-text-muted); margin-bottom: 1rem;">
+            Pastikan seluruh data profil di atas telah sesuai sebelum memilih paket ujian.
+          </p>
+          <button type="button" class="btn-lanjut-green" id="btnProfileLanjut">
+            Lanjut ke Daftar Ujian →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------
+         SCREEN 3: DAFTAR UJIAN (SLIDE 19)
+         -------------------------------------------------------------------------- -->
+    <section class="screen-container" id="screenDaftarUjian">
+      <div class="daftar-ujian-header">
+        <h2>DAFTAR UJIAN UPKP KEMENTERIAN KEUANGAN</h2>
+        <p>Silakan pilih paket ujian di bawah ini untuk memulai try out penyesuaian kenaikan pangkat</p>
+      </div>
+
+      <div class="exam-grid" id="examGridContainer">
+        <!-- Rendered by JS: UPKP V, UPKP IV, UPKP VI, Bank 2021-2025, TPA, Ujian Dummy -->
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------
+         SCREEN 5: RUANG UJIAN KLC-CAT (SLIDE 20 & 21)
+         -------------------------------------------------------------------------- -->
+    <section class="screen-container" id="screenRuangUjian">
+      <div class="exam-layout-grid">
+        <!-- Left Panel: Current Question -->
+        <div class="question-panel-card">
+          <div class="question-panel-header">
+            <div class="question-num-badge" id="currentQuestionNumBadge">Soal 1</div>
+            <div class="question-cat-tag" id="currentQuestionCategoryTag">Materi: Tusi Kemenkeu & DJPb</div>
+          </div>
+
+          <div class="question-body-content">
+            <div class="question-text" id="currentQuestionText">
+              Memuat soal ujian...
+            </div>
+
+            <div class="options-container" id="currentOptionsContainer">
+              <!-- Rendered dynamically -->
+            </div>
+          </div>
+
+          <div class="question-panel-footer">
+            <button type="button" class="btn-exam-nav" id="btnPrevQuestion">
+              ← Kembali
+            </button>
+            <button type="button" class="btn-exam-nav btn-tandai-ragu" id="btnMarkRagu">
+              🚩 Tandai (Ragu-ragu)
+            </button>
+            <button type="button" class="btn-exam-nav" id="btnNextQuestion">
+              Lanjut →
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Panel: Navigation Grid & Proctoring -->
+        <div class="nav-sidebar-card">
+          <div class="nav-sidebar-title">NAVIGASI SOAL</div>
+
+          <!-- Exact KLC-CAT Question Badges Grid (1..N) -->
+          <div class="nav-grid-box" id="questionNavGrid">
+            <!-- Badges populated by JS -->
+          </div>
+
+          <!-- Exact KLC-CAT Statistics Counter -->
+          <div class="nav-stats-bar">
+            <div class="nav-stats-title">Statistik Pengerjaan</div>
+            <div class="stats-items-row">
+              <div class="stat-item" title="Sudah Dikerjakan">
+                <span class="stat-color-box blue"></span>
+                <span id="statAnsweredCount">0</span>
+              </div>
+              <div class="stat-item" title="Belum Dikerjakan">
+                <span class="stat-color-box gray"></span>
+                <span id="statUnansweredCount">0</span>
+              </div>
+              <div class="stat-item" title="Ragu-ragu / Ditandai">
+                <span class="stat-color-box orange"></span>
+                <span id="statMarkedCount">0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Big Submit Button -->
+          <button type="button" class="btn-kirim-selesai" id="btnKirimSelesai">
+            ✓ Kirim & Selesai
+          </button>
+
+          <!-- AI Proctoring Widget (Slide 11) -->
+          <div class="proctoring-box">
+            <div class="proctoring-header">
+              <span>🤖 AI PROCTORING</span>
+              <span class="pulse-dot"></span>
+            </div>
+            <div class="proctor-video-wrap">
+              <video id="proctor-video" autoplay playsinline muted style="display: none;"></video>
+              <div class="proctor-avatar-sim" id="proctorSimPlaceholder">
+                <div style="font-size: 2.2rem;">👩‍💻</div>
+                <div style="margin-top: 4px;">Webcam Monitoring Aktif</div>
+              </div>
+            </div>
+            <div class="proctor-status-banner">
+              <span class="pulse-dot"></span>
+              <span id="proctorStatusText">Wajah Terdeteksi Normal • Fokus Ujian</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------
+         SCREEN 6: HASIL SKOR, EVALUASI & PEMBAHASAN LENGKAP
+         -------------------------------------------------------------------------- -->
+    <section class="screen-container" id="screenHasil">
+      <div class="result-container">
+        <div class="rapor-card">
+          <!-- Official Result Header -->
+          <div style="text-align: center; border-bottom: 2px solid var(--kemenkeu-blue); padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+            <div style="font-size: 2.2rem;">🏛️</div>
+            <h2 style="font-size: 1.4rem; color: var(--kemenkeu-blue); font-weight: 800;">
+              HASIL EVALUASI TRY OUT UPKP KEMENTERIAN KEUANGAN 2026
+            </h2>
+            <p style="font-size: 0.9rem; color: var(--kemenkeu-text-muted);">
+              Sistem Computer Assisted Test (KLC-CAT) • Direktorat Jenderal Perbendaharaan
+            </p>
+          </div>
+
+          <!-- Participant Info Summary -->
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; background: var(--kemenkeu-hover); padding: 1rem 1.25rem; border-radius: 8px; margin-bottom: 1.5rem; font-size: 0.9rem;">
+            <div>
+              <strong>Nama Peserta:</strong> <span id="resNamaPeserta">Martono Heri Prayogo, S.E.</span><br>
+              <strong>NIP:</strong> <span id="resNipPeserta">198703052009121003</span>
+            </div>
+            <div>
+              <strong>Paket Ujian:</strong> <span id="resExamTitle">UPKP V Perbendaharaan</span><br>
+              <strong>Tanggal Ujian:</strong> <span id="resExamDate">11 November 2026</span>
+            </div>
+          </div>
+
+          <!-- Status Banner (LULUS / BELUM) based on Passing Grade Slide 3 -->
+          <div class="rapor-banner-status lulus" id="raporStatusBanner">
+            <h2 id="raporStatusTitle">SELAMAT! MEMENUHI AMBANG BATAS KELULUSAN (PASSING GRADE)</h2>
+            <p id="raporStatusSubtitle">Direkomendasikan Lulus Ujian Penyesuaian Kenaikan Pangkat (UPKP) Tahun 2026</p>
+          </div>
+
+          <!-- Score Breakdown Grid -->
+          <div class="score-grid-summary">
+            <div class="score-metric-card">
+              <div class="score-metric-label">Nilai Tes Potensi</div>
+              <div class="score-metric-value" id="scorePotensiVal">512</div>
+              <div class="score-metric-threshold" id="scorePotensiThreshold">Passing Grade: ≥ 475</div>
+            </div>
+
+            <div class="score-metric-card">
+              <div class="score-metric-label">Nilai TSKKWK</div>
+              <div class="score-metric-value" id="scoreTskkwkVal">88.5</div>
+              <div class="score-metric-threshold">Passing Grade: ≥ 70.0</div>
+            </div>
+
+            <div class="score-metric-card">
+              <div class="score-metric-label">Jawaban Benar</div>
+              <div class="score-metric-value" id="scoreCorrectCount" style="color: #10b981;">0</div>
+              <div class="score-metric-threshold" id="scoreTotalCountLabel">dari 0 butir soal</div>
+            </div>
+
+            <div class="score-metric-card">
+              <div class="score-metric-label">Jawaban Salah</div>
+              <div class="score-metric-value" id="scoreWrongCount" style="color: #ef4444;">0</div>
+              <div class="score-metric-threshold" id="scoreEmptyCountLabel">Kosong: 0 butir</div>
+            </div>
+          </div>
+
+          <!-- Evaluasi Resmi Pengawas Box -->
+          <div class="ayang-love-celebration" id="ayangCelebrationBox">
+            <h3>📋 Catatan & Rekomendasi Evaluasi Kelulusan:</h3>
+            <p id="ayangLoveMessage">
+              "Peserta telah menyelesaikan seluruh rangkaian materi simulasi UPKP. Silakan pelajari secara komprehensif butir-butir soal dan pembahasan regulasi di bawah ini untuk mengoptimalkan persiapan ujian dinas yang sesungguhnya."
+            </p>
+          </div>
+
+          <!-- Action Toolbar: Email Result, Print PDF, Retry -->
+          <div class="result-action-toolbar">
+            <div class="email-form-box">
+              <input type="email" id="inputRecipientEmail" class="input-control" placeholder="Email peserta..." style="flex: 1;">
+              <button type="button" class="btn-email-kirim" id="btnSendResultEmail">
+                ✉️ Kirim Rapor ke Email
+              </button>
+            </div>
+
+            <div style="display: flex; gap: 8px;">
+              <button type="button" class="btn-cetak-pdf" id="btnPrintPdf">
+                🖨️ Cetak / Unduh PDF Rapor
+              </button>
+              <button type="button" class="btn-exam-nav" id="btnRestartToDaftar">
+                🔄 Pilih Ujian Lain
+              </button>
+            </div>
+          </div>
+
+          <!-- Review and Pembahasan Lengkap -->
+          <div class="review-section-header">
+            <h3 style="font-size: 1.2rem; font-weight: 800; color: var(--kemenkeu-blue);">
+              PEMBAHASAN LENGKAP & KUNCI JAWABAN SETIAP BUTIR SOAL
+            </h3>
+            <div class="review-filter-btns">
+              <button type="button" class="btn-filter-review active-filter" data-filter="all">Semua Soal (<span id="filterAllCount">0</span>)</button>
+              <button type="button" class="btn-filter-review" data-filter="wrong">Salah Saja (<span id="filterWrongCount">0</span>)</button>
+              <button type="button" class="btn-filter-review" data-filter="correct">Benar Saja (<span id="filterCorrectCount">0</span>)</button>
+            </div>
+          </div>
+
+          <!-- Review Question List -->
+          <div id="reviewQuestionsContainer">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================================================
+       PAKTA INTEGRITAS & TOKEN MODAL (SLIDE 13)
+       ============================================================================== -->
+  <div class="modal-overlay" id="modalPaktaIntegritas" style="display: none;">
+    <div class="modal-content-box">
+      <div class="modal-header">
+        <h3>Pakta Integritas & Token Ujian UPKP 2026</h3>
+        <button type="button" id="btnClosePaktaModal" style="background: none; border: none; color: white; font-size: 1.2rem; cursor: pointer;">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <h4 style="color: var(--kemenkeu-blue); margin-bottom: 0.5rem;" id="modalExamTitleDisplay">
+          UPKP V Tahun 2026 - Ditjen Perbendaharaan
+        </h4>
+
+        <div class="rules-list">
+          <strong>Tata Tertib & Ketentuan Ujian (Sesuai Briefing UPKP 2026):</strong>
+          <ul style="margin-top: 6px; padding-left: 1.2rem;">
+            <li>Ujian terdiri dari Tes Potensi (Verbal, Numerik, Figural) dan TSKKWK.</li>
+            <li>Sistem diawasi dengan AI Proctoring melalui kamera perangkat.</li>
+            <li>Ambang batas kelulusan: Nilai Potensi &ge; 475, TSKKWK &ge; 70.0.</li>
+            <li>Peserta dilarang membuka tab browser lain atau bekerja sama.</li>
+            <li>Jawaban tersimpan otomatis secara berkala di sistem.</li>
+          </ul>
+        </div>
+
+        <div class="token-box">
+          <p>Token Resmi Subtes Ujian Ini:</p>
+          <div class="token-display-code" id="modalTokenCodeDisplay">UPKP26</div>
+          <button type="button" class="btn-autofill-token" id="btnAutoFillToken">
+            📋 Salin & Masukkan Token Otomatis
+          </button>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label class="input-label" for="inputExamToken">Masukkan Token Ujian:</label>
+          <input type="text" id="inputExamToken" class="input-control" placeholder="Ketik token di sini (contoh: UPKP26)" style="font-size: 1.1rem; letter-spacing: 2px; text-transform: uppercase;">
+        </div>
+
+        <div style="display: flex; align-items: flex-start; gap: 8px;">
+          <input type="checkbox" id="chkPaktaAgree" style="margin-top: 4px; width: 17px; height: 17px;">
+          <label for="chkPaktaAgree" style="font-size: 0.85rem; cursor: pointer;">
+            Saya telah membaca dan menyetujui seluruh ketentuan Pakta Integritas, tata tertib ujian UPKP Kementerian Keuangan, serta siap mengerjakan ujian dengan jujur.
+          </label>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn-exam-nav" id="btnCancelPakta">Batal</button>
+        <button type="button" class="btn-lanjut-green" id="btnStartExamSubmit">
+          🚀 Mulai Kerjakan Ujian Sekarang
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==============================================================================
+       CHAT DENGAN PENGAWAS FLOATING WIDGET (SLIDE 11)
+       ============================================================================== -->
+  <div class="chat-pengawas-widget" id="chatPengawasWidget">
+    <div class="chat-window" id="chatWindow">
+      <div class="chat-header">
+        <span>👮‍♂️ Pengawas UPKP Kementerian Keuangan</span>
+        <button type="button" id="btnCloseChat" style="background: none; border: none; color: white; cursor: pointer; font-size: 1rem;">✕</button>
+      </div>
+
+      <div class="chat-messages-body" id="chatMessagesBody">
+        <div class="chat-msg pengawas">
+          Halo Peserta UPKP! Saya Pengawas Ruang Ujian Kementerian Keuangan. Jika terdapat pertanyaan teknis sistem atau kendala jaringan, silakan sampaikan di sini.
+        </div>
+        <div class="chat-msg pengawas">
+          Petunjuk Teknis: Seluruh jawaban tersimpan otomatis secara berkala. Pastikan Anda menyelesaikan ujian sebelum timer habis.
+        </div>
+      </div>
+
+      <form class="chat-input-bar" id="chatForm">
+        <input type="text" id="chatInputText" class="chat-input-field" placeholder="Ketik pesan ke pengawas..." autocomplete="off">
+        <button type="submit" class="btn-send-chat">Kirim</button>
+      </form>
+    </div>
+
+    <button type="button" class="chat-bubble-toggle" id="btnToggleChat">
+      <span>💬</span> Chat Pengawas
+    </button>
+  </div>
+
+  <!-- ==============================================================================
+       FOOTER (EXACT KLC-CAT STYLE - SLIDE 20)
+       ============================================================================== -->
+  <footer class="app-footer">
+    <div class="footer-left">
+      <span style="font-weight: 700; color: #ffffff;">🏛️ Kemenkeu Corporate University</span>
+      <span>•</span>
+      <span>Computer Assisted Test 2026</span>
+    </div>
+
+    <div class="footer-autosave-indicator" id="footerAutosaveIndicator">
+      <span>✓</span>
+      <span id="autosaveStatusText">Jawaban Anda terkirim otomatis setiap 60 detik</span>
+    </div>
+
+    <div class="theme-toggle-wrap">
+      <span>THEME</span>
+      <label class="theme-switch" title="Ganti Mode Gelap / Terang">
+        <input type="checkbox" id="themeToggleCheckbox">
+        <span class="slider-round"></span>
+      </label>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data/questions.js"></script>
+  <script src="js/emailService.js"></script>
+  <script src="js/examEngine.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
