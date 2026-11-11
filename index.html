@@ -49,10 +49,10 @@
     <div class="nav-actions">
       <!-- User profile in navbar -->
       <div class="nav-user-info" id="navUserInfo" style="display: none;">
-        <div class="user-avatar-circle" id="navAvatarCircle">M</div>
+        <div class="user-avatar-circle" id="navAvatarCircle">P</div>
         <div class="user-text-info">
-          <span class="user-fullname" id="navUserFullname">Martono Heri Prayogo, S.E.</span>
-          <span class="user-nip" id="navUserNip">NIP. 198703052009121003</span>
+          <span class="user-fullname" id="navUserFullname">Peserta Ujian</span>
+          <span class="user-nip" id="navUserNip"></span>
         </div>
       </div>
 
@@ -145,22 +145,23 @@
             <form id="quickLoginForm">
               <div class="input-group">
                 <label class="input-label" for="loginInputNama">Nama Lengkap Peserta Ujian:</label>
-                <input type="text" id="loginInputNama" class="input-control" value="Martono Heri Prayogo, S.E." required placeholder="Contoh: Martono Heri Prayogo, S.E.">
+                <input type="text" id="loginInputNama" class="input-control" value="" required placeholder="Masukkan Nama Lengkap Anda (contoh: Martono Heri Prayogo, S.E.)">
               </div>
 
               <div class="input-group">
                 <label class="input-label" for="loginInputNip">NIP Peserta (18 Digit):</label>
-                <input type="text" id="loginInputNip" class="input-control" value="198703052009121003" required placeholder="Contoh: 198703052009121003">
+                <input type="text" id="loginInputNip" class="input-control" value="" required placeholder="Masukkan 18 digit NIP Anda...">
               </div>
 
               <div class="input-group">
                 <label class="input-label" for="loginInputEmail">Email Peserta (Untuk Pengiriman Hasil Rapor):</label>
-                <input type="email" id="loginInputEmail" class="input-control" value="martono.heri@kemenkeu.go.id" required placeholder="email.anda@kemenkeu.go.id">
+                <input type="email" id="loginInputEmail" class="input-control" value="" required placeholder="nama.anda@kemenkeu.go.id">
               </div>
 
               <div class="input-group">
                 <label class="input-label" for="loginInputUnit">Unit Kerja Eselon I / Kantor:</label>
-                <select id="loginInputUnit" class="input-control">
+                <select id="loginInputUnit" class="input-control" required>
+                  <option value="" disabled selected>-- Pilih Unit Kerja Eselon I / Kantor Anda --</option>
                   <option value="Direktorat Jenderal Perbendaharaan (DJPb) - KPPN">Direktorat Jenderal Perbendaharaan (DJPb) - KPPN</option>
                   <option value="Direktorat Jenderal Perbendaharaan (DJPb) - Kanwil DJPb">Direktorat Jenderal Perbendaharaan (DJPb) - Kanwil DJPb</option>
                   <option value="Direktorat Jenderal Perbendaharaan (DJPb) - Kantor Pusat">Direktorat Jenderal Perbendaharaan (DJPb) - Kantor Pusat</option>
@@ -169,7 +170,7 @@
                   <option value="Direktorat Jenderal Bea dan Cukai (DJBC)">Direktorat Jenderal Bea dan Cukai (DJBC)</option>
                   <option value="Direktorat Jenderal Anggaran (DJA)">Direktorat Jenderal Anggaran (DJA)</option>
                   <option value="Direktorat Jenderal Kekayaan Negara (DJKN)">Direktorat Jenderal Kekayaan Negara (DJKN)</option>
-                  <option value="BPPK / Pusdiklat">Badan Pendidikan dan Pelatihan Keuangan (BPPK)</option>
+                  <option value="Badan Pendidikan dan Pelatihan Keuangan (BPPK)">Badan Pendidikan dan Pelatihan Keuangan (BPPK)</option>
                 </select>
               </div>
 
@@ -196,9 +197,9 @@
           <p style="font-size: 0.85rem; opacity: 0.9;">Ujian Penyesuaian Kenaikan Pangkat (UPKP) Tahun 2026</p>
         </div>
 
-        <div class="profile-avatar-large" id="profileBigAvatar">M</div>
+        <div class="profile-avatar-large" id="profileBigAvatar">P</div>
         <div style="text-align: center; margin-bottom: 1.5rem;">
-          <h3 id="profileDisplayNama" style="font-size: 1.3rem; color: var(--kemenkeu-blue);">Martono Heri Prayogo, S.E.</h3>
+          <h3 id="profileDisplayNama" style="font-size: 1.3rem; color: var(--kemenkeu-blue);">Peserta Ujian UPKP</h3>
           <span class="meta-pill pill-grade" style="font-size: 0.8rem;">Peserta Terverifikasi Biro SDM</span>
         </div>
 
@@ -206,15 +207,15 @@
           <tbody>
             <tr>
               <td class="field-name">USERNAME / SSO</td>
-              <td class="field-val" id="profUsername">martono.heri</td>
+              <td class="field-val" id="profUsername">-</td>
             </tr>
             <tr>
               <td class="field-name">NAMA LENGKAP</td>
-              <td class="field-val" id="profNamaLengkap">Martono Heri Prayogo, S.E.</td>
+              <td class="field-val" id="profNamaLengkap">Peserta Ujian UPKP</td>
             </tr>
             <tr>
               <td class="field-name">NIP</td>
-              <td class="field-val" id="profNip">198703052009121003</td>
+              <td class="field-val" id="profNip">-</td>
             </tr>
             <tr>
               <td class="field-name">NIK</td>
@@ -230,7 +231,7 @@
             </tr>
             <tr>
               <td class="field-name">EMAIL PESERTA</td>
-              <td class="field-val" id="profEmail">martono.heri@kemenkeu.go.id</td>
+              <td class="field-val" id="profEmail">-</td>
             </tr>
             <tr>
               <td class="field-name">TELP / HP</td>
@@ -382,12 +383,12 @@
           <!-- Participant Info Summary -->
           <div style="display: flex; flex-wrap: wrap; justify-content: space-between; background: var(--kemenkeu-hover); padding: 1rem 1.25rem; border-radius: 8px; margin-bottom: 1.5rem; font-size: 0.9rem;">
             <div>
-              <strong>Nama Peserta:</strong> <span id="resNamaPeserta">Martono Heri Prayogo, S.E.</span><br>
-              <strong>NIP:</strong> <span id="resNipPeserta">198703052009121003</span>
+              <strong>Nama Peserta:</strong> <span id="resNamaPeserta">-</span><br>
+              <strong>NIP:</strong> <span id="resNipPeserta">-</span>
             </div>
             <div>
-              <strong>Paket Ujian:</strong> <span id="resExamTitle">UPKP V Perbendaharaan</span><br>
-              <strong>Tanggal Ujian:</strong> <span id="resExamDate">11 November 2026</span>
+              <strong>Paket Ujian:</strong> <span id="resExamTitle">UPKP Perbendaharaan</span><br>
+              <strong>Tanggal Ujian:</strong> <span id="resExamDate">-</span>
             </div>
           </div>
 

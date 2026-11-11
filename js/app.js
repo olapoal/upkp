@@ -10,10 +10,10 @@
   // Global App State
   const AppState = {
     user: {
-      nama: "Martono Heri Prayogo, S.E.",
-      nip: "198703052009121003",
-      email: "martono.heri@kemenkeu.go.id",
-      unit: "Direktorat Jenderal Perbendaharaan (DJPb) - KPPN"
+      nama: "",
+      nip: "",
+      email: "",
+      unit: ""
     },
     currentExamId: null,
     examTimer: null,
@@ -181,30 +181,30 @@
   // PROFILE & USER DATA HANDLING
   // ==============================================================================
   function saveUserProfileFromForm() {
-    AppState.user.nama = DOM.loginInputNama.value.trim() || "Ayang Tersayang";
-    AppState.user.nip = DOM.loginInputNip.value.trim() || "199608172020122001";
-    AppState.user.email = DOM.loginInputEmail.value.trim() || "ayang.tersayang@kemenkeu.go.id";
-    AppState.user.unit = DOM.loginInputUnit.value;
+    AppState.user.nama = DOM.loginInputNama.value.trim();
+    AppState.user.nip = DOM.loginInputNip.value.trim();
+    AppState.user.email = DOM.loginInputEmail.value.trim();
+    AppState.user.unit = DOM.loginInputUnit.value || "Direktorat Jenderal Perbendaharaan (DJPb)";
 
     // Update Profile Screen UI
-    const initial = AppState.user.nama.charAt(0).toUpperCase();
+    const initial = (AppState.user.nama ? AppState.user.nama.charAt(0) : 'P').toUpperCase();
     DOM.profileBigAvatar.textContent = initial;
     DOM.navAvatarCircle.textContent = initial;
 
-    DOM.profileDisplayNama.textContent = AppState.user.nama;
-    DOM.profNamaLengkap.textContent = AppState.user.nama;
-    DOM.navUserFullname.textContent = AppState.user.nama;
+    DOM.profileDisplayNama.textContent = AppState.user.nama || "Peserta Ujian";
+    DOM.profNamaLengkap.textContent = AppState.user.nama || "-";
+    DOM.navUserFullname.textContent = AppState.user.nama || "Peserta Ujian";
 
-    DOM.profNip.textContent = AppState.user.nip;
-    DOM.navUserNip.textContent = "NIP. " + AppState.user.nip;
+    DOM.profNip.textContent = AppState.user.nip || "-";
+    DOM.navUserNip.textContent = AppState.user.nip ? ("NIP. " + AppState.user.nip) : "";
 
-    DOM.profEmail.textContent = AppState.user.email;
+    DOM.profEmail.textContent = AppState.user.email || "-";
     DOM.profUnit.textContent = AppState.user.unit;
-    DOM.profUsername.textContent = AppState.user.email.split('@')[0];
+    DOM.profUsername.textContent = AppState.user.email ? AppState.user.email.split('@')[0] : (AppState.user.nip || "peserta");
 
     // Pre-fill recipient on result screen
     if (DOM.inputRecipientEmail) {
-      DOM.inputRecipientEmail.value = AppState.user.email;
+      DOM.inputRecipientEmail.value = AppState.user.email || "";
     }
   }
 
@@ -836,16 +836,62 @@
     // Quick Login Submit
     DOM.quickLoginForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      const nama = DOM.loginInputNama.value.trim();
+      const nip = DOM.loginInputNip.value.trim();
+      const email = DOM.loginInputEmail.value.trim();
+      const unit = DOM.loginInputUnit.value;
+
+      if (!nama) {
+        alert("Silakan masukkan Nama Lengkap Anda.");
+        DOM.loginInputNama.focus();
+        return;
+      }
+      if (!nip) {
+        alert("Silakan masukkan NIP Anda (18 Digit).");
+        DOM.loginInputNip.focus();
+        return;
+      }
+      if (!email) {
+        alert("Silakan masukkan Alamat Email Anda.");
+        DOM.loginInputEmail.focus();
+        return;
+      }
+      if (!unit) {
+        alert("Silakan pilih Unit Kerja Eselon I / Kantor Anda.");
+        DOM.loginInputUnit.focus();
+        return;
+      }
+
       saveUserProfileFromForm();
       showScreen('screenProfile');
     });
 
     DOM.btnShowKemenkeuModal.addEventListener('click', () => {
+      const nama = DOM.loginInputNama.value.trim();
+      const nip = DOM.loginInputNip.value.trim();
+      const email = DOM.loginInputEmail.value.trim();
+      const unit = DOM.loginInputUnit.value;
+
+      if (!nama || !nip || !email || !unit) {
+        DOM.loginInputNama.focus();
+        alert("Silakan lengkapi formulir login di bawah (Nama, NIP, Email, dan Unit Kerja) terlebih dahulu.");
+        return;
+      }
       saveUserProfileFromForm();
       showScreen('screenProfile');
     });
 
     DOM.btnGoogleLogin.addEventListener('click', () => {
+      const nama = DOM.loginInputNama.value.trim();
+      const nip = DOM.loginInputNip.value.trim();
+      const email = DOM.loginInputEmail.value.trim();
+      const unit = DOM.loginInputUnit.value;
+
+      if (!nama || !nip || !email || !unit) {
+        DOM.loginInputNama.focus();
+        alert("Silakan lengkapi formulir login di bawah (Nama, NIP, Email, dan Unit Kerja) terlebih dahulu.");
+        return;
+      }
       saveUserProfileFromForm();
       showScreen('screenProfile');
     });
@@ -960,7 +1006,10 @@
   // ==============================================================================
   function initApp() {
     initTheme();
-    saveUserProfileFromForm();
+    if (DOM.loginInputNama) DOM.loginInputNama.value = "";
+    if (DOM.loginInputNip) DOM.loginInputNip.value = "";
+    if (DOM.loginInputEmail) DOM.loginInputEmail.value = "";
+    if (DOM.loginInputUnit) DOM.loginInputUnit.selectedIndex = 0;
     setupEventListeners();
     showScreen('screenLogin');
   }
