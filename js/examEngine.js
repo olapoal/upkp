@@ -10,71 +10,103 @@ const ExamEngine = {
       id: "upkp-v-2026",
       title: "UPKP V Tahun 2026 - Paket Simulasi Penuh Terpadu (200 Soal)",
       organizer: "P3K - Pusdiklat Kepemimpinan dan Manajerial - BPPK",
-      description: "Simulasi Penuh Ujian Penyesuaian Kenaikan Pangkat Tingkat V Ditjen Perbendaharaan. Mencakup Tes Potensi 120 Soal (Verbal, Numerik, Figural), TSKKWK 40 Soal, dan Tes Psikologi / Integritas ASN 40 Soal.",
+      description: "Simulasi Ujian UPKP Tingkat V Lengkap dalam 1 Paket: 120 Soal Tes Potensi (Verbal, Numerikal, Figural), 40 Soal TSKKWK & Kebijakan Perbendaharaan, dan 40 Soal Tes Psikologi / Integritas ASN.",
       durationMinutes: 180, // 3 Jam
       thresholdPotensi: 475, // Ambang batas Slide 3
       thresholdTskkwk: 70.0,  // Ambang batas Slide 3
       thresholdPsikologi: 70.0,
       token: "UPKP26",
       featured: true,
-      questionDistribution: {
-        potensi_verbal: 40,
-        potensi_numerik: 45,
-        potensi_figural_analitikal: 35,
-        tskkwk_perbendaharaan_modern: 8,
-        tskkwk_tusi_kemenkeu: 8,
-        tskkwk_nilai_kemenkeu: 6,
-        tskkwk_kepegawaian: 6,
-        tskkwk_etika_pns: 6,
-        tskkwk_wawasan_kebangsaan: 6,
-        psikologi_integritas_asn: 40
-      }
+      subtests: [
+        {
+          id: "potensi",
+          number: 1,
+          title: "Subtes I: Tes Potensi Akademik (120 Soal)",
+          shortName: "Tes Potensi",
+          rangeText: "Soal 1 - 120",
+          distribution: {
+            potensi_verbal: 40,
+            potensi_numerik: 45,
+            potensi_figural_analitikal: 35
+          }
+        },
+        {
+          id: "tskkwk",
+          number: 2,
+          title: "Subtes II: TSKKWK & Perbendaharaan (40 Soal)",
+          shortName: "TSKKWK",
+          rangeText: "Soal 121 - 160",
+          distribution: {
+            tskkwk_perbendaharaan_modern: 8,
+            tskkwk_tusi_kemenkeu: 8,
+            tskkwk_nilai_kemenkeu: 6,
+            tskkwk_kepegawaian: 6,
+            tskkwk_etika_pns: 6,
+            tskkwk_wawasan_kebangsaan: 6
+          }
+        },
+        {
+          id: "psikologi",
+          number: 3,
+          title: "Subtes III: Tes Psikologi & Integritas ASN (40 Soal)",
+          shortName: "Tes Psikologi",
+          rangeText: "Soal 161 - 200",
+          distribution: {
+            psikologi_integritas_asn: 40
+          }
+        }
+      ]
     },
     {
-      id: "upkp-v-potensi-120",
-      title: "UPKP V - Subtes Tes Potensi (120 Soal Penuh)",
+      id: "upkp-v-paket-2",
+      title: "UPKP V Tahun 2026 - Paket Simulasi Variasi 2 (200 Soal)",
       organizer: "P3K - Pusdiklat Kepemimpinan dan Manajerial - BPPK",
-      description: "Simulasi khusus Subtes Tes Potensi Akademik (TPA) UPKP Tingkat V dengan alokasi standar resmi: 40 Verbal, 45 Numerik, dan 35 Figural/Analitikal. Ambang batas kelulusan ≥ 475.",
-      durationMinutes: 120, // 2 Jam (Sesuai ketentuan briefing)
+      description: "Variasi ke-2 Simulasi Lengkap UPKP Tingkat V dalam 1 Paket: 120 Soal Tes Potensi, 40 Soal TSKKWK, dan 40 Soal Tes Psikologi / Integritas ASN.",
+      durationMinutes: 180,
       thresholdPotensi: 475,
-      token: "POTENSI120",
-      featured: false,
-      questionDistribution: {
-        potensi_verbal: 40,
-        potensi_numerik: 45,
-        potensi_figural_analitikal: 35
-      }
-    },
-    {
-      id: "upkp-v-tskkwk-40",
-      title: "UPKP V - Subtes TSKKWK & Perbendaharaan (40 Soal)",
-      organizer: "Ditjen Perbendaharaan & Pusbin JFPM",
-      description: "Simulasi khusus Tes Substansi Kepegawaian, Wawasan Kebangsaan, Etika PNS, dan Perbendaharaan Modern (40 Soal). Ambang batas kelulusan ≥ 70.0.",
-      durationMinutes: 60, // 1 Jam (Sesuai ketentuan briefing)
       thresholdTskkwk: 70.0,
-      token: "TSKKWK40",
-      featured: false,
-      questionDistribution: {
-        tskkwk_perbendaharaan_modern: 8,
-        tskkwk_tusi_kemenkeu: 8,
-        tskkwk_nilai_kemenkeu: 6,
-        tskkwk_kepegawaian: 6,
-        tskkwk_etika_pns: 6,
-        tskkwk_wawasan_kebangsaan: 6
-      }
-    },
-    {
-      id: "upkp-v-psikologi-40",
-      title: "UPKP V - Subtes Tes Psikologi & Integritas ASN (40 Soal)",
-      organizer: "Biro SDM Setjen & Pusdiklat BPPK",
-      description: "Simulasi khusus Asesmen Psikologis ASN & Situational Judgment Test (SJT): Integritas, Anti Gratifikasi, Orientasi Pelayanan, Kepemimpinan, dan Ketahanan Kerja.",
-      durationMinutes: 45,
       thresholdPsikologi: 70.0,
-      token: "PSIKO40",
+      token: "UPKP26B",
       featured: false,
-      questionDistribution: {
-        psikologi_integritas_asn: 40
-      }
+      subtests: [
+        {
+          id: "potensi",
+          number: 1,
+          title: "Subtes I: Tes Potensi Akademik (120 Soal)",
+          shortName: "Tes Potensi",
+          rangeText: "Soal 1 - 120",
+          distribution: {
+            potensi_verbal: 40,
+            potensi_numerik: 45,
+            potensi_figural_analitikal: 35
+          }
+        },
+        {
+          id: "tskkwk",
+          number: 2,
+          title: "Subtes II: TSKKWK & Perbendaharaan (40 Soal)",
+          shortName: "TSKKWK",
+          rangeText: "Soal 121 - 160",
+          distribution: {
+            tskkwk_perbendaharaan_modern: 8,
+            tskkwk_tusi_kemenkeu: 8,
+            tskkwk_nilai_kemenkeu: 6,
+            tskkwk_kepegawaian: 6,
+            tskkwk_etika_pns: 6,
+            tskkwk_wawasan_kebangsaan: 6
+          }
+        },
+        {
+          id: "psikologi",
+          number: 3,
+          title: "Subtes III: Tes Psikologi & Integritas ASN (40 Soal)",
+          shortName: "Tes Psikologi",
+          rangeText: "Soal 161 - 200",
+          distribution: {
+            psikologi_integritas_asn: 40
+          }
+        }
+      ]
     },
     {
       id: "upkp-iv-2026",
@@ -180,23 +212,68 @@ const ExamEngine = {
       grouped[cat].push(q);
     });
 
+    const sampleCategory = (catName, count) => {
+      const pool = grouped[catName] || [];
+      const shuffled = [...pool].sort(() => 0.5 - Math.random());
+      return shuffled.slice(0, count);
+    };
+
+    // Jika paket mendefinisikan subtes terstruktur (1 Paket berisi Potensi, TSKKWK, Psikologi)
+    if (examPackage.subtests && Array.isArray(examPackage.subtests)) {
+      let assembled = [];
+
+      examPackage.subtests.forEach(sub => {
+        let subQuestions = [];
+
+        if (sub.id === 'potensi') {
+          // Susun teratur: Verbal (40) -> Numerik (45) -> Figural (35)
+          const vCount = sub.distribution.potensi_verbal || 40;
+          const nCount = sub.distribution.potensi_numerik || 45;
+          const fCount = sub.distribution.potensi_figural_analitikal || 35;
+
+          const pickedV = sampleCategory('potensi_verbal', vCount);
+          const pickedN = sampleCategory('potensi_numerik', nCount);
+          const pickedF = sampleCategory('potensi_figural_analitikal', fCount);
+
+          subQuestions = [...pickedV, ...pickedN, ...pickedF];
+        } else {
+          for (const cat in sub.distribution) {
+            const count = sub.distribution[cat];
+            const picked = sampleCategory(cat, count);
+            subQuestions.push(...picked);
+          }
+          // Acak urutan butir dalam lingkup subtes tersebut
+          subQuestions = subQuestions.sort(() => 0.5 - Math.random());
+        }
+
+        // Sematkan identitas subtes ke setiap butir soal
+        subQuestions.forEach(q => {
+          assembled.push({
+            ...q,
+            subtestId: sub.id,
+            subtestNumber: sub.number,
+            subtestTitle: sub.title,
+            subtestShortName: sub.shortName
+          });
+        });
+      });
+
+      return assembled;
+    }
+
+    // Fallback paket biasa (flat distribution)
     let selectedQuestions = [];
-    const dist = examPackage.questionDistribution;
+    const dist = examPackage.questionDistribution || {};
 
     for (const cat in dist) {
       const countNeeded = dist[cat];
-      const pool = grouped[cat] || [];
-      // Shuffle pool
-      const shuffled = [...pool].sort(() => 0.5 - Math.random());
-      const picked = shuffled.slice(0, countNeeded);
+      const picked = sampleCategory(cat, countNeeded);
       selectedQuestions.push(...picked);
     }
 
-    // Jika belum cukup karena distribusi lebih kecil dari bank, tambahkan dari kategori lain
     if (selectedQuestions.length === 0) {
       selectedQuestions = [...rawBank].sort(() => 0.5 - Math.random()).slice(0, 30);
     } else {
-      // Shuffle urutan keseluruhan soal
       selectedQuestions = selectedQuestions.sort(() => 0.5 - Math.random());
     }
 
@@ -292,8 +369,8 @@ const ExamEngine = {
     this.questions.forEach((q, idx) => {
       const userAns = this.userAnswers[idx] || null;
       const correctAns = (q.answer || '').toUpperCase().trim();
-      const isPotensi = q.category && q.category.startsWith('potensi_');
-      const isPsikologi = q.category && q.category.startsWith('psikologi_');
+      const isPotensi = q.subtestId === 'potensi' || (q.category && q.category.startsWith('potensi_'));
+      const isPsikologi = q.subtestId === 'psikologi' || (q.category && q.category.startsWith('psikologi_'));
 
       if (isPotensi) potensiTotal++;
       else if (isPsikologi) psikologiTotal++;

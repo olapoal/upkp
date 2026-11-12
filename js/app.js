@@ -19,7 +19,8 @@
     examTimer: null,
     fontSizeLevel: 1.05,
     lastResultData: null,
-    reviewFilter: 'all'
+    reviewFilter: 'all',
+    subtestFilter: 'all'
   };
 
   // DOM Elements Cache
@@ -83,6 +84,10 @@
     btnStartExamSubmit: document.getElementById('btnStartExamSubmit'),
 
     // Exam Screen
+    currentSubtestStrip: document.getElementById('currentSubtestStrip'),
+    currentSubtestStripIcon: document.getElementById('currentSubtestStripIcon'),
+    currentSubtestStripText: document.getElementById('currentSubtestStripText'),
+    navSubtestPillsContainer: document.getElementById('navSubtestPillsContainer'),
     currentQuestionNumBadge: document.getElementById('currentQuestionNumBadge'),
     currentQuestionCategoryTag: document.getElementById('currentQuestionCategoryTag'),
     currentQuestionText: document.getElementById('currentQuestionText'),
@@ -219,10 +224,20 @@
       const card = document.createElement('div');
       card.className = `exam-card ${pkg.featured ? 'featured-exam' : ''}`;
 
-      const dist = pkg.questionDistribution || {};
-      const hasPotensi = Object.keys(dist).some(k => k.startsWith('potensi_'));
-      const hasTskkwk = Object.keys(dist).some(k => k.startsWith('tskkwk_'));
-      const hasPsikologi = Object.keys(dist).some(k => k.startsWith('psikologi_'));
+      let hasPotensi = false;
+      let hasTskkwk = false;
+      let hasPsikologi = false;
+
+      if (pkg.subtests && Array.isArray(pkg.subtests)) {
+        hasPotensi = pkg.subtests.some(s => s.id === 'potensi');
+        hasTskkwk = pkg.subtests.some(s => s.id === 'tskkwk');
+        hasPsikologi = pkg.subtests.some(s => s.id === 'psikologi');
+      } else {
+        const dist = pkg.questionDistribution || {};
+        hasPotensi = Object.keys(dist).some(k => k.startsWith('potensi_'));
+        hasTskkwk = Object.keys(dist).some(k => k.startsWith('tskkwk_'));
+        hasPsikologi = Object.keys(dist).some(k => k.startsWith('psikologi_'));
+      }
 
       let passPillsHtml = '';
       if (hasPotensi && pkg.thresholdPotensi) {
@@ -235,12 +250,23 @@
         passPillsHtml += `<span class="meta-pill pill-grade">🎯 Pass: Psikologi ≥ ${pkg.thresholdPsikologi}</span>`;
       }
 
+      let compHtml = '';
+      if (pkg.subtests && Array.isArray(pkg.subtests)) {
+        compHtml = `
+          <div class="exam-composition-strip">
+            <span class="comp-badge blue">📘 Potensi: 120 Soal</span>
+            <span class="comp-badge green">🏛️ TSKKWK: 40 Soal</span>
+            <span class="comp-badge purple">🧠 Psikologi: 40 Soal</span>
+          </div>
+        `;
+      }
+
       card.innerHTML = `
         <div>
           <div class="exam-card-title">${pkg.title}</div>
           <div class="exam-card-organizer">🏛️ ${pkg.organizer}</div>
           <p style="font-size: 0.86rem; color: var(--kemenkeu-text-dark); margin: 0.5rem 0;">${pkg.description}</p>
-          
+          ${compHtml}
           <div class="exam-meta-pills">
             <span class="meta-pill pill-time">⏱️ ${pkg.durationMinutes} Menit</span>
             ${passPillsHtml}
@@ -289,11 +315,70 @@
   // ==============================================================================
   // RUANG UJIAN & KLC-CAT QUESTION RENDERER (SLIDE 20)
   // ==============================================================================
+  function renderSubtestNavPills(pkg) {
+    if (!DOM.navSubtestPillsContainer) return;
+    DOM.navSubtestPillsContainer.innerHTML = '';
+
+    if (!pkg.subtests || !Array.isArray(pkg.subtests)) {
+      DOM.navSubtestPillsContainer.style.display = 'none';
+      return;
+    }
+
+    DOM.navSubtestPillsContainer.style.display = 'flex';
+
+    const allBtn = document.createElement('button');
+    allBtn.type = 'button';
+    allBtn.className = `btn-subtest-pill ${AppState.subtestFilter === 'all' ? 'active' : ''}`;
+    allBtn.textContent = `Semua (${ExamEngine.questions.length})`;
+    allBtn.addEventListener('click', () => {
+      AppState.subtestFilter = 'all';
+      updateSubtestPillActive();
+      renderNavigationGrid();
+    });
+    DOM.navSubtestPillsContainer.appendChild(allBtn);
+
+    pkg.subtests.forEach(sub => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `btn-subtest-pill ${AppState.subtestFilter === sub.id ? 'active' : ''}`;
+      btn.textContent = `${sub.number}. ${sub.shortName}`;
+      btn.title = `${sub.title} (${sub.rangeText || ''})`;
+      btn.addEventListener('click', () => {
+        AppState.subtestFilter = sub.id;
+        updateSubtestPillActive();
+        // Lompat langsung ke soal pertama di subtes ini
+        const firstIdx = ExamEngine.questions.findIndex(q => q.subtestId === sub.id);
+        if (firstIdx !== -1) {
+          ExamEngine.currentIndex = firstIdx;
+          renderCurrentQuestion();
+        }
+        renderNavigationGrid();
+      });
+      DOM.navSubtestPillsContainer.appendChild(btn);
+    });
+  }
+
+  function updateSubtestPillActive() {
+    if (!DOM.navSubtestPillsContainer) return;
+    const buttons = DOM.navSubtestPillsContainer.querySelectorAll('.btn-subtest-pill');
+    buttons.forEach((btn, idx) => {
+      if (idx === 0) {
+        btn.classList.toggle('active', AppState.subtestFilter === 'all');
+      } else {
+        const pkg = ExamEngine.activeExam;
+        if (pkg && pkg.subtests && pkg.subtests[idx - 1]) {
+          btn.classList.toggle('active', AppState.subtestFilter === pkg.subtests[idx - 1].id);
+        }
+      }
+    });
+  }
+
   function startExamSession(pkg) {
     closePaktaModal();
 
     // Start engine
     const session = ExamEngine.startExam(pkg.id);
+    AppState.subtestFilter = 'all';
 
     // Update Navbar headers
     DOM.navExamTitle.textContent = pkg.title.toUpperCase();
@@ -308,7 +393,8 @@
     // Start Camera Proctoring
     initCameraProctoring();
 
-    // Render Question & Navigation Grid
+    // Render Subtest Pills & Question & Navigation Grid
+    renderSubtestNavPills(pkg);
     renderCurrentQuestion();
     renderNavigationGrid();
     updateStatisticsCounts();
@@ -366,6 +452,21 @@
     if (!qObj) return;
 
     const { index, total, data, selectedAnswer, isMarked } = qObj;
+
+    // Subtest Active Banner
+    const subtestId = data.subtestId || (data.category && data.category.startsWith('potensi_') ? 'potensi' : (data.category && data.category.startsWith('psikologi_') ? 'psikologi' : 'tskkwk'));
+    const subtestTitle = data.subtestTitle || (subtestId === 'potensi' ? 'Subtes I: Tes Potensi Akademik (120 Soal)' : (subtestId === 'psikologi' ? 'Subtes III: Tes Psikologi & Integritas ASN (40 Soal)' : 'Subtes II: TSKKWK & Kebijakan Perbendaharaan (40 Soal)'));
+    const subtestIcon = (subtestId === 'potensi') ? '📘' : (subtestId === 'psikologi' ? '🧠' : '🏛️');
+
+    if (DOM.currentSubtestStrip) {
+      DOM.currentSubtestStrip.className = `subtest-strip-banner subtest-${subtestId}`;
+      if (DOM.currentSubtestStripText) DOM.currentSubtestStripText.textContent = subtestTitle;
+      if (DOM.currentSubtestStripIcon) DOM.currentSubtestStripIcon.textContent = subtestIcon;
+    }
+
+    if (DOM.navSubtestTitle) {
+      DOM.navSubtestTitle.textContent = `${subtestTitle.toUpperCase()} • SOAL ${index + 1} DARI ${total}`;
+    }
 
     // Badges & Categories
     DOM.currentQuestionNumBadge.textContent = `Soal ${index + 1} dari ${total}`;
@@ -442,8 +543,16 @@
   function renderNavigationGrid() {
     const total = ExamEngine.questions.length;
     DOM.questionNavGrid.innerHTML = '';
+    const filter = AppState.subtestFilter || 'all';
 
     for (let i = 0; i < total; i++) {
+      const q = ExamEngine.questions[i];
+      const qSubtestId = q.subtestId || (q.category && q.category.startsWith('potensi_') ? 'potensi' : (q.category && q.category.startsWith('psikologi_') ? 'psikologi' : 'tskkwk'));
+
+      if (filter !== 'all' && qSubtestId !== filter) {
+        continue;
+      }
+
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.textContent = (i + 1);

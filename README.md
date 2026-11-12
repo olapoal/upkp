@@ -18,8 +18,9 @@ Tampilan antarmuka, tata letak, mekanisme pengerjaan, alokasi waktu, ambang bata
   - Menampilkan Username, Nama Lengkap, NIP, NIK, Jabatan, Unit Organisasi, Alamat Email, Nomor Kontak, dan Unit Eselon I (Ditjen Perbendaharaan).
   - Verifikasi data sebelum melangkah ke menu pemilihan ujian.
 - **Daftar Ujian Terstandar (Slide 19)**:
-  - Pilihan paket ujian berstandar resmi: **UPKP IV**, **UPKP V**, **UPKP VI**, **Paket Spesialis Regulasi Terkini (2021–2025)**, **Tes Potensi (TPA)**, dan **Simulasi Uji Coba (Dummy Test)**.
-  - Setiap kartu ujian dilengkapi tombol `Lihat →` serta rincian durasi dan passing grade.
+  - **Paket Simulasi Penuh UPKP V Terpadu (200 Soal dalam 1 Paket)**: Menggabungkan 3 subtes berstandar resmi ke dalam 1 paket ujian terintegrasi (Subtes I: Tes Potensi 120 Soal [Verbal, Numerik, Figural], Subtes II: TSKKWK 40 Soal, Subtes III: Tes Psikologi 40 Soal).
+  - Pilihan paket simulasi lainnya: **UPKP IV**, **UPKP VI**, **Paket Spesialis Regulasi Terkini (2021–2025)**, dan **Simulasi Uji Coba (Dummy Test)**.
+  - Setiap kartu ujian dilengkapi rincian komposisi subtes, durasi waktu, ambang batas (*passing grade*), dan token resmi.
 - **Pakta Integritas & Validasi Token Subtes (Slide 13)**:
   - Sebelum memulai subtes, peserta diwajibkan menyetujui pakta integritas dan menginput token resmi ujian (`UPKP26` / token paket).
 - **Ruang Ujian KLC-CAT Otentik (Slide 20)**:

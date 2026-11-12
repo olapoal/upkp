@@ -280,6 +280,12 @@
       <div class="exam-layout-grid">
         <!-- Left Panel: Current Question -->
         <div class="question-panel-card">
+          <!-- Subtest Strip Banner -->
+          <div class="subtest-strip-banner subtest-potensi" id="currentSubtestStrip">
+            <span class="subtest-strip-icon" id="currentSubtestStripIcon">📘</span>
+            <span class="subtest-strip-text" id="currentSubtestStripText">Subtes I: Tes Potensi Akademik (120 Soal)</span>
+          </div>
+
           <div class="question-panel-header">
             <div class="question-num-badge" id="currentQuestionNumBadge">Soal 1</div>
             <div class="question-cat-tag" id="currentQuestionCategoryTag">Materi: Tusi Kemenkeu & DJPb</div>
@@ -311,6 +317,11 @@
         <!-- Right Panel: Navigation Grid & Proctoring -->
         <div class="nav-sidebar-card">
           <div class="nav-sidebar-title">NAVIGASI SOAL</div>
+
+          <!-- Subtest Filter Pills -->
+          <div class="nav-subtest-pills" id="navSubtestPillsContainer">
+            <!-- Dynamically populated by JS based on subtests -->
+          </div>
 
           <!-- Exact KLC-CAT Question Badges Grid (1..N) -->
           <div class="nav-grid-box" id="questionNavGrid">

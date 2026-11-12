@@ -2107,3 +2107,129 @@ input:checked + .slider-round:before {
     display: none;
   }
 }
+
+/* ==============================================================================
+   SUBTEST STRIP BANNER & COMPOSITION STYLES (UPKP V 1 PAKET 200 SOAL)
+   ============================================================================== */
+.subtest-strip-banner {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  padding: 0.65rem 1.25rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 0.2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  transition: all 0.25s ease;
+}
+
+.subtest-strip-banner.subtest-potensi {
+  background: linear-gradient(90deg, #1e3a8a, #2563eb);
+}
+
+.subtest-strip-banner.subtest-tskkwk {
+  background: linear-gradient(90deg, #065f46, #059669);
+}
+
+.subtest-strip-banner.subtest-psikologi {
+  background: linear-gradient(90deg, #581c87, #7c3aed);
+}
+
+/* Exam Composition Strip on Lobby Card */
+.exam-composition-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0.6rem 0 0.85rem 0;
+}
+
+.comp-badge {
+  font-size: 0.74rem;
+  font-weight: 700;
+  padding: 4px 9px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.comp-badge.blue {
+  background: #dbeafe;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+.comp-badge.green {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.comp-badge.purple {
+  background: #ede9fe;
+  color: #5b21b6;
+  border: 1px solid #ddd6fe;
+}
+
+[data-theme="dark"] .comp-badge.blue {
+  background: rgba(30, 64, 175, 0.35);
+  color: #93c5fd;
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
+[data-theme="dark"] .comp-badge.green {
+  background: rgba(6, 95, 70, 0.35);
+  color: #6ee7b7;
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+[data-theme="dark"] .comp-badge.purple {
+  background: rgba(91, 33, 182, 0.35);
+  color: #c4b5fd;
+  border-color: rgba(167, 139, 250, 0.4);
+}
+
+/* Subtest Filter Bar in Sidebar */
+.nav-subtest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 0.85rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--kemenkeu-border);
+}
+
+.btn-subtest-pill {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 5px 9px;
+  border-radius: 6px;
+  border: 1px solid var(--kemenkeu-border);
+  background: var(--kemenkeu-card-bg);
+  color: var(--kemenkeu-text-dark);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  flex: 1 1 calc(50% - 4px);
+  text-align: center;
+}
+
+.btn-subtest-pill:hover {
+  background: var(--kemenkeu-hover);
+  border-color: var(--kemenkeu-blue);
+}
+
+.btn-subtest-pill.active {
+  background: var(--kemenkeu-blue);
+  color: #ffffff;
+  border-color: var(--kemenkeu-blue);
+  box-shadow: 0 2px 4px rgba(30, 58, 138, 0.25);
+}
+
+[data-theme="dark"] .btn-subtest-pill.active {
+  background: #3b82f6;
+  border-color: #3b82f6;
+  color: #ffffff;
+}
+
