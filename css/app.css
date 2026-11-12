@@ -1557,6 +1557,66 @@ body {
   background: #072b59;
 }
 
+.btn-email-gmail {
+  background: #ea4335;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.btn-email-gmail:hover {
+  background: #d93025;
+}
+
+.btn-salin-rapor {
+  background: #059669;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.btn-salin-rapor:hover {
+  background: #047857;
+}
+
+.btn-download-txt {
+  background: #4b5563;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 0.88rem;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.btn-download-txt:hover {
+  background: #374151;
+}
+
 /* Review Questions Section */
 .review-section-header {
   display: flex;

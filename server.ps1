@@ -22,6 +22,15 @@ try {
         $context = $listener.GetContext()
         $request = $context.Request
         $response = $context.Response
+        $response.AddHeader("Access-Control-Allow-Origin", "*")
+        $response.AddHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        $response.AddHeader("Access-Control-Allow-Headers", "Content-Type")
+
+        if ($request.HttpMethod -eq "OPTIONS") {
+            $response.StatusCode = 200
+            $response.Close()
+            continue
+        }
 
         $path = $request.Url.LocalPath
         if ($path -eq "/" -or $path -eq "") { $path = "/index.html" }

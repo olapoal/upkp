@@ -131,6 +131,10 @@
     ayangLoveMessage: document.getElementById('ayangLoveMessage'),
     inputRecipientEmail: document.getElementById('inputRecipientEmail'),
     btnSendResultEmail: document.getElementById('btnSendResultEmail'),
+    btnOpenGmailWeb: document.getElementById('btnOpenGmailWeb'),
+    btnCopyReportText: document.getElementById('btnCopyReportText'),
+    btnDownloadTxt: document.getElementById('btnDownloadTxt'),
+    emailStatusNotification: document.getElementById('emailStatusNotification'),
     btnPrintPdf: document.getElementById('btnPrintPdf'),
     btnRestartToDaftar: document.getElementById('btnRestartToDaftar'),
     reviewQuestionsContainer: document.getElementById('reviewQuestionsContainer'),
@@ -770,36 +774,100 @@
   // ==============================================================================
   // EMAIL SENDING & REPORT PRINTING (USER REQUEST)
   // ==============================================================================
+  function showEmailNotification(msg, type) {
+    if (!DOM.emailStatusNotification) return;
+    DOM.emailStatusNotification.style.display = 'block';
+    DOM.emailStatusNotification.textContent = msg;
+
+    if (type === 'success') {
+      DOM.emailStatusNotification.style.background = '#d1fae5';
+      DOM.emailStatusNotification.style.color = '#065f46';
+      DOM.emailStatusNotification.style.border = '1px solid #10b981';
+    } else if (type === 'error') {
+      DOM.emailStatusNotification.style.background = '#fee2e2';
+      DOM.emailStatusNotification.style.color = '#991b1b';
+      DOM.emailStatusNotification.style.border = '1px solid #ef4444';
+    } else {
+      DOM.emailStatusNotification.style.background = '#e0f2fe';
+      DOM.emailStatusNotification.style.color = '#0369a1';
+      DOM.emailStatusNotification.style.border = '1px solid #38bdf8';
+    }
+  }
+
   async function handleSendEmail() {
     if (!AppState.lastResultData) {
-      alert("Belum ada data hasil ujian untuk dikirimkan.");
+      showEmailNotification("Belum ada data hasil ujian untuk dikirimkan.", "error");
       return;
     }
 
     const email = DOM.inputRecipientEmail.value.trim();
     if (!email || !email.includes('@')) {
-      alert("Harap masukkan alamat email yang valid!");
+      showEmailNotification("Harap masukkan alamat email yang valid!", "error");
+      DOM.inputRecipientEmail.focus();
       return;
     }
 
     DOM.btnSendResultEmail.disabled = true;
-    DOM.btnSendResultEmail.innerHTML = `⏳ Mengirim...`;
+    DOM.btnSendResultEmail.innerHTML = `⏳ Memproses...`;
+    showEmailNotification(`Sedang memproses pengiriman rapor untuk: ${email}...`, "info");
 
     try {
       const res = await window.EmailService.sendViaWebApi(email, AppState.lastResultData);
-      if (res && res.method === 'mailto') {
-        alert(`Aplikasi email Anda telah dibuka dengan laporan hasil ujian lengkap untuk ${email}.\nSilakan klik Send/Kirim pada aplikasi email.`);
-      } else {
-        alert(`Rapor resmi hasil evaluasi UPKP berhasil dikirimkan ke email: ${email}!`);
+      if (res && res.success) {
+        showEmailNotification(`✓ Rapor resmi hasil evaluasi UPKP berhasil dicatat dan diproses untuk email: ${email}! Salinan berkas tersimpan di folder logs.`, "success");
+        return;
       }
+
+      // Fallback: Mailto client dengan teks ringkas terstandar (aman dari batas karakter URL)
+      window.EmailService.sendViaMailto(email, AppState.lastResultData);
+      showEmailNotification(`✓ Draf laporan resmi telah disiapkan untuk ${email}. Aplikasi email Anda telah dibuka otomatis. Anda juga dapat menggunakan tombol 'Gmail Web' atau 'Salin Rapor' di sebelah kanan.`, "success");
     } catch (err) {
-      alert("Terjadi kendala pengiriman. Membuka email client...");
-      const report = window.EmailService.generateReport(AppState.lastResultData);
-      window.EmailService.sendViaMailto(email, report.subject, report.plainText);
+      window.EmailService.sendViaMailto(email, AppState.lastResultData);
+      showEmailNotification(`Draf email telah dibuka. Silakan klik tombol 'Kirim' pada aplikasi email Anda.`, "info");
     } finally {
       DOM.btnSendResultEmail.disabled = false;
-      DOM.btnSendResultEmail.innerHTML = `✉️ Kirim Rapor ke Email`;
+      DOM.btnSendResultEmail.innerHTML = `✉️ Kirim ke Email`;
     }
+  }
+
+  function handleOpenGmailWeb() {
+    if (!AppState.lastResultData) {
+      showEmailNotification("Belum ada data hasil ujian untuk dibuka.", "error");
+      return;
+    }
+    const email = DOM.inputRecipientEmail.value.trim() || AppState.user.email;
+    if (!email || !email.includes('@')) {
+      showEmailNotification("Harap masukkan alamat email tujuan terlebih dahulu!", "error");
+      DOM.inputRecipientEmail.focus();
+      return;
+    }
+
+    window.EmailService.openGmailWeb(email, AppState.lastResultData);
+    showEmailNotification(`✓ Tab baru Gmail Web telah dibuka dengan draf rapor resmi untuk ${email}. Silakan klik 'Kirim' di tab Gmail tersebut.`, "success");
+  }
+
+  async function handleCopyReportText() {
+    if (!AppState.lastResultData) {
+      showEmailNotification("Belum ada data hasil ujian untuk disalin.", "error");
+      return;
+    }
+
+    const ok = await window.EmailService.copyReportToClipboard(AppState.lastResultData);
+    if (ok) {
+      showEmailNotification("✓ Seluruh isi rapor lengkap (termasuk 200 pembahasan butir soal) berhasil disalin ke clipboard! Silakan paste (Ctrl+V) di Word, WhatsApp, atau Email Anda.", "success");
+    } else {
+      showEmailNotification("Gagal menyalin otomatis. Silakan gunakan tombol Unduh File (.txt).", "error");
+    }
+  }
+
+  function handleDownloadTxt() {
+    if (!AppState.lastResultData) {
+      showEmailNotification("Belum ada data hasil ujian untuk diunduh.", "error");
+      return;
+    }
+
+    window.EmailService.downloadReportTxt(AppState.lastResultData);
+    showEmailNotification("✓ Berkas teks rapor resmi (.txt) lengkap dengan seluruh pembahasan soal berhasil diunduh ke komputer Anda!", "success");
   }
 
   // ==============================================================================
@@ -1137,6 +1205,9 @@
 
     // Result screen buttons
     DOM.btnSendResultEmail.addEventListener('click', handleSendEmail);
+    if (DOM.btnOpenGmailWeb) DOM.btnOpenGmailWeb.addEventListener('click', handleOpenGmailWeb);
+    if (DOM.btnCopyReportText) DOM.btnCopyReportText.addEventListener('click', handleCopyReportText);
+    if (DOM.btnDownloadTxt) DOM.btnDownloadTxt.addEventListener('click', handleDownloadTxt);
     DOM.btnPrintPdf.addEventListener('click', () => window.print());
     DOM.btnRestartToDaftar.addEventListener('click', () => {
       renderExamPackages();

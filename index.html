@@ -453,21 +453,33 @@
           <!-- Action Toolbar: Email Result, Print PDF, Retry -->
           <div class="result-action-toolbar">
             <div class="email-form-box">
-              <input type="email" id="inputRecipientEmail" class="input-control" placeholder="Email peserta..." style="flex: 1;">
+              <input type="email" id="inputRecipientEmail" class="input-control" placeholder="nama.anda@kemenkeu.go.id" style="flex: 1; min-width: 220px;">
               <button type="button" class="btn-email-kirim" id="btnSendResultEmail">
-                ✉️ Kirim Rapor ke Email
+                ✉️ Kirim ke Email
+              </button>
+              <button type="button" class="btn-email-gmail" id="btnOpenGmailWeb" title="Buka dan kirim langsung melalui Gmail Web di tab baru">
+                🇬 Gmail Web
               </button>
             </div>
 
-            <div style="display: flex; gap: 8px;">
+            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+              <button type="button" class="btn-salin-rapor" id="btnCopyReportText" title="Salin seluruh isi rapor dan pembahasan ke clipboard">
+                📋 Salin Rapor
+              </button>
+              <button type="button" class="btn-download-txt" id="btnDownloadTxt" title="Unduh berkas teks rapor lengkap ke komputer Anda">
+                💾 Simpan File (.txt)
+              </button>
               <button type="button" class="btn-cetak-pdf" id="btnPrintPdf">
-                🖨️ Cetak / Unduh PDF Rapor
+                🖨️ Cetak / PDF
               </button>
               <button type="button" class="btn-exam-nav" id="btnRestartToDaftar">
                 🔄 Pilih Ujian Lain
               </button>
             </div>
           </div>
+
+          <!-- Email Status Banner Notification -->
+          <div id="emailStatusNotification" style="display:none; margin: 0.85rem 0 1.25rem 0; padding: 12px 16px; border-radius: 8px; font-size: 0.88rem; font-weight: 600;"></div>
 
           <!-- Review and Pembahasan Lengkap -->
           <div class="review-section-header">
