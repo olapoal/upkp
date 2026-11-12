@@ -50,19 +50,21 @@ Tampilan antarmuka, tata letak, mekanisme pengerjaan, alokasi waktu, ambang bata
 
 Mengacu pada ketentuan **Slide 3 & Slide 7** dokumen briefing resmi:
 
-| Jenjang UPKP | Ambang Batas Tes Potensi | Ambang Batas TSKKWK | Durasi Tes Potensi | Durasi TSKKWK |
-| :--- | :---: | :---: | :---: | :---: |
-| **UPKP IV** | **≥ 450** | **≥ 70.0** | 120 Menit (Verbal 45', Numerik 45', Figural 30') | 60 Menit |
-| **UPKP V** | **≥ 475** | **≥ 70.0** | 120 Menit (Verbal 45', Numerik 45', Figural 30') | 60 Menit |
-| **UPKP VI** | **≥ 475** | **≥ 70.0** | 120 Menit (Verbal 45', Numerik 45', Figural 30') | 60 Menit |
+| Jenjang UPKP | Ambang Batas Tes Potensi | Ambang Batas TSKKWK | Ambang Batas Psikologi | Durasi Tes Potensi | Durasi TSKKWK | Durasi Psikologi |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **UPKP IV** | **≥ 450** | **≥ 70.0** | **≥ 70.0** | 120 Menit | 60 Menit | 45 Menit |
+| **UPKP V** | **≥ 475** | **≥ 70.0** | **≥ 70.0** | 120 Menit (120 Soal) | 60 Menit (40 Soal) | 45 Menit (40 Soal) |
+| **UPKP VI** | **≥ 475** | **≥ 70.0** | **≥ 70.0** | 120 Menit | 60 Menit | 45 Menit |
 
 ---
 
-## 📚 Bank Soal & Pengembangan Materi Regulasi 2021–2025
+## 📚 Bank Soal & Pengembangan Materi Regulasi 2021–2026
 
-Aplikasi memuat **460+ butir soal terverifikasi** lengkap dengan kunci jawaban dan pembahasan komprehensif, mencakup:
-1. **Arsip Resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan** (Tahun 2014, 2015, dan 2018).
-2. **Koleksi Pembahasan Soal Kompetensi & Potensi Pegawai** (Penalaran Logis/Silogisme, Analitis, Deret Angka, Aritmatika Sosial, Peluang, Perbandingan, Statistika, Tugas dan Fungsi Perbendaharaan, Kode Etik PNS, dan Nilai-Nilai Kementerian Keuangan).
+Aplikasi memuat **580+ butir soal terverifikasi** lengkap dengan kunci jawaban dan pembahasan komprehensif, mencakup:
+1. **Tes Potensi (140+ butir)**: Penalaran Verbal (sinonim, antonim, analogi, wacana), Penalaran Numerikal (deret angka/huruf, aljabar, statistika, peluang, aritmatika sosial), dan Penalaran Figural & Analitikal (pola serial, rotasi geometri, simetri, logika analitis urutan/posisi).
+2. **TSKKWK (390+ butir)**: Tugas & Fungsi Kemenkeu/DJPb, Tata Aturan Kepegawaian & Disiplin PNS (UU 20/2023 & PP 94/2021), Etika PNS (PP 42/2004), Nilai-Nilai Kemenkeu, dan Wawasan Kebangsaan/Pancasila.
+3. **Materi Perbendaharaan Modern (2021–2026)**: SAKTI, SPAN, Digipay Satu, KKP Domestik, Penyaluran TKD via KPPN (UU HKPD), MonSAKTI, dan peran DJPb sebagai Regional Chief Economist (RCE) serta Financial Advisor (FA).
+4. **Tes Psikologi & Integritas ASN (40 butir SJT)**: Skenario Situational Judgment Test mengenai penolakan gratifikasi, kepemimpinan tim, orientasi pelayanan publik, ketahanan kerja di bawah tekanan, dan adaptabilitas digital.
 3. **Materi Regulasi & Pembaruan Terkini (2021 s.d. 2025)**:
    - **UU No. 20 Tahun 2023 tentang Aparatur Sipil Negara**: Perubahan sistem kepegawaian, nilai dasar BerAKHLAK, kesetaraan hak PPPK, dan batas usia pensiun.
    - **PP No. 94 Tahun 2021 tentang Disiplin PNS**: Klasifikasi tingkat hukuman disiplin, pemotongan tunjangan kinerja, dan ketentuan kumulatif ketidakhadiran.

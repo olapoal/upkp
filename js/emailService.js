@@ -25,6 +25,17 @@ const EmailService = {
       });
     }
 
+    let scoreLines = "";
+    if (stats.potensiTotal > 0) {
+      scoreLines += `- Nilai Tes Potensi : ${stats.scorePotensi} (Passing Grade: ${exam.thresholdPotensi || 475}) -> ${stats.passPotensi ? 'MEMENUHI' : 'BELUM'}\n`;
+    }
+    if (stats.tskkwkTotal > 0) {
+      scoreLines += `- Nilai TSKKWK      : ${stats.scoreTskkwk} (Passing Grade: ${exam.thresholdTskkwk || 70.0}) -> ${stats.passTskkwk ? 'MEMENUHI' : 'BELUM'}\n`;
+    }
+    if (stats.psikologiTotal > 0) {
+      scoreLines += `- Nilai Tes Psikologi: ${stats.scorePsikologi} (Passing Grade: ${exam.thresholdPsikologi || 70.0}) -> ${stats.passPsikologi ? 'MEMENUHI' : 'BELUM'}\n`;
+    }
+
     const plainText = `
 KEMENTERIAN KEUANGAN REPUBLIK INDONESIA
 DIREKTORAT JENDERAL PERBENDAHARAAN (DJPb)
@@ -44,8 +55,7 @@ DATA PESERTA:
 - Waktu Ujian  : ${new Date().toLocaleString('id-ID')}
 
 HASIL PENILAIAN AMBANG BATAS (PASSING GRADE):
-- Nilai Tes Potensi : ${stats.scorePotensi} (Passing Grade: ${exam.thresholdPotensi}) -> ${stats.passPotensi ? 'MEMENUHI' : 'BELUM'}
-- Nilai TSKKWK      : ${stats.scoreTskkwk} (Passing Grade: ${exam.thresholdTskkwk}) -> ${stats.passTskkwk ? 'MEMENUHI' : 'BELUM'}
+${scoreLines.trim()}
 - Total Jawaban     : ${stats.totalQuestions} Soal
 - Benar             : ${stats.correctCount} Soal
 - Salah             : ${stats.wrongCount} Soal

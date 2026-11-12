@@ -8,24 +8,72 @@ const ExamEngine = {
   EXAM_PACKAGES: [
     {
       id: "upkp-v-2026",
-      title: "UPKP V Tahun 2026 - Ditjen Perbendaharaan",
+      title: "UPKP V Tahun 2026 - Paket Simulasi Penuh Terpadu (200 Soal)",
       organizer: "P3K - Pusdiklat Kepemimpinan dan Manajerial - BPPK",
-      description: "Simulasi Penuh Ujian Penyesuaian Kenaikan Pangkat Tingkat V Ditjen Perbendaharaan. Mencakup Tes Potensi (Verbal, Numerik, Analitikal) dan TSKKWK.",
-      durationMinutes: 120, // 2 Jam
+      description: "Simulasi Penuh Ujian Penyesuaian Kenaikan Pangkat Tingkat V Ditjen Perbendaharaan. Mencakup Tes Potensi 120 Soal (Verbal, Numerik, Figural), TSKKWK 40 Soal, dan Tes Psikologi / Integritas ASN 40 Soal.",
+      durationMinutes: 180, // 3 Jam
       thresholdPotensi: 475, // Ambang batas Slide 3
       thresholdTskkwk: 70.0,  // Ambang batas Slide 3
+      thresholdPsikologi: 70.0,
       token: "UPKP26",
       featured: true,
       questionDistribution: {
-        potensi_verbal: 12,
-        potensi_numerik: 18,
-        potensi_figural_analitikal: 10,
-        tskkwk_perbendaharaan_modern: 12,
-        tskkwk_tusi_kemenkeu: 15,
-        tskkwk_nilai_kemenkeu: 12,
-        tskkwk_kepegawaian: 13,
-        tskkwk_etika_pns: 10,
-        tskkwk_wawasan_kebangsaan: 10
+        potensi_verbal: 40,
+        potensi_numerik: 45,
+        potensi_figural_analitikal: 35,
+        tskkwk_perbendaharaan_modern: 8,
+        tskkwk_tusi_kemenkeu: 8,
+        tskkwk_nilai_kemenkeu: 6,
+        tskkwk_kepegawaian: 6,
+        tskkwk_etika_pns: 6,
+        tskkwk_wawasan_kebangsaan: 6,
+        psikologi_integritas_asn: 40
+      }
+    },
+    {
+      id: "upkp-v-potensi-120",
+      title: "UPKP V - Subtes Tes Potensi (120 Soal Penuh)",
+      organizer: "P3K - Pusdiklat Kepemimpinan dan Manajerial - BPPK",
+      description: "Simulasi khusus Subtes Tes Potensi Akademik (TPA) UPKP Tingkat V dengan alokasi standar resmi: 40 Verbal, 45 Numerik, dan 35 Figural/Analitikal. Ambang batas kelulusan ≥ 475.",
+      durationMinutes: 120, // 2 Jam (Sesuai ketentuan briefing)
+      thresholdPotensi: 475,
+      token: "POTENSI120",
+      featured: false,
+      questionDistribution: {
+        potensi_verbal: 40,
+        potensi_numerik: 45,
+        potensi_figural_analitikal: 35
+      }
+    },
+    {
+      id: "upkp-v-tskkwk-40",
+      title: "UPKP V - Subtes TSKKWK & Perbendaharaan (40 Soal)",
+      organizer: "Ditjen Perbendaharaan & Pusbin JFPM",
+      description: "Simulasi khusus Tes Substansi Kepegawaian, Wawasan Kebangsaan, Etika PNS, dan Perbendaharaan Modern (40 Soal). Ambang batas kelulusan ≥ 70.0.",
+      durationMinutes: 60, // 1 Jam (Sesuai ketentuan briefing)
+      thresholdTskkwk: 70.0,
+      token: "TSKKWK40",
+      featured: false,
+      questionDistribution: {
+        tskkwk_perbendaharaan_modern: 8,
+        tskkwk_tusi_kemenkeu: 8,
+        tskkwk_nilai_kemenkeu: 6,
+        tskkwk_kepegawaian: 6,
+        tskkwk_etika_pns: 6,
+        tskkwk_wawasan_kebangsaan: 6
+      }
+    },
+    {
+      id: "upkp-v-psikologi-40",
+      title: "UPKP V - Subtes Tes Psikologi & Integritas ASN (40 Soal)",
+      organizer: "Biro SDM Setjen & Pusdiklat BPPK",
+      description: "Simulasi khusus Asesmen Psikologis ASN & Situational Judgment Test (SJT): Integritas, Anti Gratifikasi, Orientasi Pelayanan, Kepemimpinan, dan Ketahanan Kerja.",
+      durationMinutes: 45,
+      thresholdPsikologi: 70.0,
+      token: "PSIKO40",
+      featured: false,
+      questionDistribution: {
+        psikologi_integritas_asn: 40
       }
     },
     {
@@ -39,15 +87,15 @@ const ExamEngine = {
       token: "UPKP26",
       featured: false,
       questionDistribution: {
-        potensi_verbal: 10,
-        potensi_numerik: 15,
-        potensi_figural_analitikal: 8,
-        tskkwk_perbendaharaan_modern: 10,
-        tskkwk_tusi_kemenkeu: 12,
-        tskkwk_nilai_kemenkeu: 10,
-        tskkwk_kepegawaian: 10,
-        tskkwk_etika_pns: 8,
-        tskkwk_wawasan_kebangsaan: 8
+        potensi_verbal: 15,
+        potensi_numerik: 20,
+        potensi_figural_analitikal: 15,
+        tskkwk_perbendaharaan_modern: 8,
+        tskkwk_tusi_kemenkeu: 8,
+        tskkwk_nilai_kemenkeu: 6,
+        tskkwk_kepegawaian: 6,
+        tskkwk_etika_pns: 6,
+        tskkwk_wawasan_kebangsaan: 6
       }
     },
     {
@@ -61,15 +109,15 @@ const ExamEngine = {
       token: "UPKP26",
       featured: false,
       questionDistribution: {
-        potensi_verbal: 12,
-        potensi_numerik: 18,
-        potensi_figural_analitikal: 10,
-        tskkwk_perbendaharaan_modern: 12,
-        tskkwk_tusi_kemenkeu: 15,
-        tskkwk_nilai_kemenkeu: 12,
-        tskkwk_kepegawaian: 13,
-        tskkwk_etika_pns: 10,
-        tskkwk_wawasan_kebangsaan: 10
+        potensi_verbal: 15,
+        potensi_numerik: 20,
+        potensi_figural_analitikal: 15,
+        tskkwk_perbendaharaan_modern: 8,
+        tskkwk_tusi_kemenkeu: 8,
+        tskkwk_nilai_kemenkeu: 6,
+        tskkwk_kepegawaian: 6,
+        tskkwk_etika_pns: 6,
+        tskkwk_wawasan_kebangsaan: 6
       }
     },
     {
@@ -83,26 +131,10 @@ const ExamEngine = {
       token: "REG2125",
       featured: false,
       questionDistribution: {
-        tskkwk_perbendaharaan_modern: 18,
-        tskkwk_kepegawaian: 12,
+        tskkwk_perbendaharaan_modern: 15,
+        tskkwk_kepegawaian: 10,
         tskkwk_tusi_kemenkeu: 10,
         tskkwk_etika_pns: 5
-      }
-    },
-    {
-      id: "tpa-potensi",
-      title: "Paket Tes Potensi Akademik (TPA UPKP)",
-      organizer: "Pusbin JFPM & Bimbel Giving UPKP",
-      description: "Latihan intensif penalaran Potensi Akademik: Silogisme logika verbal, deret hitung bertingkat, peluang kuantitatif, dan penalaran analitis.",
-      durationMinutes: 60,
-      thresholdPotensi: 475,
-      thresholdTskkwk: 70.0,
-      token: "TPA2026",
-      featured: false,
-      questionDistribution: {
-        potensi_verbal: 15,
-        potensi_numerik: 25,
-        potensi_figural_analitikal: 12
       }
     },
     {
@@ -121,7 +153,7 @@ const ExamEngine = {
         potensi_figural_analitikal: 2,
         tskkwk_perbendaharaan_modern: 3,
         tskkwk_tusi_kemenkeu: 2,
-        tskkwk_nilai_kemenkeu: 2
+        psikologi_integritas_asn: 2
       }
     }
   ],
@@ -252,14 +284,19 @@ const ExamEngine = {
     let tskkwkCorrect = 0;
     let tskkwkTotal = 0;
 
+    let psikologiCorrect = 0;
+    let psikologiTotal = 0;
+
     const reviewList = [];
 
     this.questions.forEach((q, idx) => {
       const userAns = this.userAnswers[idx] || null;
       const correctAns = (q.answer || '').toUpperCase().trim();
-      const isPotensi = q.category.startsWith('potensi_');
+      const isPotensi = q.category && q.category.startsWith('potensi_');
+      const isPsikologi = q.category && q.category.startsWith('psikologi_');
 
       if (isPotensi) potensiTotal++;
+      else if (isPsikologi) psikologiTotal++;
       else tskkwkTotal++;
 
       let isCorrect = false;
@@ -268,6 +305,7 @@ const ExamEngine = {
           isCorrect = true;
           totalCorrect++;
           if (isPotensi) potensiCorrect++;
+          else if (isPsikologi) psikologiCorrect++;
           else tskkwkCorrect++;
         } else {
           totalWrong++;
@@ -290,7 +328,7 @@ const ExamEngine = {
     });
 
     // Perhitungan Nilai Skala UPKP Resmi
-    // 1. Tes Potensi: Skala 200 - 800 (atau skala UPKP 100-500). Standar UPKP Bappenas:
+    // 1. Tes Potensi: Skala 200 - 800. Standar UPKP Bappenas / Kemenkeu:
     let scorePotensi = 0;
     if (potensiTotal > 0) {
       scorePotensi = Math.round((potensiCorrect / potensiTotal) * 400 + 200);
@@ -306,10 +344,19 @@ const ExamEngine = {
       scoreTskkwk = 85.0; // default jika paket murni TPA
     }
 
+    // 3. Tes Psikologi / Integritas ASN: Skala 0 - 100
+    let scorePsikologi = 0;
+    if (psikologiTotal > 0) {
+      scorePsikologi = parseFloat(((psikologiCorrect / psikologiTotal) * 100).toFixed(1));
+    } else {
+      scorePsikologi = 85.0; // default jika tidak ada subtes psikologi
+    }
+
     const pkg = this.activeExam || this.EXAM_PACKAGES[0];
-    const passPotensi = scorePotensi >= pkg.thresholdPotensi;
-    const passTskkwk = scoreTskkwk >= pkg.thresholdTskkwk;
-    const isLulus = passPotensi && passTskkwk;
+    const passPotensi = potensiTotal > 0 ? (scorePotensi >= (pkg.thresholdPotensi || 475)) : true;
+    const passTskkwk = tskkwkTotal > 0 ? (scoreTskkwk >= (pkg.thresholdTskkwk || 70.0)) : true;
+    const passPsikologi = psikologiTotal > 0 ? (scorePsikologi >= (pkg.thresholdPsikologi || 70.0)) : true;
+    const isLulus = passPotensi && passTskkwk && passPsikologi;
 
     const accuracy = this.questions.length > 0 
       ? Math.round((totalCorrect / this.questions.length) * 100) 
@@ -327,8 +374,16 @@ const ExamEngine = {
       stats: {
         scorePotensi,
         scoreTskkwk,
+        scorePsikologi,
         passPotensi,
         passTskkwk,
+        passPsikologi,
+        potensiTotal,
+        tskkwkTotal,
+        psikologiTotal,
+        potensiCorrect,
+        tskkwkCorrect,
+        psikologiCorrect,
         isLulus,
         totalQuestions: this.questions.length,
         correctCount: totalCorrect,

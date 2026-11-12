@@ -219,6 +219,22 @@
       const card = document.createElement('div');
       card.className = `exam-card ${pkg.featured ? 'featured-exam' : ''}`;
 
+      const dist = pkg.questionDistribution || {};
+      const hasPotensi = Object.keys(dist).some(k => k.startsWith('potensi_'));
+      const hasTskkwk = Object.keys(dist).some(k => k.startsWith('tskkwk_'));
+      const hasPsikologi = Object.keys(dist).some(k => k.startsWith('psikologi_'));
+
+      let passPillsHtml = '';
+      if (hasPotensi && pkg.thresholdPotensi) {
+        passPillsHtml += `<span class="meta-pill pill-grade">🎯 Pass: Potensi ≥ ${pkg.thresholdPotensi}</span>`;
+      }
+      if (hasTskkwk && pkg.thresholdTskkwk) {
+        passPillsHtml += `<span class="meta-pill pill-grade">🎯 Pass: TSKKWK ≥ ${pkg.thresholdTskkwk}</span>`;
+      }
+      if (hasPsikologi && pkg.thresholdPsikologi) {
+        passPillsHtml += `<span class="meta-pill pill-grade">🎯 Pass: Psikologi ≥ ${pkg.thresholdPsikologi}</span>`;
+      }
+
       card.innerHTML = `
         <div>
           <div class="exam-card-title">${pkg.title}</div>
@@ -227,8 +243,7 @@
           
           <div class="exam-meta-pills">
             <span class="meta-pill pill-time">⏱️ ${pkg.durationMinutes} Menit</span>
-            <span class="meta-pill pill-grade">🎯 Pass: Potensi ≥ ${pkg.thresholdPotensi}</span>
-            <span class="meta-pill pill-grade">🎯 Pass: TSKKWK ≥ ${pkg.thresholdTskkwk}</span>
+            ${passPillsHtml}
             <span class="meta-pill">🔑 Token: ${pkg.token}</span>
           </div>
         </div>
@@ -505,9 +520,36 @@
     });
 
     // Score metrics
-    DOM.scorePotensiVal.textContent = stats.scorePotensi;
-    DOM.scorePotensiThreshold.textContent = `Ambang Batas: ≥ ${exam.thresholdPotensi} (${stats.passPotensi ? 'MEMENUHI' : 'BELUM'})`;
-    DOM.scoreTskkwkVal.textContent = stats.scoreTskkwk;
+    const cardPotensi = document.getElementById('cardScorePotensi');
+    const cardTskkwk = document.getElementById('cardScoreTskkwk');
+    const cardPsikologi = document.getElementById('cardScorePsikologi');
+
+    if (stats.potensiTotal > 0) {
+      if (cardPotensi) cardPotensi.style.display = 'block';
+      DOM.scorePotensiVal.textContent = stats.scorePotensi;
+      DOM.scorePotensiThreshold.textContent = `Ambang Batas: ≥ ${exam.thresholdPotensi || 475} (${stats.passPotensi ? 'MEMENUHI' : 'BELUM'})`;
+    } else {
+      if (cardPotensi) cardPotensi.style.display = 'none';
+    }
+
+    if (stats.tskkwkTotal > 0) {
+      if (cardTskkwk) cardTskkwk.style.display = 'block';
+      DOM.scoreTskkwkVal.textContent = stats.scoreTskkwk;
+      const tskkwkThresh = document.getElementById('scoreTskkwkThreshold');
+      if (tskkwkThresh) tskkwkThresh.textContent = `Ambang Batas: ≥ ${exam.thresholdTskkwk || 70.0} (${stats.passTskkwk ? 'MEMENUHI' : 'BELUM'})`;
+    } else {
+      if (cardTskkwk) cardTskkwk.style.display = 'none';
+    }
+
+    if (stats.psikologiTotal > 0) {
+      if (cardPsikologi) cardPsikologi.style.display = 'block';
+      const psikoVal = document.getElementById('scorePsikologiVal');
+      const psikoThresh = document.getElementById('scorePsikologiThreshold');
+      if (psikoVal) psikoVal.textContent = stats.scorePsikologi;
+      if (psikoThresh) psikoThresh.textContent = `Ambang Batas: ≥ ${exam.thresholdPsikologi || 70.0} (${stats.passPsikologi ? 'MEMENUHI' : 'BELUM'})`;
+    } else {
+      if (cardPsikologi) cardPsikologi.style.display = 'none';
+    }
 
     DOM.scoreCorrectCount.textContent = stats.correctCount;
     DOM.scoreWrongCount.textContent = stats.wrongCount;
@@ -522,7 +564,11 @@
     } else {
       DOM.raporStatusBanner.className = 'rapor-banner-status tidak-lulus';
       DOM.raporStatusTitle.textContent = "BELUM MEMENUHI AMBANG BATAS KELULUSAN";
-      DOM.raporStatusSubtitle.textContent = `Perlu perbaikan nilai (Syarat: Potensi ≥ ${exam.thresholdPotensi}, TSKKWK ≥ ${exam.thresholdTskkwk}).`;
+      const reqMsg = [];
+      if (stats.potensiTotal > 0) reqMsg.push(`Potensi ≥ ${exam.thresholdPotensi || 475}`);
+      if (stats.tskkwkTotal > 0) reqMsg.push(`TSKKWK ≥ ${exam.thresholdTskkwk || 70.0}`);
+      if (stats.psikologiTotal > 0) reqMsg.push(`Psikologi ≥ ${exam.thresholdPsikologi || 70.0}`);
+      DOM.raporStatusSubtitle.textContent = `Perlu perbaikan nilai (Syarat: ${reqMsg.join(', ')}).`;
     }
 
     // Love message for Ayang

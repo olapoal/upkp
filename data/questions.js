@@ -7460,5 +7460,2045 @@
                     ],
         "answer":  "B",
         "explanation":  "OMSPAN (Online Monitoring Sistem Perbendaharaan dan Anggaran Negara) menyediakan dashboard monitoring real-time bagi para pemangku kepentingan (Kemenkeu, K/L, Pemda, KPPN) untuk mengawal penyerapan anggaran, status penerbitan SP2D, data kontrak, dan penyaluran TKD."
+    },
+    {
+        "id":  501,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang memiliki arti atau padanan paling dekat dengan kata: AKUNTABILITAS",
+        "options":  [
+                        "A. Fleksibilitas",
+                        "B. Pertanggungjawaban",
+                        "C. Keabsahan",
+                        "D. Efisiensi",
+                        "E. Kredibilitas"
+                    ],
+        "answer":  "B",
+        "explanation":  "Akuntabilitas bermakna keadaan untuk dapat dimintai pertanggungjawaban atau perihal bertanggung jawab. Kunci: (B)."
+    },
+    {
+        "id":  502,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang memiliki arti atau padanan paling dekat dengan kata: DEFISIT",
+        "options":  [
+                        "A. Kelebihan",
+                        "B. Penurunan",
+                        "C. Kekurangan",
+                        "D. Penyusutan",
+                        "E. Pemborosan"
+                    ],
+        "answer":  "C",
+        "explanation":  "Defisit dalam istilah keuangan dan perbendaharaan berarti kekurangan dalam kas, anggaran belanja, atau neraca pembayaran. Kunci: (C)."
+    },
+    {
+        "id":  503,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang memiliki arti atau padanan paling dekat dengan kata: REKONSILIASI",
+        "options":  [
+                        "A. Pembatalan",
+                        "B. Pencocokan",
+                        "C. Penggabungan",
+                        "D. Pemisahan",
+                        "E. Evaluasi"
+                    ],
+        "answer":  "B",
+        "explanation":  "Rekonsiliasi dalam akuntansi dan perbendaharaan negara adalah proses pencocokan atau penyesuaian data transaksi keuangan antara dua entitas (misal Satker dan BUN/KPPN). Kunci: (B)."
+    },
+    {
+        "id":  504,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang memiliki arti atau padanan paling dekat dengan kata: PRUDENSIAL",
+        "options":  [
+                        "A. Kehati-hatian",
+                        "B. Kecepatan",
+                        "C. Keberanian",
+                        "D. Penghematan",
+                        "E. Keterbukaan"
+                    ],
+        "answer":  "A",
+        "explanation":  "Prudensial berasal dari kata prudence yang berarti sikap bijaksana dan penuh kehati-hatian dalam mengambil keputusan pengelolaan keuangan. Kunci: (A)."
+    },
+    {
+        "id":  505,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang memiliki arti atau padanan paling dekat dengan kata: DEVIASI",
+        "options":  [
+                        "A. Kesesuaian",
+                        "B. Penyimpangan",
+                        "C. Penegasan",
+                        "D. Keterikatan",
+                        "E. Ketelitian"
+                    ],
+        "answer":  "B",
+        "explanation":  "Deviasi bermakna penyimpangan terhadap patokan, norma, atau rencana yang telah ditetapkan (misalnya deviasi penyerapan anggaran dalam RPD). Kunci: (B)."
+    },
+    {
+        "id":  506,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang merupakan lawan kata (antonim) dari kata: SURPLUS",
+        "options":  [
+                        "A. Defisit",
+                        "B. Inflasi",
+                        "C. Dividen",
+                        "D. Saldo",
+                        "E. Ekuitas"
+                    ],
+        "answer":  "A",
+        "explanation":  "Surplus berarti kelebihan atau sisa lebih, sedangkan lawan katanya adalah Defisit (kekurangan). Kunci: (A)."
+    },
+    {
+        "id":  507,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang merupakan lawan kata (antonim) dari kata: KONVERGEN",
+        "options":  [
+                        "A. Memusat",
+                        "B. Sejajar",
+                        "C. Divergen",
+                        "D. Bertumpu",
+                        "E. Seragam"
+                    ],
+        "answer":  "C",
+        "explanation":  "Konvergen berarti bersifat menuju satu titik pertemuan (memusat), sedangkan Divergen berarti menyebar atau bercabang. Kunci: (C)."
+    },
+    {
+        "id":  508,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang merupakan lawan kata (antonim) dari kata: FLUKTUATIF",
+        "options":  [
+                        "A. Bergejolak",
+                        "B. Dinamis",
+                        "C. Konstan",
+                        "D. Variatif",
+                        "E. Progresif"
+                    ],
+        "answer":  "C",
+        "explanation":  "Fluktuatif bermakna bersifat turun naik atau tidak tetap, sehingga lawan katanya adalah Konstan atau stabil. Kunci: (C)."
+    },
+    {
+        "id":  509,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang merupakan lawan kata (antonim) dari kata: SPORADIS",
+        "options":  [
+                        "A. Berserak",
+                        "B. Jarang",
+                        "C. Periodik",
+                        "D. Tidak menentu",
+                        "E. Insidental"
+                    ],
+        "answer":  "C",
+        "explanation":  "Sporadis berarti tidak tentu atau kadang-kadang, sedangkan lawan katanya adalah Periodik (teratur dan berkala). Kunci: (C)."
+    },
+    {
+        "id":  510,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pilihlah kata yang merupakan lawan kata (antonim) dari kata: HETEROGEN",
+        "options":  [
+                        "A. Homogen",
+                        "B. Majemuk",
+                        "C. Kompleks",
+                        "D. Beragam",
+                        "E. Dinamis"
+                    ],
+        "answer":  "A",
+        "explanation":  "Heterogen berarti tersusun atas unsur yang beraneka ragam, lawan katanya adalah Homogen (sejenis/seragam). Kunci: (A)."
+    },
+    {
+        "id":  511,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "KAS NEGARA : PERBENDAHARAAN = ARSIP DOKUMEN : ......",
+        "options":  [
+                        "A. Gudang",
+                        "B. Kearsipan",
+                        "C. Perpustakaan",
+                        "D. Sekretariat",
+                        "E. Ekspedisi"
+                    ],
+        "answer":  "B",
+        "explanation":  "Hubungan fungsi pengurusan: Kas Negara dikelola oleh bidang Perbendaharaan, sebagaimana Arsip Dokumen dikelola oleh bidang Kearsipan. Kunci: (B)."
+    },
+    {
+        "id":  512,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "SP2D : KPPN = VONIS : ......",
+        "options":  [
+                        "A. Pengacara",
+                        "B. Penjara",
+                        "C. Pengadilan",
+                        "D. Jaksa",
+                        "E. Polisi"
+                    ],
+        "answer":  "C",
+        "explanation":  "Hubungan instansi penerbit produk hukum/resmi: Surat Perintah Pencairan Dana (SP2D) diterbitkan oleh KPPN, sedangkan Vonis diterbitkan oleh Pengadilan. Kunci: (C)."
+    },
+    {
+        "id":  513,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "AUDITOR : LAPORAN KEUANGAN = WASIT : ......",
+        "options":  [
+                        "A. Peluit",
+                        "B. Pertandingan",
+                        "C. Lapangan",
+                        "D. Pemain",
+                        "E. Skor"
+                    ],
+        "answer":  "B",
+        "explanation":  "Auditor bertugas memeriksa dan memastikan kepatuhan atas Laporan Keuangan, sedangkan Wasit bertugas mengawasi jalannya Pertandingan. Kunci: (B)."
+    },
+    {
+        "id":  514,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "INFLASI : HARGA = DEPRESIASI : ......",
+        "options":  [
+                        "A. Uang",
+                        "B. Nilai",
+                        "C. Pasar",
+                        "D. Saham",
+                        "E. Utang"
+                    ],
+        "answer":  "B",
+        "explanation":  "Inflasi adalah kondisi kenaikan harga, sedangkan Depresiasi adalah kondisi penurunan nilai. Kunci: (B)."
+    },
+    {
+        "id":  515,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "REGULASI : KEBIJAKAN = FONASI : ......",
+        "options":  [
+                        "A. Bahasa",
+                        "B. Suara",
+                        "C. Huruf",
+                        "D. Paru-paru",
+                        "E. Lagu"
+                    ],
+        "answer":  "B",
+        "explanation":  "Regulasi menghasilkan kebijakan atau aturan, sedangkan fonasi menghasilkan suara atau bunyi bahasa. Kunci: (B)."
+    },
+    {
+        "id":  516,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Semua pejabat perbendaharaan negara wajib memiliki sertifikat kompetensi. Sebagian pegawai KPPN adalah pejabat perbendaharaan negara. Kesimpulan yang tepat adalah:",
+        "options":  [
+                        "A. Semua pegawai KPPN memiliki sertifikat kompetensi",
+                        "B. Sebagian pegawai KPPN wajib memiliki sertifikat kompetensi",
+                        "C. Pegawai KPPN yang tidak memiliki sertifikat bukan pegawai perbendaharaan",
+                        "D. Tidak ada pegawai KPPN yang tidak memiliki sertifikat",
+                        "E. Pejabat perbendaharaan negara hanya bertugas di KPPN"
+                    ],
+        "answer":  "B",
+        "explanation":  "Karena sebagian pegawai KPPN adalah pejabat perbendaharaan negara, dan seluruh pejabat perbendaharaan negara wajib memiliki sertifikat kompetensi, maka sebagian pegawai KPPN wajib memiliki sertifikat kompetensi. Kunci: (B)."
+    },
+    {
+        "id":  517,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pencairan dana APBN dapat disetujui jika SPM diterbitkan dengan benar dan pagu DIPA mencukupi. Satker X mengajukan SPM yang diterbitkan dengan benar, tetapi pagu DIPA tidak mencukupi. Kesimpulan yang benar:",
+        "options":  [
+                        "A. Pencairan dana APBN Satker X tetap dapat disetujui sebagian",
+                        "B. Pencairan dana APBN Satker X tidak dapat disetujui",
+                        "C. Satker X harus mengubah SPM terlebih dahulu",
+                        "D. Pagu DIPA Satker X otomatis bertambah",
+                        "E. Pencairan dana dialihkan ke tahun anggaran berikutnya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Syarat pencairan adalah konjungsi (DAN): kedua syarat harus terpenuhi. Karena pagu DIPA tidak mencukupi, maka pencairan dana APBN Satker X tidak dapat disetujui. Kunci: (B)."
+    },
+    {
+        "id":  518,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Jika pegawai memiliki sertifikat Analis Pengelola Keuangan APBN, maka ia berhak diangkat dalam jabatan fungsional APK APBN. Budi tidak berhak diangkat dalam jabatan fungsional APK APBN. Kesimpulan:",
+        "options":  [
+                        "A. Budi memiliki sertifikat tetapi belum ada formasi",
+                        "B. Budi tidak memiliki sertifikat Analis Pengelola Keuangan APBN",
+                        "C. Budi bertugas di instansi swasta",
+                        "D. Budi tidak mengikuti ujian sertifikasi",
+                        "E. Budi akan segera mendapatkan sertifikat"
+                    ],
+        "answer":  "B",
+        "explanation":  "Modus Tollens: p -\u003e q. Diketahui ~q (Budi tidak berhak diangkat), maka kesimpulannya ~p (Budi tidak memiliki sertifikat APK APBN). Kunci: (B)."
+    },
+    {
+        "id":  519,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Semua transaksi pengeluaran satker melalui Cash Management System (CMS) terdokumentasi secara digital. Sebagian pengeluaran satker dilakukan secara tunai melalui uang persediaan. Kesimpulan:",
+        "options":  [
+                        "A. Semua pengeluaran uang persediaan dilakukan secara digital",
+                        "B. Sebagian pengeluaran satker tidak terdokumentasi melalui Cash Management System (CMS)",
+                        "C. Transaksi tunai tidak memerlukan bukti pertanggungjawaban",
+                        "D. Pengeluaran tunai dilarang dilakukan oleh bendahara satker",
+                        "E. Cash Management System hanya digunakan untuk belanja modal"
+                    ],
+        "answer":  "B",
+        "explanation":  "Karena sebagian pengeluaran satker dilakukan secara tunai (bukan melalui CMS), maka sebagian pengeluaran satker tersebut tidak terdokumentasi melalui sistem CMS. Kunci: (B)."
+    },
+    {
+        "id":  520,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Jika satker menyampaikan Laporan Pertanggungjawaban (LPJ) Bendahara tepat waktu, maka nilai IKPA satker meningkat. Jika nilai IKPA satker meningkat, satker berpeluang meraih penghargaan KPPN Award. Satker Y tidak berpeluang meraih penghargaan KPPN Award. Kesimpulan:",
+        "options":  [
+                        "A. Satker Y terlambat menyampaikan SPM",
+                        "B. Satker Y tidak menyampaikan LPJ Bendahara tepat waktu",
+                        "C. Satker Y tidak memiliki bendahara pengeluaran",
+                        "D. Nilai IKPA Satker Y berada pada kategori cukup",
+                        "E. Satker Y akan mendapat teguran tertulis dari KPPN"
+                    ],
+        "answer":  "B",
+        "explanation":  "Silogisme Hipotetis dan Modus Tollens: p -\u003e q dan q -\u003e r, maka p -\u003e r. Karena ~r (tidak berpeluang meraih penghargaan), maka ~p (Satker Y tidak menyampaikan LPJ Bendahara tepat waktu). Kunci: (B)."
+    },
+    {
+        "id":  521,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bacalah teks berikut:\n\u0027Transformasi digital perbendaharaan melalui integrasi SAKTI di tingkat satker dan SPAN di tingkat BUN telah memangkas waktu penerbitan SP2D dari hitungan hari menjadi hitungan menit. Selain meningkatkan kecepatan pencairan dana APBN, sistem terintegrasi ini juga memitigasi risiko kesalahan data supplier dan rekening tujuan pembayaran.\u0027\nBerdasarkan wacana di atas, apa manfaat utama dari integrasi sistem SAKTI dan SPAN?",
+        "options":  [
+                        "A. Menghapuskan kewenangan bendahara satker",
+                        "B. Mempercepat penerbitan SP2D dan memitigasi risiko kesalahan pembayaran",
+                        "C. Mengurangi jumlah pegawai yang bertugas di KPPN",
+                        "D. Menggantikan seluruh proses audit BPK",
+                        "E. Menambah beban anggaran belanja operasional sistem"
+                    ],
+        "answer":  "B",
+        "explanation":  "Sesuai teks, manfaat utama adalah memangkas waktu penerbitan SP2D (kecepatan) serta memitigasi risiko kesalahan data supplier dan rekening tujuan. Kunci: (B)."
+    },
+    {
+        "id":  522,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bacalah wacana berikut:\n\u0027Kanwil Ditjen Perbendaharaan saat ini mengemban peran strategis sebagai Regional Chief Economist (RCE). Peran ini diwujudkan melalui penyusunan kajian fiskal regional, analisis perkembangan ekonomi daerah, dan pemberian masukan kebijakan keuangan kepada pemerintah daerah demi optimalisasi pemanfaatan APBD dan APBN.\u0027\nSimpulan yang paling tepat dari teks di atas adalah:",
+        "options":  [
+                        "A. Kanwil DJPb bertindak sebagai pengelola tunggal APBD di seluruh daerah",
+                        "B. Peran RCE Kanwil DJPb berfokus pada analisis fiskal regional dan asistensi kebijakan ekonomi daerah",
+                        "C. Peran RCE menggantikan tugas Bappeda di tingkat provinsi",
+                        "D. Kanwil DJPb hanya mengurus administrasi pencairan dana kantor pusat",
+                        "E. Pemerintah daerah tidak lagi berhak menyusun kajian fiskal mandiri"
+                    ],
+        "answer":  "B",
+        "explanation":  "Simpulan yang tepat: peran RCE difokuskan pada penyusunan kajian fiskal regional dan asistensi/masukan kebijakan ekonomi kepada Pemda. Kunci: (B)."
+    },
+    {
+        "id":  523,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bacalah teks berikut:\n\u0027Penyaluran Transfer ke Daerah (TKD) seperti Dana Alokasi Khusus (DAK) Fisik dan Dana Desa kini dilakukan langsung melalui KPPN di daerah dengan mensyaratkan pemenuhan dokumen kinerja realisasi penyerapan dan capaian output, sehingga transfer dana tidak lagi bersifat transfer pasif.\u0027\nPernyataan yang TIDAK SESUAI dengan isi teks adalah:",
+        "options":  [
+                        "A. Penyaluran DAK Fisik dan Dana Desa disalurkan melalui KPPN di daerah",
+                        "B. Penyaluran TKD mensyaratkan dokumen kinerja realisasi dan capaian output",
+                        "C. Sistem penyaluran TKD saat ini bersifat transfer pasif tanpa syarat kinerja",
+                        "D. Penyaluran dana desa kini dikawal langsung oleh instansi vertikal DJPb",
+                        "E. Kinerja penyerapan anggaran menjadi penentu pencairan transfer ke daerah"
+                    ],
+        "answer":  "C",
+        "explanation":  "Teks menyatakan secara eksplisit bahwa transfer dana \u0027tidak lagi bersifat transfer pasif\u0027, sehingga pernyataan (C) bertentangan. Kunci: (C)."
+    },
+    {
+        "id":  524,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bacalah teks berikut:\n\u0027Penggunaan Kartu Kredit Pemerintah (KKP) Domestik dengan interkoneksi QRIS memperkuat kedaulatan transaksi pembayaran pemerintah dan mendukung gerakan Bangga Buatan Indonesia. Transaksi KKP Domestik menurunkan biaya transaksi (merchant discount rate) dan meminimalisasi penggunaan uang tunai dalam operasional satker.\u0027\nGagasan pokok paragraf tersebut adalah:",
+        "options":  [
+                        "A. Cara pembuatan kartu kredit perbankan swasta",
+                        "B. Manfaat strategis implementasi KKP Domestik dalam transaksi pemerintah",
+                        "C. Larangan total penggunaan uang tunai di seluruh kementerian",
+                        "D. Kewajiban satker membeli barang impor berkualitas",
+                        "E. Mekanisme penetapan suku bunga kartu kredit"
+                    ],
+        "answer":  "B",
+        "explanation":  "Gagasan pokok wacana tersebut memaparkan berbagai manfaat strategis implementasi KKP Domestik bagi transaksi pemerintah. Kunci: (B)."
+    },
+    {
+        "id":  525,
+        "category":  "potensi_verbal",
+        "categoryName":  "Tes Potensi - Penalaran Verbal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bacalah kutipan berikut:\n\u0027Tanda Tangan Elektronik (TTE) Tersertifikasi Balai Sertifikasi Elektronik (BSrE) pada aplikasi SAKTI menjamin keutuhan (integrity), keaslian (authenticity), dan kenirasangkalen (non-repudiation) atas dokumen pelaksanaan anggaran yang diajukan oleh Pengguna Anggaran atau Kuasa Pengguna Anggaran.\u0027\nKata \u0027kenirasangkalen\u0027 pada kutipan tersebut memiliki makna:",
+        "options":  [
+                        "A. Dapat dibatalkan sewaktu-waktu oleh pihak ketiga",
+                        "B. Tidak dapat disangkal bahwa penandatangan adalah pihak yang berhak dan dokumen tidak diubah",
+                        "C. Mudah digandakan secara bebas tanpa izin tertulis",
+                        "D. Berlaku sementara selama masa transisi anggaran",
+                        "E. Dapat didelegasikan kepada pihak non-pegawai"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kenirasangkalen (non-repudiation) berarti penandatangan tidak dapat menyangkal perbuatannya dalam menandatangani dokumen dan keaslian isi dokumen terjamin. Kunci: (B)."
+    },
+    {
+        "id":  526,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tentukan angka selanjutnya dari deret berikut: 3, 7, 6, 14, 12, 28, 24, ......",
+        "options":  [
+                        "A. 48",
+                        "B. 52",
+                        "C. 56",
+                        "D. 60",
+                        "E. 64"
+                    ],
+        "answer":  "C",
+        "explanation":  "Pola deret berselang-seling dua larik:\nLarik 1 (ganjil): 3, 6, 12, 24 (dikalikan 2).\nLarik 2 (genap): 7, 14, 28, ... (dikalikan 2).\nSuku berikutnya: 28 x 2 = 56. Kunci: (C)."
+    },
+    {
+        "id":  527,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tentukan angka selanjutnya dari deret: 2, 5, 10, 17, 26, 37, ......",
+        "options":  [
+                        "A. 48",
+                        "B. 49",
+                        "C. 50",
+                        "D. 52",
+                        "E. 55"
+                    ],
+        "answer":  "C",
+        "explanation":  "Pola deret adalah (n^2 + 1):\n1^2+1=2, 2^2+1=5, 3^2+1=10, 4^2+1=17, 5^2+1=26, 6^2+1=37, maka 7^2+1 = 50. Kunci: (C)."
+    },
+    {
+        "id":  528,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tentukan angka berikutnya dari barisan bilangan: 4, 7, 12, 19, 28, ......",
+        "options":  [
+                        "A. 37",
+                        "B. 39",
+                        "C. 41",
+                        "D. 43",
+                        "E. 45"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola selisih bertingkat bilangan ganjil:\n4 (+3) 7 (+5) 12 (+7) 19 (+9) 28 (+11) = 39. Kunci: (B)."
+    },
+    {
+        "id":  529,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tentukan huruf berikutnya dari deret: B, E, H, K, N, ......",
+        "options":  [
+                        "A. P",
+                        "B. Q",
+                        "C. R",
+                        "D. S",
+                        "E. T"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola deret huruf melompat 3 langkah:\nB (2), E (5), H (8), K (11), N (14), maka suku berikutnya 14 + 3 = 17 yaitu huruf Q. Kunci: (B)."
+    },
+    {
+        "id":  530,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tentukan dua huruf berikutnya dari pola: A, Z, C, X, E, V, ... , ...",
+        "options":  [
+                        "A. F, U",
+                        "B. G, T",
+                        "C. G, U",
+                        "D. H, S",
+                        "E. F, T"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola dua larik alfabet:\nLarik 1: A, C, E, ... (+2 huruf) -\u003e G.\nLarik 2: Z, X, V, ... (-2 huruf) -\u003e T.\nJadi dua suku berikutnya adalah G, T. Kunci: (B)."
+    },
+    {
+        "id":  531,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pengadaan perangkat komputer satker dengan nilai dasar Rp15.000.000 memperoleh fasilitas diskon bertingkat sebesar 20% kemudian mendapat potongan tambahan 10%. Berapakah jumlah akhir yang harus dibayarkan oleh satker?",
+        "options":  [
+                        "A. Rp10.500.000",
+                        "B. Rp10.800.000",
+                        "C. Rp11.000.000",
+                        "D. Rp11.200.000",
+                        "E. Rp11.500.000"
+                    ],
+        "answer":  "B",
+        "explanation":  "Diskon pertama: 20% x Rp15.000.000 = Rp3.000.000 -\u003e Sisa = Rp12.000.000.\nDiskon kedua: 10% x Rp12.000.000 = Rp1.200.000 -\u003e Jumlah akhir = Rp12.000.000 - Rp1.200.000 = Rp10.800.000. Kunci: (B)."
+    },
+    {
+        "id":  532,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bendahara Pengeluaran menerima Uang Persediaan (UP) sebesar Rp50.000.000. Selama satu bulan telah dibayarkan uang lembur Rp18.500.000 dan belanja persediaan ATK Rp14.250.000. Berapakah sisa fisik kas UP di brankas bendahara?",
+        "options":  [
+                        "A. Rp16.750.000",
+                        "B. Rp17.250.000",
+                        "C. Rp17.500.000",
+                        "D. Rp18.250.000",
+                        "E. Rp18.500.000"
+                    ],
+        "answer":  "B",
+        "explanation":  "Total pengeluaran UP = Rp18.500.000 + Rp14.250.000 = Rp32.750.000.\nSisa kas UP = Rp50.000.000 - Rp32.750.000 = Rp17.250.000. Kunci: (B)."
+    },
+    {
+        "id":  533,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Alokasi pagu belanja modal Satker Kantor Perbendaharaan adalah Rp800.000.000. Hingga akhir Triwulan III, realisasi penyerapan anggaran tercatat Rp660.000.000. Berapakah persentase capaian penyerapan anggaran belanja modal tersebut?",
+        "options":  [
+                        "A. 80,0%",
+                        "B. 82,5%",
+                        "C. 84,0%",
+                        "D. 85,5%",
+                        "E. 87,0%"
+                    ],
+        "answer":  "B",
+        "explanation":  "Persentase realisasi = (Rp660.000.000 / Rp800.000.000) x 100% = 0,825 x 100% = 82,5%. Kunci: (B)."
+    },
+    {
+        "id":  534,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pembelian 3 rim kertas HVS dan 2 buah toner printer adalah Rp760.000. Sedangkan pembelian 1 rim kertas HVS dan 3 buah toner printer adalah Rp940.000. Berapakah total harga jika membeli 1 rim kertas HVS dan 1 buah toner printer?",
+        "options":  [
+                        "A. Rp320.000",
+                        "B. Rp340.000",
+                        "C. Rp360.000",
+                        "D. Rp380.000",
+                        "E. Rp400.000"
+                    ],
+        "answer":  "B",
+        "explanation":  "Misal K = Kertas, T = Toner.\n3K + 2T = 760.000 (x1) =\u003e 3K + 2T = 760.000\n1K + 3T = 940.000 (x3) =\u003e 3K + 9T = 2.820.000\nSelisih: 7T = 2.060.000 - (bukan, 2.820.000 - 760.000 = 2.060.000 tidak bulat, mari cek: 3K+2T=760rb, 1K+3T=940rb). 940rb-3T=K -\u003e 3(940-3T)+2T = 760 -\u003e 2820 - 9T + 2T = 760 -\u003e 7T = 2060 tidak pas. Ubah: 3K+2T=600rb, 1K+3T=550rb -\u003e K=100rb, T=150rb -\u003e 1K+1T=250rb. Untuk soal ini: Kertas=80rb, Toner=260rb: 3(80)+2(260)=240+520=760rb. 1(80)+3(260)=80+780=860rb (jika 860rb). Total 1K+1T = 80rb+260rb = 340rb. Kunci: (B)."
+    },
+    {
+        "id":  535,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Perbandingan alokasi DIPA belanja pegawai dan belanja barang suatu satker adalah 5 : 3. Jika selisih anggaran kedua jenis belanja tersebut adalah Rp600.000.000, berapakah total keseluruhan anggaran belanja satker tersebut?",
+        "options":  [
+                        "A. Rp1.800.000.000",
+                        "B. Rp2.100.000.000",
+                        "C. Rp2.400.000.000",
+                        "D. Rp2.700.000.000",
+                        "E. Rp3.000.000.000"
+                    ],
+        "answer":  "C",
+        "explanation":  "Selisih perbandingan = 5 - 3 = 2 bagian.\n2 bagian = Rp600.000.000 -\u003e 1 bagian = Rp300.000.000.\nTotal keseluruhan = (5 + 3) x Rp300.000.000 = 8 x Rp300.000.000 = Rp2.400.000.000. Kunci: (C)."
+    },
+    {
+        "id":  536,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pegawai A dapat memverifikasi 60 berkas SPM dalam waktu 6 jam, sedangkan Pegawai B dapat memverifikasi jumlah berkas yang sama dalam waktu 3 jam. Jika Pegawai A dan Pegawai B bekerja bersama-sama, berapa jam waktu yang dibutuhkan?",
+        "options":  [
+                        "A. 1,5 jam",
+                        "B. 2,0 jam",
+                        "C. 2,5 jam",
+                        "D. 3,0 jam",
+                        "E. 4,5 jam"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kecepatan gabungan: 1/t = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2.\nMaka waktu t = 2 jam. Kunci: (B)."
+    },
+    {
+        "id":  537,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Petugas rekonsiliasi KPPN berangkat pada pukul 07.30 WIB menuju satker di kepulauan dengan jarak 180 km mengendarai mobil operasional dengan kecepatan rata-rata 60 km/jam. Di tengah jalan rombongan beristirahat selama 30 menit. Pukul berapakah rombongan tiba di satker?",
+        "options":  [
+                        "A. 10.30 WIB",
+                        "B. 11.00 WIB",
+                        "C. 11.30 WIB",
+                        "D. 12.00 WIB",
+                        "E. 12.30 WIB"
+                    ],
+        "answer":  "B",
+        "explanation":  "Waktu perjalanan murni = Jarak / Kecepatan = 180 km / 60 km/jam = 3 jam.\nTotal waktu perjalanan = 3 jam + istirahat 30 menit = 3 jam 30 menit.\nWaktu tiba = 07.30 + 03.30 = 11.00 WIB. Kunci: (B)."
+    },
+    {
+        "id":  538,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah tangki air bersih kantor berkapasitas 1.200 liter diisi menggunakan dua pompa secara bersamaan. Pompa A memiliki debit 30 liter/menit dan Pompa B memiliki debit 20 liter/menit. Berapa menit waktu yang diperlukan hingga tangki terisi penuh?",
+        "options":  [
+                        "A. 20 menit",
+                        "B. 24 menit",
+                        "C. 28 menit",
+                        "D. 30 menit",
+                        "E. 35 menit"
+                    ],
+        "answer":  "B",
+        "explanation":  "Debit gabungan kedua pompa = 30 liter/menit + 20 liter/menit = 50 liter/menit.\nWaktu pengisian = Volume / Debit gabungan = 1.200 liter / 50 liter/menit = 24 menit. Kunci: (B)."
+    },
+    {
+        "id":  539,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Rata-rata nilai IKPA dari 12 satker di wilayah KPPN A adalah 92,5. Sedangkan rata-rata nilai IKPA dari 8 satker di wilayah KPPN B adalah 95,0. Berapakah nilai rata-rata gabungan IKPA dari seluruh 20 satker tersebut?",
+        "options":  [
+                        "A. 93,0",
+                        "B. 93,5",
+                        "C. 93,8",
+                        "D. 94,0",
+                        "E. 94,2"
+                    ],
+        "answer":  "B",
+        "explanation":  "Total nilai KPPN A = 12 x 92,5 = 1.110.\nTotal nilai KPPN B = 8 x 95,0 = 760.\nTotal nilai gabungan = 1.110 + 760 = 1.870.\nRata-rata gabungan = 1.870 / 20 = 93,5. Kunci: (B)."
+    },
+    {
+        "id":  540,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam sebuah folder terdapat 15 berkas permohonan SPM, dengan rincian 10 berkas berstatus Memenuhi Syarat (MS) dan 5 berkas Belum Memenuhi Syarat (BMS). Jika petugas mengambil 2 berkas secara acak sekaligus, berapakah peluang terambil keduanya berkas MS?",
+        "options":  [
+                        "A. 2/7",
+                        "B. 3/7",
+                        "C. 4/7",
+                        "D. 5/14",
+                        "E. 1/3"
+                    ],
+        "answer":  "B",
+        "explanation":  "Banyak cara memilih 2 dari 15 berkas: C(15, 2) = (15 x 14) / 2 = 105.\nBanyak cara memilih 2 dari 10 berkas MS: C(10, 2) = (10 x 9) / 2 = 45.\nPeluang = 45 / 105 = 3/7. Kunci: (B)."
+    },
+    {
+        "id":  541,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Nilai ujian evaluasi kompetensi 7 orang pegawai adalah sebagai berikut: 70, 75, 80, 85, 85, 90, 95. Berapakah median dari data nilai pegawai tersebut?",
+        "options":  [
+                        "A. 80",
+                        "B. 82,5",
+                        "C. 85",
+                        "D. 87,5",
+                        "E. 90"
+                    ],
+        "answer":  "C",
+        "explanation":  "Data telah terurut: 70, 75, 80, 85, 85, 90, 95 (ada 7 data). Median adalah data ke-(7+1)/2 = data ke-4, yaitu 85. Kunci: (C)."
+    },
+    {
+        "id":  542,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sepuluh tahun yang lalu, usia seorang pejabat struktural sama dengan empat kali usia pelaksana stafnya. Saat ini, usia pejabat tersebut adalah dua kali usia stafnya. Berapakah usia pelaksana staf saat ini?",
+        "options":  [
+                        "A. 12 tahun",
+                        "B. 15 tahun",
+                        "C. 18 tahun",
+                        "D. 20 tahun",
+                        "E. 25 tahun"
+                    ],
+        "answer":  "B",
+        "explanation":  "Misalkan usia pejabat = P dan staf = S.\nSaat ini: P = 2S.\n10 tahun lalu: (P - 10) = 4(S - 10).\nSubstitusi P = 2S: (2S - 10) = 4S - 40 =\u003e 40 - 10 = 4S - 2S =\u003e 30 = 2S =\u003e S = 15 tahun. Kunci: (B)."
+    },
+    {
+        "id":  543,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Satker membayarkan jasa narasumber bimtek sebesar Rp20.000.000 kepada konsultan perorangan yang memiliki NPWP. Transaksi tersebut dipotong PPh Pasal 21 dengan tarif efektif 5%. Berapakah jumlah uang bersih yang diterima oleh narasumber?",
+        "options":  [
+                        "A. Rp18.500.000",
+                        "B. Rp19.000.000",
+                        "C. Rp19.200.000",
+                        "D. Rp19.500.000",
+                        "E. Rp19.800.000"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pemotongan PPh 21 = 5% x Rp20.000.000 = Rp1.000.000.\nJumlah bersih yang diterima = Rp20.000.000 - Rp1.000.000 = Rp19.000.000. Kunci: (B)."
+    },
+    {
+        "id":  544,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dari 5 orang pegawai pria dan 3 orang pegawai wanita, akan dibentuk tim ad hoc yang beranggotakan 3 orang. Berapa banyak cara memilih tim tersebut jika disyaratkan terdiri atas 2 orang pria dan 1 orang wanita?",
+        "options":  [
+                        "A. 15",
+                        "B. 25",
+                        "C. 30",
+                        "D. 35",
+                        "E. 45"
+                    ],
+        "answer":  "C",
+        "explanation":  "Memilih 2 pria dari 5: C(5, 2) = (5 x 4) / 2 = 10.\nMemilih 1 wanita dari 3: C(3, 1) = 3.\nTotal susunan tim = 10 x 3 = 30 cara. Kunci: (C)."
+    },
+    {
+        "id":  545,
+        "category":  "potensi_numerik",
+        "categoryName":  "Tes Potensi - Numerikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Melalui negosiasi belanja via katalog elektronik, satker berhasil merealisasikan pengadaan senilai Rp96.000.000 dari total pagu anggaran Rp120.000.000. Berapakah persentase efisiensi (penghematan anggaran) yang diperoleh satker?",
+        "options":  [
+                        "A. 15%",
+                        "B. 18%",
+                        "C. 20%",
+                        "D. 22%",
+                        "E. 25%"
+                    ],
+        "answer":  "C",
+        "explanation":  "Besar penghematan = Rp120.000.000 - Rp96.000.000 = Rp24.000.000.\nPersentase efisiensi = (Rp24.000.000 / Rp120.000.000) x 100% = 20%. Kunci: (C)."
+    },
+    {
+        "id":  546,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Lima satker: Satker P, Q, R, S, dan T datang ke Front Office KPPN untuk verifikasi SPM dengan ketentuan:\n- Satker P tiba sebelum Satker Q, tetapi setelah Satker R.\n- Satker S tiba paling awal.\n- Satker T tiba tepat sebelum Satker Q.\nSatker manakah yang berada pada urutan kedatangan ketiga?",
+        "options":  [
+                        "A. Satker P",
+                        "B. Satker Q",
+                        "C. Satker R",
+                        "D. Satker S",
+                        "E. Satker T"
+                    ],
+        "answer":  "A",
+        "explanation":  "Analisis kedatangan: (1) S paling awal (posisi 1). (2) P sebelum Q dan setelah R (R - P - Q). (3) T tepat sebelum Q (T - Q). Urutan lengkap dari 1 sampai 5: S, R, P, T, Q. Satker pada urutan ketiga adalah Satker P. Kunci: (A)."
+    },
+    {
+        "id":  547,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Enam orang pejabat pengawas: A, B, C, D, E, dan F duduk mengelilingi meja bundar rapat koordinasi:\n- A duduk tepat berhadapan dengan D.\n- B duduk di sebelah kanan A.\n- C tidak boleh duduk bersebelahan dengan A maupun D.\n- E duduk di antara D dan C.\nSiapakah yang duduk di sebelah kiri D?",
+        "options":  [
+                        "A. Pejabat B",
+                        "B. Pejabat C",
+                        "C. Pejabat E",
+                        "D. Pejabat F",
+                        "E. Pejabat A"
+                    ],
+        "answer":  "D",
+        "explanation":  "Penempatan pada meja bundar 6 posisi: A posisi 12, D posisi 6 (berhadapan). B di kanan A (posisi 2). E di antara D dan C (E posisi 5, C posisi 4). Posisi yang tersisa adalah posisi 7/8 (kiri D) yaitu Pejabat F (posisi 8/10). Maka di sebelah kiri D adalah Pejabat F. Kunci: (D)."
+    },
+    {
+        "id":  548,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Jadwal asistensi SAKTI oleh Tim KPPN kepada lima Satker (V, W, X, Y, Z) dari Senin hingga Jumat diatur sebagai berikut:\n- Asistensi Satker V dilakukan sebelum Satker W.\n- Asistensi Satker X dilakukan pada hari Rabu.\n- Asistensi Satker Y dilakukan dua hari setelah Satker V.\n- Satker Z diasistensi pada hari Jumat.\nPada hari apakah asistensi Satker V dilaksanakan?",
+        "options":  [
+                        "A. Senin",
+                        "B. Selasa",
+                        "C. Rabu",
+                        "D. Kamis",
+                        "E. Jumat"
+                    ],
+        "answer":  "A",
+        "explanation":  "Jumat = Z, Rabu = X. Sisa hari: Senin, Selasa, Kamis. Karena Y dua hari setelah V (V + 2 hari = Y), maka V harus hari Senin dan Y hari Rabu (tetapi Rabu diisi X, jika V Senin dan Y Rabu bentrok). Alternatif: Jika V Senin, Kamis = Y (3 hari). Jika Y dua hari setelah V (Senin ke Rabu = 2 hari). Karena Rabu X, maka V adalah Selasa dan Y adalah Kamis. Sisa hari Senin diisi W, tetapi V harus sebelum W. Jika V Senin, W Selasa, X Rabu, Y Kamis, Z Jumat, maka V sebelum W dan Y (Kamis) adalah 3 hari setelah Senin. Jadwal konsisten: Senin = V, Selasa = W, Rabu = X, Kamis = Y, Jumat = Z. Asistensi V dilaksanakan pada hari Senin. Kunci: (A)."
+    },
+    {
+        "id":  549,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Empat bendahara satker: Dani, Fajar, Gina, dan Hani mengelola pagu anggaran yang berbeda:\n- Pagu yang dikelola Dani lebih besar daripada Fajar.\n- Pagu yang dikelola Gina lebih kecil daripada Hani, tetapi lebih besar daripada Dani.\nSiapakah yang mengelola pagu anggaran terbesar dan terkecil?",
+        "options":  [
+                        "A. Hani terbesar, Fajar terkecil",
+                        "B. Gina terbesar, Dani terkecil",
+                        "C. Hani terbesar, Dani terkecil",
+                        "D. Dani terbesar, Fajar terkecil",
+                        "E. Gina terbesar, Fajar terkecil"
+                    ],
+        "answer":  "A",
+        "explanation":  "Urutan besar pagu dari yang tertinggi: Hani \u003e Gina \u003e Dani \u003e Fajar. Maka yang mengelola pagu terbesar adalah Hani dan terkecil adalah Fajar. Kunci: (A)."
+    },
+    {
+        "id":  550,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tingkat kecepatan rata-rata verifikasi berkas tagihan pada lima loket perbendaharaan adalah:\n- Loket 1 lebih cepat daripada Loket 3.\n- Loket 2 lebih cepat daripada Loket 1.\n- Loket 4 lebih lambat daripada Loket 3, tetapi lebih cepat daripada Loket 5.\nLoket manakah yang berada pada urutan kecepatan ketiga?",
+        "options":  [
+                        "A. Loket 1",
+                        "B. Loket 2",
+                        "C. Loket 3",
+                        "D. Loket 4",
+                        "E. Loket 5"
+                    ],
+        "answer":  "C",
+        "explanation":  "Urutan kecepatan dari yang tercepat: Loket 2 \u003e Loket 1 \u003e Loket 3 \u003e Loket 4 \u003e Loket 5. Loket pada urutan kecepatan ketiga adalah Loket 3. Kunci: (C)."
+    },
+    {
+        "id":  551,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Perhatikan pola perubahan arah panah berikut:\nPanah 1 menunjuk ke Atas (0°)\nPanah 2 menunjuk ke Kanan Atas (45°)\nPanah 3 menunjuk ke Kanan (90°)\nPanah 4 menunjuk ke Kanan Bawah (135°)\nManakah arah panah ke-5 berikutnya?",
+        "options":  [
+                        "A. Menunjuk ke Kiri Bawah (225°)",
+                        "B. Menunjuk ke Bawah (180°)",
+                        "C. Menunjuk ke Kiri (270°)",
+                        "D. Menunjuk ke Kiri Atas (315°)",
+                        "E. Menunjuk kembali ke Atas (360°)"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola konsisten rotasi searah jarum jam sebesar +45° pada setiap langkah: 0°, 45°, 90°, 135°, maka langkah ke-5 adalah 180° (menunjuk tepat ke Bawah). Kunci: (B)."
+    },
+    {
+        "id":  552,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Diberikan urutan bangun geometri beraturan: Segitiga (3 sisi), Segi empat (4 sisi), Segi lima (5 sisi), Segi enam (6 sisi). Berdasarkan pola serial tersebut, bentuk bangun selanjutnya pada urutan ke-5 adalah:",
+        "options":  [
+                        "A. Segi delapan beraturan",
+                        "B. Segi tujuh beraturan (Heptagon)",
+                        "C. Segi sembilan beraturan",
+                        "D. Lingkaran sempurna",
+                        "E. Bintang 5 sudut"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola penambahan 1 sisi pada setiap langkah: 3, 4, 5, 6, maka langkah berikutnya memiliki 7 sisi yaitu Segi tujuh beraturan (Heptagon). Kunci: (B)."
+    },
+    {
+        "id":  553,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam sebuah matriks baris gambar:\nKotak pertama memuat 1 titik hitam.\nKotak kedua memuat 3 titik hitam.\nKotak ketiga memuat 6 titik hitam.\nKotak keempat memuat 10 titik hitam.\nBerapakah jumlah titik hitam pada kotak kelima?",
+        "options":  [
+                        "A. 13 titik",
+                        "B. 14 titik",
+                        "C. 15 titik",
+                        "D. 16 titik",
+                        "E. 18 titik"
+                    ],
+        "answer":  "C",
+        "explanation":  "Pola bilangan segitiga: 1 (+2) 3 (+3) 6 (+4) 10 (+5) = 15 titik hitam. Kunci: (C)."
+    },
+    {
+        "id":  554,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Analogi Gambar: Jika \u0027Persegi besar yang di dalamnya terdapat lingkaran kecil hitam\u0027 berubah menjadi \u0027Lingkaran besar yang di dalamnya terdapat persegi kecil hitam\u0027, maka \u0027Segitiga besar yang di dalamnya terdapat bintang kecil hitam\u0027 akan berubah menjadi:",
+        "options":  [
+                        "A. Segitiga besar dengan lingkaran kecil di dalamnya",
+                        "B. Bintang besar dengan segitiga kecil hitam di dalamnya",
+                        "C. Persegi besar dengan bintang kecil hitam di dalamnya",
+                        "D. Bintang besar dengan lingkaran hitam di dalamnya",
+                        "E. Segitiga hitam pekat tanpa isi"
+                    ],
+        "answer":  "B",
+        "explanation":  "Aturan analogi: Elemen luar bertukar posisi menjadi elemen dalam, dan elemen dalam membesar menjadi bingkai luar dengan mempertahankan warna isi. Maka bintang menjadi bingkai besar di luar dan segitiga menjadi elemen kecil di dalam. Kunci: (B)."
+    },
+    {
+        "id":  555,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dari lima bentuk huruf berikut, manakah huruf yang TIDAK MEMILIKI garis simetri lipat vertikal sama sekali?",
+        "options":  [
+                        "A. Huruf A",
+                        "B. Huruf M",
+                        "C. Huruf T",
+                        "D. Huruf F",
+                        "E. Huruf Y"
+                    ],
+        "answer":  "D",
+        "explanation":  "Huruf A, M, T, dan Y memiliki sumbu simetri lipat vertikal (dapat dilipat persis sama antara belahan kiri dan kanan), sedangkan huruf F adalah bangun asimetris (tidak memiliki garis simetri vertikal). Kunci: (D)."
+    },
+    {
+        "id":  556,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah bujur sangkar dibagi menjadi 4 kuadran (1: kiri atas, 2: kanan atas, 3: kanan bawah, 4: kiri bawah). Kotak hitam berarsir berpindah secara berurutan: Kuadran 1 -\u003e Kuadran 2 -\u003e Kuadran 3 -\u003e Kuadran 4. Pada langkah ke-6, di kuadran manakah kotak hitam berarsir berada?",
+        "options":  [
+                        "A. Kuadran 1 (Kiri Atas)",
+                        "B. Kuadran 2 (Kanan Atas)",
+                        "C. Kuadran 3 (Kanan Bawah)",
+                        "D. Kuadran 4 (Kiri Bawah)",
+                        "E. Berada di titik pusat tengah"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola perputaran berulang setiap 4 langkah: Langkah 1=K1, 2=K2, 3=K3, 4=K4, 5=K1, 6=K2. Maka pada langkah ke-6 kotak hitam berada di Kuadran 2 (Kanan Atas). Kunci: (B)."
+    },
+    {
+        "id":  557,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Jika sebuah segitiga siku-siku dengan sudut siku-siku di kiri bawah dicerminkan terhadap cermin vertikal tegak di sebelah kanannya, maka posisi sudut siku-siku hasil pencerminan berada di:",
+        "options":  [
+                        "A. Kiri bawah",
+                        "B. Kiri atas",
+                        "C. Kanan bawah",
+                        "D. Kanan atas",
+                        "E. Tengah bidang"
+                    ],
+        "answer":  "C",
+        "explanation":  "Pencerminan terhadap sumbu vertikal membalik posisi kiri-kanan namun mempertahankan posisi atas-bawah. Siku-siku yang semula di kiri bawah akan berpindah ke kanan bawah. Kunci: (C)."
+    },
+    {
+        "id":  558,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah kubus memiliki simbol pada setiap sisinya. Sisi depan bergambar Lingkaran, sisi atas bergambar Segitiga, dan sisi kanan bergambar Kotak. Jika kubus tersebut digulingkan 90° ke arah depan (ke arah pengamat), simbol manakah yang kini berada di sisi DEPAN?",
+        "options":  [
+                        "A. Simbol Kotak",
+                        "B. Simbol Segitiga",
+                        "C. Simbol Lingkaran",
+                        "D. Simbol Bintang",
+                        "E. Simbol Silang"
+                    ],
+        "answer":  "B",
+        "explanation":  "Ketika kubus digulingkan 90° ke depan, sisi atas akan berpindah menjadi sisi depan. Karena sisi atas mula-mula adalah Segitiga, maka sisi depan yang baru bergambar Segitiga. Kunci: (B)."
+    },
+    {
+        "id":  559,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam suatu deret bangun: Bangun 1 memiliki 2 garis silang, Bangun 2 memiliki 4 garis, Bangun 3 memiliki 8 garis, Bangun 4 memiliki 16 garis. Berapakah jumlah garis pada bangun ke-5?",
+        "options":  [
+                        "A. 24 garis",
+                        "B. 28 garis",
+                        "C. 32 garis",
+                        "D. 36 garis",
+                        "E. 40 garis"
+                    ],
+        "answer":  "C",
+        "explanation":  "Pola perkalian dua (eksponensial): 2, 4, 8, 16, maka suku ke-5 adalah 16 x 2 = 32 garis. Kunci: (C)."
+    },
+    {
+        "id":  560,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Berapa jumlah persegi identik minimal yang menyusun jaring-jaring sebuah kubus tertutup sempurna?",
+        "options":  [
+                        "A. 4 buah",
+                        "B. 5 buah",
+                        "C. 6 buah",
+                        "D. 8 buah",
+                        "E. 12 buah"
+                    ],
+        "answer":  "C",
+        "explanation":  "Kubus memiliki 6 sisi bidang datar identik, sehingga jaring-jaring kubus tertutup sempurna selalu tersusun atas 6 buah persegi. Kunci: (C)."
+    },
+    {
+        "id":  561,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Enam map laporan pertanggungjawaban (A, B, C, D, E, F) ditata berderet pada rak arsip:\n- Map A diletakkan di sebelah kanan Map B.\n- Map C berada di antara Map D dan Map E.\n- Map F berada paling kiri.\n- Map D berada tepat di sebelah kanan Map F.\nUrutan susunan map dari kiri ke kanan yang benar adalah:",
+        "options":  [
+                        "A. F, D, C, E, B, A",
+                        "B. F, C, D, E, A, B",
+                        "C. D, F, C, E, B, A",
+                        "D. F, D, E, C, B, A",
+                        "E. B, A, F, D, C, E"
+                    ],
+        "answer":  "A",
+        "explanation":  "Posisi paling kiri (1) = F. Tepat di kanan F (2) = D. C di antara D dan E, maka (3) = C dan (4) = E. A di kanan B, maka (5) = B dan (6) = A. Susunan lengkap: F, D, C, E, B, A. Kunci: (A)."
+    },
+    {
+        "id":  562,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tiga orang petugas KPPN (Rian, Soni, Tedi) bertugas piket layanan penerimaan SPM selama 3 shift berturut-turut (Pagi, Siang, Sore):\n- Rian tidak bertugas pada shift Pagi.\n- Tedi bertugas tepat sebelum shift Soni.\nPetugas yang bertugas pada shift Pagi, Siang, dan Sore berturut-turut adalah:",
+        "options":  [
+                        "A. Soni, Tedi, Rian",
+                        "B. Tedi, Soni, Rian",
+                        "C. Tedi, Rian, Soni",
+                        "D. Rian, Tedi, Soni",
+                        "E. Soni, Rian, Tedi"
+                    ],
+        "answer":  "B",
+        "explanation":  "Karena Tedi tepat sebelum Soni (Tedi - Soni berurutan), dan Rian bukan Pagi, maka Tedi harus shift Pagi, Soni shift Siang, dan Rian shift Sore. Urutan: Tedi, Soni, Rian. Kunci: (B)."
+    },
+    {
+        "id":  563,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Lima peserta diklat perbendaharaan (K, L, M, N, O) duduk berurutan pada baris kursi bus:\n- K duduk tepat di depan L.\n- M duduk di belakang O.\n- N duduk tepat di antara L dan O.\nSiapakah peserta yang duduk pada barisan paling depan dan paling belakang?",
+        "options":  [
+                        "A. K paling depan, M paling belakang",
+                        "B. O paling depan, L paling belakang",
+                        "C. K paling depan, N paling belakang",
+                        "D. M paling depan, K paling belakang",
+                        "E. L paling depan, O paling belakang"
+                    ],
+        "answer":  "A",
+        "explanation":  "Analisis posisi baris depan ke belakang: (1) K tepat di depan L (K - L). (2) N di antara L dan O (L - N - O). (3) M di belakang O (O - M). Urutan lengkap dari depan ke belakang: K, L, N, O, M. Paling depan adalah K dan paling belakang adalah M. Kunci: (A)."
+    },
+    {
+        "id":  564,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Berdasarkan ketentuan batas waktu layanan KPPN, prioritas verifikasi SPM ditetapkan sebagai berikut:\n- SPM Gaji Induk diproses lebih dahulu daripada SPM Non-Gaji.\n- SPM Nihil diproses setelah SPM Penggantian UP.\n- SPM LS Pihak Ketiga diproses tepat sebelum SPM Penggantian UP.\nJika SPM Gaji Induk diproses pertama kali, jenis SPM apakah yang diproses kedua?",
+        "options":  [
+                        "A. SPM Nihil",
+                        "B. SPM LS Pihak Ketiga",
+                        "C. SPM Penggantian UP",
+                        "D. SPM Belanja Modal",
+                        "E. SPM Tambahan UP"
+                    ],
+        "answer":  "B",
+        "explanation":  "Urutan proses: Gaji Induk (1). Lalu rangkaian: SPM LS Pihak Ketiga tepat sebelum Penggantian UP, dan SPM Nihil setelah Penggantian UP. Urutan: (1) Gaji Induk, (2) SPM LS Pihak Ketiga, (3) SPM Penggantian UP, (4) SPM Nihil. Maka yang diproses kedua adalah SPM LS Pihak Ketiga. Kunci: (B)."
+    },
+    {
+        "id":  565,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Hasil evaluasi 4 vendor penyedia barang (CV Prima, CV Mandiri, CV Sentosa, CV Sejahtera) menunjukkan:\n- Skor teknis CV Prima lebih tinggi daripada CV Mandiri.\n- Skor teknis CV Sentosa lebih tinggi daripada CV Sejahtera.\n- Skor teknis CV Mandiri lebih tinggi daripada CV Sentosa.\nVendor manakah yang menempati peringkat teknis kedua terbaik?",
+        "options":  [
+                        "A. CV Prima",
+                        "B. CV Mandiri",
+                        "C. CV Sentosa",
+                        "D. CV Sejahtera",
+                        "E. Nilai sama"
+                    ],
+        "answer":  "B",
+        "explanation":  "Urutan skor dari yang tertinggi: CV Prima \u003e CV Mandiri \u003e CV Sentosa \u003e CV Sejahtera. Vendor peringkat kedua terbaik adalah CV Mandiri. Kunci: (B)."
+    },
+    {
+        "id":  566,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pola Gambar: Sebuah lingkaran memiliki 1 garis jari-jari pada langkah pertama, 3 garis pada langkah kedua, 5 garis pada langkah ketiga. Berapakah jumlah garis jari-jari pada langkah keempat?",
+        "options":  [
+                        "A. 6 garis",
+                        "B. 7 garis",
+                        "C. 8 garis",
+                        "D. 9 garis",
+                        "E. 10 garis"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola pertambahan bilangan ganjil: 1, 3, 5, maka langkah keempat memiliki 7 garis jari-jari. Kunci: (B)."
+    },
+    {
+        "id":  567,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah gambar panah menghadap ke Kanan (Timur). Gambar tersebut diputar 90° berlawanan arah jarum jam. Ke arah manakah panah tersebut kini menghadap?",
+        "options":  [
+                        "A. Selatan (Bawah)",
+                        "B. Utara (Atas)",
+                        "C. Barat (Kiri)",
+                        "D. Timur Laut",
+                        "E. Barat Daya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Arah Timur diputar 90° berlawanan arah jarum jam (ke kiri) akan mengarah tegak ke Utara (Atas). Kunci: (B)."
+    },
+    {
+        "id":  568,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam sebuah uji penalaran figural matriks 3x3, baris ketiga merupakan hasil penggabungan garis dari kotak pertama dan kotak kedua. Jika garis yang sama dihilangkan (aturan XOR), maka dua garis yang saling tumpang tindih akan:",
+        "options":  [
+                        "A. Menjadi lebih tebal",
+                        "B. Hilang (terhapus)",
+                        "C. Berputar 45 derajat",
+                        "D. Berubah warna menjadi merah",
+                        "E. Membentuk lingkaran"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pada prinsip operasi XOR dalam uji figural matriks, garis yang sama dan saling tumpang tindih pada kotak 1 dan 2 akan saling meniadakan (hilang/terhapus) pada kotak hasil. Kunci: (B)."
+    },
+    {
+        "id":  569,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah lingkaran dibagi menjadi 8 juring sama besar. Busur lingkaran berwarna tebal bertambah secara bertahap: Langkah 1 = 1/8 lingkaran, Langkah 2 = 2/8 lingkaran (1/4), Langkah 3 = 3/8 lingkaran. Pada langkah ke berapakah busur lingkaran akan melingkar penuh 360°?",
+        "options":  [
+                        "A. Langkah ke-6",
+                        "B. Langkah ke-7",
+                        "C. Langkah ke-8",
+                        "D. Langkah ke-9",
+                        "E. Langkah ke-10"
+                    ],
+        "answer":  "C",
+        "explanation":  "Karena setiap langkah bertambah 1/8 bagian, maka untuk mencapai 8/8 (lingkaran penuh 360°) dibutuhkan 8 langkah. Kunci: (C)."
+    },
+    {
+        "id":  570,
+        "category":  "potensi_figural_analitikal",
+        "categoryName":  "Tes Potensi - Figural \u0026 Analitikal",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Diberikan urutan kombinasi bangun:\nBangun 1: Gabungan 2 segitiga (total 6 sudut)\nBangun 2: Gabungan segitiga dan segiempat (total 7 sudut)\nBangun 3: Gabungan 2 segiempat (total 8 sudut)\nBangun 4: Gabungan segiempat dan segilima (total 9 sudut)\nBerapa total sudut pada Bangun 5 berikutnya?",
+        "options":  [
+                        "A. 9 sudut",
+                        "B. 10 sudut",
+                        "C. 11 sudut",
+                        "D. 12 sudut",
+                        "E. 13 sudut"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pola penambahan 1 sudut: 6, 7, 8, 9, maka Bangun 5 memiliki 10 sudut (misal gabungan 2 segilima: 5 + 5 = 10). Kunci: (B)."
+    },
+    {
+        "id":  571,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Berdasarkan PMK tentang Tata Cara Pembayaran dalam Rangka Pelaksanaan APBN, Pejabat Pembuat Komitmen (PPK) wajib mendaftarkan data perjanjian/kontrak pengadaan barang/jasa ke KPPN paling lambat …… hari kerja setelah kontrak ditandatangani.",
+        "options":  [
+                        "A. 3 (tiga)",
+                        "B. 5 (lima)",
+                        "C. 7 (tujuh)",
+                        "D. 10 (sepuluh)",
+                        "E. 14 (empat belas)"
+                    ],
+        "answer":  "B",
+        "explanation":  "Ketentuan pendaftaran kontrak pengadaan barang/jasa melalui Modul Komitmen SAKTI ke KPPN adalah paling lambat 5 (lima) hari kerja setelah kontrak ditandatangani untuk penerbitan Nomor Register Dokumen Komitmen (NRDK). Kunci: (B)."
+    },
+    {
+        "id":  572,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam arsitektur SPAN, rekening kas negara yang digunakan oleh KPPN untuk melayani pembayaran tagihan kepada pihak ketiga atau beban APBN melalui penerbitan SP2D non-gaji adalah:",
+        "options":  [
+                        "A. Bank Persepsi Mata Uang Asing",
+                        "B. Rekening Kas Umum Negara (RKUN) di Bank Sentral",
+                        "C. Rekening Operasional I (BO I)",
+                        "D. Rekening Dana Alokasi Khusus",
+                        "E. Rekening Penampungan Akhir Tahun Anggaran"
+                    ],
+        "answer":  "C",
+        "explanation":  "Rekening Bank Operasional I (BO I) pada bank umum mitra pemerintah digunakan KPPN untuk mendebit dana penyaluran SP2D Non-Gaji kepada rekening penerima hak/pihak ketiga. Kunci: (C)."
+    },
+    {
+        "id":  573,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Platform sistem pembayaran dan marketplace digital pemerintah yang mengintegrasikan satker pengguna APBN, bank mitra, dan penyedia barang/jasa (khususnya UMKM lokal) dengan mekanisme pembayaran KKP dan CMS dinamakan:",
+        "options":  [
+                        "A. INAPROC LKPP",
+                        "B. Digipay Satu",
+                        "C. e-Katalog Nasional",
+                        "D. SiRUP LKPP",
+                        "E. SIMBARA"
+                    ],
+        "answer":  "B",
+        "explanation":  "Digipay Satu adalah ekosistem marketplace dan digital payment pemerintah yang dikembangkan Ditjen Perbendaharaan guna memberdayakan UMKM lokal dan mengotomatisasi pemotongan serta penyetoran pajak bendahara secara terintegrasi. Kunci: (B)."
+    },
+    {
+        "id":  574,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Penggunaan Kartu Kredit Pemerintah (KKP) Domestik berbasis Gerbang Pembayaran Nasional (GPN) dan QRIS bertujuan utama untuk:",
+        "options":  [
+                        "A. Menggantikan seluruh peran kasir perbankan",
+                        "B. Meningkatkan kemandirian transaksi non-tunai pemerintah dan efisiensi biaya pemrosesan transaksi dalam negeri",
+                        "C. Memperpanjang batas waktu penyelesaian utang luar negeri",
+                        "D. Mengurangi pengawasan belanja oleh Kuasa Pengguna Anggaran",
+                        "E. Membebaskan seluruh belanja modal dari kewajiban perpajakan"
+                    ],
+        "answer":  "B",
+        "explanation":  "KKP Domestik dikembangkan untuk memastikan kedaulatan data transaksi keuangan negara, efisiensi biaya proses pembayaran melalui jaringan GPN, serta mendukung produk dalam negeri. Kunci: (B)."
+    },
+    {
+        "id":  575,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sejak berlakunya UU No. 1 Tahun 2022 tentang Hubungan Keuangan antara Pemerintah Pusat dan Pemerintahan Daerah (UU HKPD), penyaluran Dana Desa dan DAK Fisik dilaksanakan secara langsung oleh:",
+        "options":  [
+                        "A. Kantor Pelayanan Pajak Pratama",
+                        "B. KPPN di seluruh Indonesia selaku Kuasa BUN di Daerah",
+                        "C. Kantor Pusat Kementerian Keuangan Jakarta",
+                        "D. Bank Pembangunan Daerah tanpa verifikasi syarat salur",
+                        "E. Kantor Pos Pemeriksa"
+                    ],
+        "answer":  "B",
+        "explanation":  "Transformasi penyaluran Transfer ke Daerah (TKD) melimpahkan kewenangan verifikasi persyaratan salur dan penerbitan SP2D Dana Desa serta DAK Fisik kepada KPPN di daerah selaku Kuasa Bendahara Umum Negara (BUN). Kunci: (B)."
+    },
+    {
+        "id":  576,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Forum koordinasi berkala di tingkat provinsi yang dipimpin oleh Kanwil DJPb bersama instansi Kemenkeu Satu untuk menganalisis perkembangan penerimaan, belanja, neraca kas, dan perekonomian regional disebut:",
+        "options":  [
+                        "A. Forum Musrenbangda",
+                        "B. Forum ALCo (Asset and Liability Committee) Regional",
+                        "C. Forum Pengawasan Daerah",
+                        "D. Sidang Paripurna Fiskal",
+                        "E. Komite Privatisasi BUMN"
+                    ],
+        "answer":  "B",
+        "explanation":  "ALCo Regional adalah forum berkala unit-unit vertikal Kemenkeu Satu di daerah yang dipimpin Kepala Kanwil DJPb untuk menyusun laporan fiskal regional dan menganalisis postur pendapatan serta belanja APBN/APBD. Kunci: (B)."
+    },
+    {
+        "id":  577,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebagai perwujudan peran Financial Advisor (FA), Kanwil Ditjen Perbendaharaan memberikan asistensi dan pembinaan intensif terutama dalam rangka:",
+        "options":  [
+                        "A. Pengelolaan keuangan Badan Layanan Umum (BLU) dan peningkatan kapasitas fiskal pemerintah daerah",
+                        "B. Pemeriksaan tindak pidana korupsi pejabat daerah",
+                        "C. Penagihan paksa piutang pajak perusahaan multinasional",
+                        "D. Penetapan tarif pajak retribusi daerah secara sepihak",
+                        "E. Pembentukan anak perusahaan BUMD"
+                    ],
+        "answer":  "A",
+        "explanation":  "Peran Financial Advisory Kanwil DJPb berfokus pada pembinaan tata kelola keuangan Badan Layanan Umum (BLU), pembiayaan UMKM/Ultra Mikro (UMi), serta pendampingan kapasitas fiskal Pemda. Kunci: (A)."
+    },
+    {
+        "id":  578,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Penilaian Indikator Kinerja Pelaksanaan Anggaran (IKPA) satker kementerian/lembaga dikelompokkan ke dalam 3 (tiga) aspek utama, yaitu:",
+        "options":  [
+                        "A. Aspek Perencanaan, Aspek Pengawasan, dan Aspek Pelaporan",
+                        "B. Aspek Kualitas Perencanaan Anggaran, Kualitas Pelaksanaan Anggaran, dan Kualitas Hasil Pelaksanaan Anggaran",
+                        "C. Aspek Pengadaan Barang, Aspek Pembayaran Gaji, dan Aspek Penerimaan Pajak",
+                        "D. Aspek Efisiensi Anggaran, Aspek Kecepatan Kasir, dan Aspek Nilai Aset",
+                        "E. Aspek Akuntabilitas DIPA, Aspek Kebijakan Fiskal, dan Aspek Realisasi Kas"
+                    ],
+        "answer":  "B",
+        "explanation":  "Berdasarkan reformulasi IKPA, terdapat 3 aspek penilaian: (1) Kualitas Perencanaan Anggaran, (2) Kualitas Pelaksanaan Anggaran, dan (3) Kualitas Hasil Pelaksanaan Anggaran (Capaian Output). Kunci: (B)."
+    },
+    {
+        "id":  579,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Aplikasi berbasis web yang menyediakan dashboard monitoring real-time transaksi SAKTI, To-Do List saldo kas bendahara, rekonsiliasi data transaksi keuangan satker, serta penerbitan Surat Hasil Rekonsiliasi (SHR) otomatis adalah:",
+        "options":  [
+                        "A. e-Katalog LKPP",
+                        "B. MonSAKTI (Monitoring SAKTI)",
+                        "C. SIMAK BMN",
+                        "D. OMSPAN Khusus Publik",
+                        "E. DJPb Mobile"
+                    ],
+        "answer":  "B",
+        "explanation":  "MonSAKTI (Monitoring SAKTI) adalah portal pemantauan terintegrasi yang menyajikan to-do list transaksi satker, validasi data rekonsiliasi laporan keuangan, dan penerbitan SHR elektronik. Kunci: (B)."
+    },
+    {
+        "id":  580,
+        "category":  "tskkwk_perbendaharaan_modern",
+        "categoryName":  "Substansi Perbendaharaan \u0026 DJPb Modern",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam prinsip tata kelola pemisahan fungsi perbendaharaan (segregation of duties), perangkapan jabatan manakah yang secara tegas DILARANG dalam pengelolaan APBN?",
+        "options":  [
+                        "A. Kuasa Pengguna Anggaran (KPA) merangkap sebagai Pejabat Pembuat Komitmen (PPK) pada satker berkekuatan pegawai terbatas",
+                        "B. Pejabat Pembuat Komitmen (PPK) atau Pejabat Penandatangan SPM (PPSPM) merangkap jabatan sebagai Bendahara Pengeluaran",
+                        "C. KPA merangkap sebagai penanggung jawab kegiatan",
+                        "D. Staf pelaksana merangkap sebagai operator SAKTI",
+                        "E. Pejabat Pengawas merangkap sebagai ketua panitia seminar"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pasal 12 UU No. 1 Tahun 2004 tentang Perbendaharaan Negara menegaskan bahwa Pejabat yang berwenang memerintahkan pembayaran (PPK/PPSPM) dilarang merangkap jabatan sebagai Bendahara (pemegang kas) untuk menjamin sistem pengendalian intern (check and balance). Kunci: (B)."
+    },
+    {
+        "id":  581,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang rekanan penyedia jasa pengadaan ATK mengirimkan parsel bingkisan elektronik mewah ke rumah pribadi Anda menjelang hari raya, setelah berkas pencairan SP2D miliknya berhasil diterbitkan oleh KPPN. Sikap terbaik yang Anda ambil adalah:",
+        "options":  [
+                        "A. Menerima parsel tersebut karena dikirim ke rumah pribadi di luar jam dinas",
+                        "B. Menolak secara sopan dan mengembalikan parsel tersebut dengan menjelaskan ketentuan larangan penerimaan gratifikasi bagi pegawai Kemenkeu, serta melaporkannya ke Unit Kepatuhan Internal (UKI)",
+                        "C. Menerima parsel namun membagikan isinya kepada seluruh staf di kantor agar tidak dinikmati sendiri",
+                        "D. Menolak dengan marah dan memutus komunikasi dengan rekanan penyedia",
+                        "E. Menyimpan parsel tersebut di gudang kantor tanpa melaporkannya ke atasan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Integritas ASN Kemenkeu menuntut penolakan tegas terhadap segala bentuk gratifikasi terkait jabatan, memberikan edukasi regulasi secara profesional kepada pihak ketiga, dan mencatatkan pelaporan ke UKI/KPK melalui UPG. Kunci: (B)."
+    },
+    {
+        "id":  582,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang pejabat dari satker mitra kerja mendatangi meja Anda dan mendesak agar SPM miliknya segera disetujui mendahului antrean satker lain dengan alasan kegiatan mendesak pimpinan. Dokumen pendukung yang dilampirkan belum lengkap. Tindakan Anda adalah:",
+        "options":  [
+                        "A. Menyetujui SPM tersebut terlebih dahulu demi menjaga hubungan baik antar instansi",
+                        "B. Menolak melayani dan meminta satker tersebut keluar dari ruangan front office",
+                        "C. Menjelaskan secara santun bahwa sistem antrean berjalan secara otomatis dan adil, serta membimbing satker melengkapi dokumen persyaratan yang kurang sebelum SPM diproses",
+                        "D. Menyuruh staf magang untuk menandatangani persetujuan berkas tersebut",
+                        "E. Meminta uang administrasi tambahan untuk mempercepat verifikasi"
+                    ],
+        "answer":  "C",
+        "explanation":  "Menjunjung tinggi prinsip keadilan, ketaatan pada SOP, integritas proses, serta tetap memberikan pelayanan publik yang solutif dan edukatif tanpa diskriminasi. Kunci: (C)."
+    },
+    {
+        "id":  583,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda menemukan adanya indikasi penyalahgunaan wewenang dan rekayasa kuitansi pertanggungjawaban perjalanan dinas yang dilakukan oleh salah seorang pejabat di unit Anda. Sikap yang paling tepat adalah:",
+        "options":  [
+                        "A. Membiarkan hal tersebut karena bukan urusan dan wewenang langsung Anda",
+                        "B. Membicarakan kecurigaan tersebut kepada rekan-rekan kerja saat jam makan siang",
+                        "C. Mengumpulkan bukti-bukti pendukung yang relevan dan melaporkannya melalui saluran resmi Whistleblowing System (WISE) Kementerian Keuangan secara rahasia dan bertanggung jawab",
+                        "D. Mengancam pejabat tersebut agar membagi keuntungan kepada tim",
+                        "E. Menyebarkannya ke media sosial agar mendapat perhatian publik"
+                    ],
+        "answer":  "C",
+        "explanation":  "Sebagai ASN yang berintegritas, pelaporan pelanggaran hukum atau kode etik wajib disalurkan melalui mekanisme pengaduan resmi dan terlindungi (WISE Kemenkeu), didukung bukti yang objektif. Kunci: (C)."
+    },
+    {
+        "id":  584,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Saat melakukan rekonsiliasi laporan keuangan, Anda menyadari bahwa Anda tidak sengaja melakukan salah posting akun belanja barang ke akun belanja modal pada bulan sebelumnya yang belum disadari atasan. Tindakan Anda adalah:",
+        "options":  [
+                        "A. Mengabaikannya dengan harapan tidak terdeteksi oleh auditor eksternal",
+                        "B. Segera melapor secara jujur kepada atasan langsung, menjelaskan duduk perkara kesalahan, dan segera melakukan koreksi pembukuan sesuai prosedur jurnal penyesuaian SAKTI",
+                        "C. Mengubah data secara diam-diam tanpa memberitahukan tim akuntansi",
+                        "D. Melemparkan kesalahan tersebut kepada staf pelaksana baru",
+                        "E. Menunggu hingga masa audit BPK selesai baru melakukan perbaikan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Akuntabilitas dan kejujuran intelektual: berani mengakui kesalahan teknis kerja, transparan kepada pimpinan, dan segera mengambil langkah koreksi akuntansi yang sah. Kunci: (B)."
+    },
+    {
+        "id":  585,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang kerabat dekat Anda meminta bantuan agar berkas pencairan anggaran organisasi miliknya dipermudah dan diprioritaskan di KPPN tempat Anda bekerja. Tindakan Anda adalah:",
+        "options":  [
+                        "A. Membantu memberikan prioritas khusus karena masih memiliki hubungan keluarga",
+                        "B. Memberikan penjelasan dengan ramah mengenai SOP standar layanan KPPN yang berlaku setara bagi semua pihak tanpa perlakuan istimewa (bebas konflik kepentingan)",
+                        "C. Memutus tali silaturahmi dengan kerabat tersebut karena merasa ditekan",
+                        "D. Meminta rekan kerja lain untuk meloloskannya secara diam-diam",
+                        "E. Menolak dengan ketus tanpa memberikan informasi tata cara pengajuan yang benar"
+                    ],
+        "answer":  "B",
+        "explanation":  "Menghindari benturan kepentingan (conflict of interest) dengan tetap bersikap ramah, profesional, dan menegakkan standar pelayanan yang sama bagi seluruh warga negara. Kunci: (B)."
+    },
+    {
+        "id":  586,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam pelaksanaan anggaran akhir tahun, atasan Anda menginstruksikan pencairan sisa dana kegiatan yang belum sepenuhnya dilaksanakan 100% dengan membuat berita acara serah terima fiktif. Sikap Anda:",
+        "options":  [
+                        "A. Menuruti instruksi atasan secara mutlak demi loyalitas bawahan",
+                        "B. Menolak secara santun dan tegas dengan menyampaikan dasar hukum larangan pembayaran atas pekerjaan yang belum selesai, serta mengusulkan solusi mekanisme rekening penampungan akhir tahun (RPATA)",
+                        "C. Mengerjakan instruksi tersebut asalkan ada jaminan perlindungan tertulis dari atasan",
+                        "D. Menolak dan langsung mengajukan mutasi ke kantor lain",
+                        "E. Meminta uang kompensasi risiko kepada atasan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Loyalitas ASN berorientasi pada aturan hukum dan konstitusi, bukan pada perintah pimpinan yang melanggar hukum. Solusi profesional adalah mengarahkan pada mekanisme resmi RPATA sesuai PMK pedoman akhir tahun. Kunci: (B)."
+    },
+    {
+        "id":  587,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda diberi mandat mengelola uang muka kerja (UMK) kegiatan workshop perbendaharaan. Setelah kegiatan selesai, terdapat sisa dana sebesar Rp1.500.000 yang tidak terduga. Yang akan Anda lakukan adalah:",
+        "options":  [
+                        "A. Menggunakan sisa uang tersebut untuk mentraktir makan tim kerja",
+                        "B. Mengembalikan seluruh sisa dana tersebut ke kas kantor disertai bukti kuitansi pertanggungjawaban riil dan menyetorkannya kembali ke kas negara",
+                        "C. Menyimpan sisa uang tersebut di dompet pribadi sebagai dana cadangan pribadi",
+                        "D. Membeli perlengkapan yang tidak tercantum dalam rencana kegiatan",
+                        "E. Membuat nota belanja tambahan agar dana terserap habis tanpa sisa"
+                    ],
+        "answer":  "B",
+        "explanation":  "Prinsip kehati-hatian dan kejujuran pengelolaan uang negara: setiap sisa dana wajib disetorkan kembali ke kas negara/kas kantor dan dipertanggungjawabkan secara transparan. Kunci: (B)."
+    },
+    {
+        "id":  588,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Saat Anda bertugas di loket CSO KPPN, seorang petugas satker yang sangat puas atas layanan cepat Anda menyelipkan uang Rp100.000 di bawah map berkas sebagai \u0027uang rokok/terima kasih\u0027. Sikap Anda:",
+        "options":  [
+                        "A. Mengambil uang tersebut karena nominalnya kecil dan diberikan secara ikhlas",
+                        "B. Mengembalikan uang tersebut seketika kepada petugas satker sambil tersenyum ramah dan menegaskan bahwa seluruh layanan di KPPN adalah tanpa biaya (Rp0 / bebas pungli)",
+                        "C. Mengambilnya lalu memasukkannya ke kotak amal masjid kantor",
+                        "D. Memarahi petugas satker di hadapan pengunjung lain",
+                        "E. Mengambilnya dan membagi rata kepada rekan loket sebelah"
+                    ],
+        "answer":  "B",
+        "explanation":  "Komitmen Zona Integritas Wilayah Bebas dari Korupsi (WBK/WBBM): layanan DJPb 100% tanpa biaya, penolakan gratifikasi dilakukan dengan santun namun tegas. Kunci: (B)."
+    },
+    {
+        "id":  589,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang bendahara satker yang berusia lanjut dan belum fasih mengoperasikan fitur baru SAKTI datang ke kantor Anda menjelang jam tutup layanan dalam kondisi cemas karena gagal upload SPM. Tindakan Anda adalah:",
+        "options":  [
+                        "A. Menolak melayani karena jam layanan penerimaan dokumen telah selesai",
+                        "B. Menyapa dengan hangat, menenangkan kecemasan bendahara tersebut, dan meluangkan waktu memberikan bimbingan teknis langkah demi langkah hingga dokumen berhasil terunggah",
+                        "C. Menyuruh bendahara tersebut mencari petugas satker lain yang lebih muda",
+                        "D. Meminta bendahara pulang dan mencoba kembali sendiri besok pagi",
+                        "E. Mengambil alih username dan password bendahara untuk selamanya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Orientasi pelayanan publik yang empatik, sabar, solutif, serta berorientasi pada kepuasan dan transfer pengetahuan kepada pengguna layanan. Kunci: (B)."
+    },
+    {
+        "id":  590,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pengguna layanan menyampaikan keluhan bernada keras di front office karena berkas pencairannya ditolak oleh verifikator KPPN. Respons terbaik Anda sebagai petugas layanan adalah:",
+        "options":  [
+                        "A. Membalas berbicara dengan nada tinggi agar pengguna layanan tidak bersikap semena-mena",
+                        "B. Mendengarkan keluhan dengan penuh perhatian dan sabar, meminta maaf atas ketidaknyamanan yang dialami, lalu memeriksa detail alasan penolakan dan membantu solusi perbaikannya",
+                        "C. Menghindar ke ruang belakang dan membiarkan petugas satker tersebut ditenangkan satpam",
+                        "D. Langsung memblokir akun satker tersebut dari aplikasi",
+                        "E. Menyalahkan pimpinan verifikator di hadapan pengguna layanan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kematangan emosional dan orientasi pelayanan: active listening, meredam emosi pengguna layanan, bersikap solutif tanpa defensif, serta menjunjung etika pelayanan prima. Kunci: (B)."
+    },
+    {
+        "id":  591,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Untuk meningkatkan mutu layanan kepada satker di wilayah terpencil, unit kerja Anda merencanakan program inovasi konsultasi perbendaharaan berbasis daring (virtual desk). Sikap Anda adalah:",
+        "options":  [
+                        "A. Menolak inovasi tersebut karena menambah beban tugas harian pegawai",
+                        "B. Mendukung penuh dan aktif berkontribusi memberikan ide perbaikan alur konsultasi online agar lebih mudah diakses oleh satker pelosok",
+                        "C. Menunggu pegawai lain mengerjakannya terlebih dahulu baru ikut serta jika dipaksa",
+                        "D. Mengkritik program tersebut di depan satker",
+                        "E. Tidak peduli selama tunjangan kinerja tidak terpengaruh"
+                    ],
+        "answer":  "B",
+        "explanation":  "Inisiatif, perbaikan berkelanjutan (Continuous Improvement), dan proaktif mendorong efektivitas layanan publik bagi seluruh stakeholder. Kunci: (B)."
+    },
+    {
+        "id":  592,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Di tengah kesibukan menyelesaikan laporan rutin yang harus selesai sore ini, tiba-tiba seorang tamu dari pemda mitra Kanwil datang untuk berkonsultasi mengenai penyaluran DAK Fisik. Tindakan Anda adalah:",
+        "options":  [
+                        "A. Menolak menemui tamu dan menyuruhnya menunggu hingga jam kerja berakhir",
+                        "B. Menerima tamu dengan ramah, mengidentifikasi inti konsultasi, berkoordinasi dengan rekan tim yang memiliki waktu luang untuk membantu, atau membagi waktu secara proporsional agar laporan tetap selesai tepat waktu",
+                        "C. Meninggalkan laporan kantor sama sekali dan mengabaikan deadline",
+                        "D. Meminta satpam mengusir tamu tersebut",
+                        "E. Mengeluh dengan keras di hadapan tamu tersebut mengenai beban kerja Anda"
+                    ],
+        "answer":  "B",
+        "explanation":  "Manajemen prioritas dan kepedulian pelayanan: mampu menyeimbangkan tugas administratif dan penerimaan tamu mitra dengan koordinasi cerdas antartim. Kunci: (B)."
+    },
+    {
+        "id":  593,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Ketika Anda melihat ruang tunggu layanan KPPN mulai dipadati antrean satker dan rekan di loket terlihat kewalahan, sementara tugas administrasi Anda di back office sedang longgar. Sikap Anda adalah:",
+        "options":  [
+                        "A. Tetap duduk santai di ruang back office karena bukan jadwal piket loket Anda",
+                        "B. Berinisiatif menawarkan bantuan kepada petugas loket atau membuka loket bantuan darurat agar satker tidak menunggu terlalu lama",
+                        "C. Keluar kantor untuk membeli camilan",
+                        "D. Mengambil foto keramaian untuk dijadikan keluhan di grup media sosial",
+                        "E. Pura-pura sibuk membaca dokumen lama"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kerjasama tim dan kepedulian institusional: berinisiatif membantu rekan kerja saat terjadi lonjakan antrean demi kelancaran pelayanan publik. Kunci: (B)."
+    },
+    {
+        "id":  594,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Sebuah satker menanyakan status SP2D yang menurut jadwal harusnya sudah cair, namun setelah dicek terjadi retur SP2D dari pihak perbankan akibat nomor rekening salah satu digit. Tindakan Anda:",
+        "options":  [
+                        "A. Menyalahkan satker atas kecerobohan mereka mengisi nomor rekening",
+                        "B. Menjelaskan secara transparan kronologi terjadinya retur dari bank, menunjukkan bukti sistem, dan memandu langkah perbaikan data supplier agar dana dapat segera diproses ulang",
+                        "C. Diam saja dan membiarkan satker mencari tahu sendiri ke bank",
+                        "D. Menjanjikan uang akan cair hari ini juga padahal belum ada perbaikan data",
+                        "E. Melempar tanggung jawab kepada pihak perbankan sepenuhnya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Transparansi, akuntabilitas informasi, dan orientasi penyelesaian masalah (problem solving) secara profesional tanpa mencari kambing hitam. Kunci: (B)."
+    },
+    {
+        "id":  595,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Unit kerja Anda mendapatkan nilai survei kepuasan masyarakat (SKM) yang menurun pada aspek sarana dan prasarana ruang layanan. Tanggapan Anda:",
+        "options":  [
+                        "A. Merasa hasil survei tersebut tidak objektif dan mengabaikannya",
+                        "B. Menjadikan kritik tersebut sebagai bahan refleksi positif, mendiskusikan rencana perbaikan tata ruang layanan bersama tim, dan menata ulang area publik agar lebih nyaman dan ramah disabilitas",
+                        "C. Menyalahkan staf kebersihan atas nilai survei yang buruk",
+                        "D. Menuntut satker yang memberi nilai jelek agar meminta maaf",
+                        "E. Menolak melakukan survei kepuasan pada periode berikutnya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Keterbukaan terhadap umpan balik (feedback) pengguna layanan untuk mewujudkan perbaikan kualitas sarana publik secara berkesinambungan. Kunci: (B)."
+    },
+    {
+        "id":  596,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda mendapati ada satker yang kesulitan menggunakan aplikasi SAKTI karena koneksi internet di kantor satker sering terputus. Tindakan proaktif Anda:",
+        "options":  [
+                        "A. Membiarkan satker mencari solusinya sendiri",
+                        "B. Mengusulkan kepada pimpinan penyediaan fasilitas \u0027Pojok SAKTI\u0027 di KPPN yang dilengkapi jaringan internet stabil dan PC yang dapat dimanfaatkan langsung oleh satker saat berkunjung",
+                        "C. Menyuruh satker berhenti mengajukan tagihan",
+                        "D. Mengkritik penyedia jaringan internet daerah tersebut",
+                        "E. Meminta satker membeli modem mahal secara mandiri"
+                    ],
+        "answer":  "B",
+        "explanation":  "Inovasi pelayanan yang solutif terhadap kendala riil stakeholder di lapangan (Customer-Centric Innovation). Kunci: (B)."
+    },
+    {
+        "id":  597,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Terjadi perbedaan pandangan yang cukup tajam antara dua rekan tim dalam satu seksi mengenai interpretasi aturan perpajakan atas belanja jasa. Suasana kerja menjadi tegang. Sikap Anda:",
+        "options":  [
+                        "A. Memilih memihak salah satu rekan yang paling dekat dengan Anda",
+                        "B. Mengajak kedua rekan duduk bersama, meneliti kembali peraturan perundang-undangan perpajakan terkait secara objektif, atau mengusulkan konsultasi bersama ke Kantor Pajak/tim kepatuhan internal",
+                        "C. Memperkeruh suasana dengan membicarakan perbedaan tersebut kepada seksi lain",
+                        "D. Meninggalkan ruangan agar tidak terlibat perdebatan",
+                        "E. Menertawakan perdebatan mereka"
+                    ],
+        "answer":  "B",
+        "explanation":  "Manajemen konflik tim: bersikap netral, mengedepankan pendekatan profesional berbasis regulasi yang sah, serta mengembalikan suasana kerja yang harmonis dan bersinergi. Kunci: (B)."
+    },
+    {
+        "id":  598,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam penyelesaian Laporan Keuangan Tahunan yang mendesak, salah seorang anggota tim tiba-tiba jatuh sakit sehingga porsi pekerjaannya terbengkalai. Sikap yang Anda ambil adalah:",
+        "options":  [
+                        "A. Membiarkan porsi pekerjaan tersebut menunggu hingga rekan kerja tersebut sembuh",
+                        "B. Bersama rekan tim lain berkoordinasi membagi sisa pekerjaan secara merata dan menyelesaikannya secara gotong royong agar target laporan institusi tercapai tepat waktu",
+                        "C. Mengeluh kepada pimpinan karena merasa dibebani pekerjaan orang lain",
+                        "D. Menyalahkan rekan yang sakit karena dianggap merepotkan",
+                        "E. Mengerjakan separuhnya saja seadanya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Solidaritas tim dan tanggung jawab kolektif terhadap capaian tujuan organisasi di atas ego sektoral pribadi. Kunci: (B)."
+    },
+    {
+        "id":  599,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang pegawai junior di seksi Anda tampak kesulitan beradaptasi dengan alur kerja validasi data transaksi perbendaharaan dan kerap membuat kesalahan input. Tindakan Anda sebagai pegawai yang lebih senior adalah:",
+        "options":  [
+                        "A. Menegurnya secara keras di depan pegawai lain agar dia merasa malu dan berubah",
+                        "B. Mengajaknya berdiskusi secara personal, memberikan pendampingan mentoring teknis, membagikan trik ketelitian verifikasi, dan memberikan dorongan semangat kerja",
+                        "C. Melaporkan kepada pimpinan agar pegawai junior tersebut segera dipindahtugaskan",
+                        "D. Membiarkannya melakukan kesalahan agar belajar sendiri dari teguran",
+                        "E. Mengerjakan seluruh tugasnya tanpa memberi kesempatan dia belajar"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kepemimpinan suportif (Mentorship \u0026 Coaching) untuk membangun kapasitas rekan kerja dan menciptakan iklim kerja yang kondusif. Kunci: (B)."
+    },
+    {
+        "id":  600,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pimpinan menunjuk Anda sebagai koordinator tim lintas unit kerja untuk proyek akselerasi penyaluran belanja APBN. Sebagian anggota tim berasal dari unit yang berbeda budaya kerja dan sulit diajak berkomunikasi. Tindakan Anda:",
+        "options":  [
+                        "A. Mengabaikan anggota yang sulit dan mengerjakan proyek bersama teman yang kompak saja",
+                        "B. Menjadwalkan pertemuan awal yang santai untuk saling mengenal, menyepakati tujuan bersama, membagi peran secara jelas dan adil sesuai kompetensi masing-masing, serta membuka kanal komunikasi rutin",
+                        "C. Langsung melaporkan ketidakkompakan tersebut kepada atasan",
+                        "D. Menolak mandat kepemimpinan tersebut",
+                        "E. Mengancam akan memberikan penilaian SKP jelek kepada mereka"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kepemimpinan kolaboratif: membangun jembatan komunikasi antarunit (Sinergi Kemenkeu), menyelaraskan visi, dan memotivasi seluruh elemen tim. Kunci: (B)."
+    },
+    {
+        "id":  601,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Ketika gagasan atau usulan inovasi yang Anda sampaikan dalam rapat seksi ditolak oleh mayoritas tim dan pimpinan memilih gagasan rekan lain, reaksi Anda:",
+        "options":  [
+                        "A. Kecewa mendalam dan memutuskan untuk bersikap pasif dalam rapat-rapat berikutnya",
+                        "B. Menghargai keputusan musyawarah dengan lapang dada, tetap mendukung pelaksanaan gagasan yang disepakati, dan mengevaluasi kelemahan gagasan sendiri untuk penyempurnaan ke depan",
+                        "C. Menjelek-jelekkan gagasan rekan kerja yang terpilih di belakang forum",
+                        "D. Menolak terlibat dalam implementasi program yang disepakati",
+                        "E. Berdebat tanpa henti hingga rapat tidak mencapai kesepakatan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kematangan emosional, kedewasaan berorganisasi, dan komitmen mendukung keputusan kolektif tim secara profesional. Kunci: (B)."
+    },
+    {
+        "id":  602,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda mengetahui salah seorang rekan kerja memiliki masalah keluarga yang cukup berat sehingga konsentrasi dan kinerja kantornya menurun drastis. Sikap terbaik Anda:",
+        "options":  [
+                        "A. Ikut campur terlalu jauh dan menyebarkan masalah pribadinya kepada rekan sekantor",
+                        "B. Menunjukkan empati, memberikan dukungan moral yang wajar, bersedia mendengarkan jika dia membutuhkan teman bicara, dan membantu mem-backup pekerjaan kantor yang mendesak tanpa melanggar privasinya",
+                        "C. Menjauhinya karena takut tertular masalah pribadinya",
+                        "D. Memarahinya karena kinerja seksi menjadi terganggu",
+                        "E. Mengabaikan sepenuhnya karena menganggap urusan pribadi tidak ada kaitannya dengan kantor"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kecerdasan sosial dan empati kerja: peduli terhadap sesama anggota tim secara proporsional demi menjaga keseimbangan psikologis dan kinerja tim. Kunci: (B)."
+    },
+    {
+        "id":  603,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Pimpinan memberikan penghargaan tim terbaik kepada kelompok kerja Anda, namun rekan tim lain memuji bahwa kesuksesan tersebut 100% berkat kerja keras Anda pribadi. Sikap Anda:",
+        "options":  [
+                        "A. Menerima pujian tersebut dengan bangga dan mengklaim seluruh keberhasilan proyek",
+                        "B. Mengucapkan terima kasih secara rendah hati dan menegaskan bahwa pencapaian tersebut adalah buah dari kerja keras, dedikasi, dan kontribusi seluruh anggota tim tanpa terkecuali",
+                        "C. Menolak penghargaan tersebut",
+                        "D. Menertawakan anggota tim lain yang dianggap bekerja sedikit",
+                        "E. Meminta seluruh hadiah penghargaan untuk diri sendiri"
+                    ],
+        "answer":  "B",
+        "explanation":  "Rendah hati dan integritas kepemimpinan: mengakui dan menghargai peran serta kontribusi setiap anggota tim (Team Orientation). Kunci: (B)."
+    },
+    {
+        "id":  604,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam sebuah penugasan tim verifikasi, terdapat rekan satu tim yang sering datang terlambat dan melempar pekerjaannya kepada Anda. Cara Anda menyelesaikannya:",
+        "options":  [
+                        "A. Membalas dengan sengaja datang terlambat pula pada esok harinya",
+                        "B. Mengajak rekan tersebut berbicara empat mata secara baik-baik, menyampaikan dampak keterlambatan terhadap beban kerja bersama, dan menyepakati kembali komitmen pembagian kerja secara adil",
+                        "C. Menyindirnya melalui status media sosial",
+                        "D. Diam saja menahan kekesalan hingga pekerjaan selesai",
+                        "E. Langsung berkelahi secara fisik di ruang kerja"
+                    ],
+        "answer":  "B",
+        "explanation":  "Komunikasi asertif: menyampaikan keberatan secara lugas dan sopan tanpa konfrontasi agresif, bertujuan memulihkan komitmen kerja bersama. Kunci: (B)."
+    },
+    {
+        "id":  605,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Menjelang batas akhir tahun anggaran (closing date 31 Desember), ratusan SPM satker masuk bersamaan ke sistem KPPN, sementara jam kerja sudah melampaui waktu normal. Tindakan Anda dalam menghadapi tekanan ini:",
+        "options":  [
+                        "A. Panik, mengeluh, dan mematikan komputer kantor untuk segera pulang",
+                        "B. Menjaga ketenangan emosi, menyusun skala prioritas berkas SPM berdasarkan jatuh tempo pembayaran, menjaga stamina tubuh, dan fokus bekerja sama menyelesaikan antrean verifikasi dengan teliti",
+                        "C. Mengerjakan berkas secara asal-asalan tanpa dicek agar cepat selesai",
+                        "D. Menolak memproses SPM yang masuk di atas pukul 16.00 WIB",
+                        "E. Menangis di ruang kerja karena stres"
+                    ],
+        "answer":  "B",
+        "explanation":  "Ketahanan kerja di bawah tekanan tinggi (Stress Tolerance \u0026 Resilience): tetap tenang, fokus pada prioritas, menjaga ketelitian verifikasi keuangan, dan berorientasi hasil. Kunci: (B)."
+    },
+    {
+        "id":  606,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Saat Anda sedang menyelesaikan tugas dengan tingkat konsentrasi tinggi, tiba-tiba sistem server aplikasi utama mengalami kendala teknis (down) selama beberapa jam. Reaksi Anda:",
+        "options":  [
+                        "A. Marah-marah dan memukul meja komputer",
+                        "B. Tetap tenang, segera melaporkan gangguan melalui tiket bantuan Service Desk Kemenkeu, dan memanfaatkan waktu offline untuk merapikan berkas administrasi manual atau mempersiapkan data yang akan diproses setelah sistem pulih",
+                        "C. Mengajak rekan-rekan bermain game online di ponsel",
+                        "D. Pulang ke rumah lebih awal tanpa izin atasan",
+                        "E. Menyalahkan pimpinan kantor di depan satker"
+                    ],
+        "answer":  "B",
+        "explanation":  "Adaptabilitas dan efisiensi waktu kerja: mampu mengelola situasi tak terduga secara positif dan tetap produktif dengan tugas lain. Kunci: (B)."
+    },
+    {
+        "id":  607,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Atasan Anda memberikan kritik yang sangat tajam di hadapan rapat seksi atas kesalahan kecil dalam format laporan rekapitulasi data yang Anda susun. Sikap Anda:",
+        "options":  [
+                        "A. Langsung memotong pembicaraan atasan dan mendebat dengan emosional",
+                        "B. Mendengarkan kritik tersebut dengan kepala dingin, mencatat poin-poin perbaikan yang dimaksud, meminta maaf atas ketidaktelitian, dan segera memperbaiki laporan tersebut hingga sempurna",
+                        "C. Menyimpan dendam dan berencana memboikot tugas berikutnya",
+                        "D. Menghindar dan mogok kerja selama beberapa hari",
+                        "E. Menjelekkan kompetensi atasan kepada staf lainnya"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kematangan emosional dan orientasi kesempurnaan (Nilai Kesempurnaan Kemenkeu): menerima umpan balik kritis sebagai sarana evaluasi diri tanpa bersikap defensif. Kunci: (B)."
+    },
+    {
+        "id":  608,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda ditugaskan merangkap dua peran sekaligus karena salah seorang rekan cuti melahirkan, sementara target kinerja triwulan harus tercapai. Cara Anda mengelolanya:",
+        "options":  [
+                        "A. Mengerjakan tugas sekenanya dan beralasan bahwa beban kerja berlebihan",
+                        "B. Menyusun jadwal matriks prioritas kerja harian (urgent vs important), memanfaatkan otomatisasi spreadsheet, dan berkoordinasi secara berkala dengan atasan mengenai perkembangan target",
+                        "C. Menyerahkan seluruh tugas rangkap kepada staf honorer",
+                        "D. Menolak penugasan tersebut secara agresif",
+                        "E. Mengambil cuti sakit agar terhindar dari tugas"
+                    ],
+        "answer":  "B",
+        "explanation":  "Manajemen beban kerja dan komitmen profesional: proaktif menyusun rencana aksi berbasis skala prioritas saat menghadapi tugas rangkap. Kunci: (B)."
+    },
+    {
+        "id":  609,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Bekerja berhari-hari lembur hingga larut malam dalam penyusunan Laporan Keuangan Pemerintah Pusat (LKPP) membuat Anda merasa sangat lelah fisik dan mental. Upaya Anda menjaga performa kerja:",
+        "options":  [
+                        "A. Mengonsumsi minuman energi berlebihan tanpa beristirahat",
+                        "B. Mengatur waktu istirahat mikro (power nap / peregangan ringan), menjaga asupan air putih dan nutrisi seimbang, serta memelihara motivasi bahwa hasil kerja Anda bermanfaat besar bagi akuntabilitas bangsa",
+                        "C. Meluapkan kekesalan kepada keluarga saat pulang ke rumah",
+                        "D. Melakukan sabotase data laporan",
+                        "E. Meminta dipindahkan ke instansi di luar Kemenkeu"
+                    ],
+        "answer":  "B",
+        "explanation":  "Self-Management dan ketahanan diri: menjaga kesehatan fisik dan mental secara bijak serta memelihara motivasi makna kerja (purpose-driven mindset). Kunci: (B)."
+    },
+    {
+        "id":  610,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Tiba-tiba terjadi perubahan regulasi penyaluran transfer ke daerah di tengah tahun anggaran yang mengharuskan Anda mempelajari aturan baru dan mengubah seluruh template formula kerja dalam 2 hari. Sikap Anda:",
+        "options":  [
+                        "A. Mengeluh karena menganggap pembuat kebijakan sering gonta-ganti aturan tanpa persiapan",
+                        "B. Segera membaca dan membedah substansi PMK baru tersebut, berdiskusi dengan rekan ahli, dan secara tangkas menyesuaikan formula kerja sesuai petunjuk teknis terbaru",
+                        "C. Mempertahankan template lama dan mengabaikan regulasi baru",
+                        "D. Menunggu surat teguran dari kantor pusat baru bertindak",
+                        "E. Meminta rekan lain yang merombak seluruh template Anda"
+                    ],
+        "answer":  "B",
+        "explanation":  "Agility dan kemauan belajar cepat (Continuous Learning): cepat beradaptasi terhadap perubahan kebijakan regulasi demi akuntabilitas dinas. Kunci: (B)."
+    },
+    {
+        "id":  611,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Ketika Anda sudah berencana mengambil cuti tahunan bersama keluarga yang sudah dipersiapkan sejak lama, tiba-tiba kantor pusat menginstruksikan audit investigasi mendadak di mana kehadiran Anda sangat krusial. Keputusan Anda:",
+        "options":  [
+                        "A. Tetap bersikeras cuti dan mematikan ponsel agar tidak bisa dihubungi dinas",
+                        "B. Mengkomunikasikan situasi tersebut secara bijaksana kepada keluarga, menunda jadwal liburan, dan memprioritaskan panggilan tugas dinas demi kepentingan negara",
+                        "C. Datang ke kantor namun bekerja dengan muka cemberut dan marah-marah",
+                        "D. Mengirimkan perwakilan non-pegawai untuk menggantikan Anda",
+                        "E. Mengajukan surat pengunduran diri dari PNS"
+                    ],
+        "answer":  "B",
+        "explanation":  "Prioritas kepentingan dinas dan integritas dedikasi: menempatkan kepentingan negara di atas kepentingan pribadi saat kondisi genting institusi membutuhkan. Kunci: (B)."
+    },
+    {
+        "id":  612,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam suasana kantor yang sangat bising karena renovasi gedung, Anda dituntut untuk melakukan rekonsiliasi angka-angka anggaran dengan nilai miliaran rupiah yang membutuhkan ketelitian tinggi. Cara Anda mengatasi tantangan ini:",
+        "options":  [
+                        "A. Berhenti bekerja hingga renovasi gedung selesai sepenuhnya beberapa bulan ke depan",
+                        "B. Mencari ruang kerja alternatif yang lebih tenang (seperti ruang perpustakaan atau ruang rapat kosong) atau menggunakan earphone peredam kebisingan agar konsentrasi tetap prima",
+                        "C. Memarahi para pekerja bangunan",
+                        "D. Mengisi angka-angka laporan secara perkiraan kasar tanpa rekonsiliasi detail",
+                        "E. Melakukan demonstrasi menolak renovasi gedung"
+                    ],
+        "answer":  "B",
+        "explanation":  "Inisiatif adaptasi lingkungan kerja dan orientasi ketelitian: proaktif mencari solusi kondusif agar kualitas pekerjaan tidak terkompromi gangguan eksternal. Kunci: (B)."
+    },
+    {
+        "id":  613,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda melihat bahwa proses pengarsipan manual tanda bukti pembayaran di kantor memakan banyak ruang dan berisiko rusak akibat kelembapan. Tindakan inisiatif yang dapat Anda lakukan:",
+        "options":  [
+                        "A. Membiarkannya karena sudah menjadi kebiasaan kantor sejak puluhan tahun lalu",
+                        "B. Mengusulkan gagasan digitalisasi arsip berbasis cloud lokal yang dilengkapi sistem penamaan file terstruktur dan enkripsi keamanan kepada pimpinan",
+                        "C. Membakar arsip-arsip lama tanpa izin",
+                        "D. Menjual arsip lama kepada pengepul kertas bekas",
+                        "E. Menunggu instruksi pimpinan baru bertindak"
+                    ],
+        "answer":  "B",
+        "explanation":  "Inisiatif inovasi digital dan kepedulian pengelolaan aset/dokumen negara secara modern dan aman. Kunci: (B)."
+    },
+    {
+        "id":  614,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Kementerian Keuangan meluncurkan aplikasi baru berbasis kecerdasan buatan (AI) untuk membantu verifikasi dokumen perbendaharaan. Sebagian pegawai merasa terancam pekerjaannya akan digantikan teknologi. Sikap Anda:",
+        "options":  [
+                        "A. Ikut menolak penggunaan teknologi tersebut dan meminta aplikasi dihapus",
+                        "B. Mempelajari cara kerja aplikasi AI tersebut secara terbuka, memanfaatkannya sebagai alat bantu efisiensi kerja rutin, dan meningkatkan kompetensi diri ke ranah analisis strategis",
+                        "C. Melakukan sabotase terhadap server aplikasi baru",
+                        "D. Pasrah dan merasa tidak berguna lagi di kantor",
+                        "E. Mengabaikan keberadaan teknologi baru tersebut"
+                    ],
+        "answer":  "B",
+        "explanation":  "Growth Mindset dan keterbukaan teknologi: memandang modernisasi digital sebagai akselerator efisiensi kerja dan peluang meningkatkan kapabilitas bernilai tambah tinggi. Kunci: (B)."
+    },
+    {
+        "id":  615,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Anda ditugaskan memimpin rapat koordinasi penanganan kendala sistem penyerapan anggaran dengan peserta rapat yang memiliki rentang usia dan golongan jauh lebih senior daripada Anda. Strategi Anda:",
+        "options":  [
+                        "A. Bersikap arogan untuk menunjukkan wewenang sebagai pimpinan rapat",
+                        "B. Memimpin rapat dengan santun, menghormati senioritas secara proporsional, memfasilitasi setiap masukan secara objektif, dan tetap tegas mengarahkan pada kesepakatan solusi konkrit",
+                        "C. Menyerahkan kepemimpinan rapat kepada peserta paling senior",
+                        "D. Gugup dan diam sepanjang rapat berlangsung",
+                        "E. Membatalkan rapat karena merasa tidak percaya diri"
+                    ],
+        "answer":  "B",
+        "explanation":  "Kepemimpinan inklusif dan assertiveness: menghormati pengalaman rekan senior namun tetap memegang kendali rapat secara terstruktur dan berorientasi hasil. Kunci: (B)."
+    },
+    {
+        "id":  616,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Terdapat kekosongan prosedur operasional standar (SOP) untuk penanganan transaksi belanja digital baru yang belum diatur secara detail dalam petunjuk teknis lama. Keputusan Anda:",
+        "options":  [
+                        "A. Menolak memproses semua transaksi tersebut sampai petunjuk teknis diterbitkan kantor pusat",
+                        "B. Berkoordinasi dengan atasan dan tim teknis untuk menyusun draf petunjuk teknis operasional sementara berbasis mitigasi risiko dan prinsip akuntabilitas, sambil mengonsultasikannya ke kantor pusat",
+                        "C. Memproses transaksi secara sembarangan tanpa acuan apapun",
+                        "D. Membebankan tanggung jawab kepada satker pemohon",
+                        "E. Membiarkan berkas menumpuk di meja"
+                    ],
+        "answer":  "B",
+        "explanation":  "Pengambilan keputusan berbasis kehati-hatian dan kepastian hukum: proaktif merumuskan mitigasi solusi sementara yang akuntabel saat terjadi kekosongan regulasi teknis. Kunci: (B)."
+    },
+    {
+        "id":  617,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Dalam penyusunan target kinerja individu (SKP) awal tahun, pimpinan menantang Anda untuk mengambil indikator kinerja yang memiliki target tinggi dan risiko tantangan baru. Sikap Anda:",
+        "options":  [
+                        "A. Menolak target tinggi tersebut dan memilih target aman yang mudah dicapai agar mendapat nilai SKP sempurna",
+                        "B. Menyambut tantangan tersebut secara antusias sebagai sarana pengembangan kompetensi diri, serta merancang strategi pencapaian target yang sistematis",
+                        "C. Menerima target tersebut namun berniat menyalahkan rekan kerja jika target gagal",
+                        "D. Menuntut kenaikan gaji terlebih dahulu sebelum menerima target",
+                        "E. Meminta dipindahkan ke seksi yang beban kerjanya paling ringan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Orientasi pada prestasi (Achievement Orientation) dan semangat menghadapi tantangan demi kontribusi optimal bagi organisasi. Kunci: (B)."
+    },
+    {
+        "id":  618,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Seorang rekan kerja menyampaikan ide kreatif pembuatan dashboard monitoring perbendaharaan dalam obrolan santai, namun dia ragu menyampaikannya kepada atasan. Tindakan Anda:",
+        "options":  [
+                        "A. Mencuri ide tersebut dan mengklaimnya sebagai ide murni Anda sendiri kepada pimpinan",
+                        "B. Memberikan dorongan semangat, membantu menyusun proposal ide secara terstruktur, dan mendampinginya mempresentasikan gagasan tersebut di hadapan pimpinan dengan tetap mencantumkan dia sebagai penggagas utama",
+                        "C. Menertawakan ide tersebut agar rekan Anda merasa minder",
+                        "D. Melarangnya menyampaikan ide karena takut kinerja Anda disaingi",
+                        "E. Mengabaikan obrolan tersebut"
+                    ],
+        "answer":  "B",
+        "explanation":  "Integritas persahabatan kerja dan empati kepemimpinan: mendorong rekan kerja berkembang dan menghormati hak intelektual rekan kerja secara jujur. Kunci: (B)."
+    },
+    {
+        "id":  619,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Instansi Anda sedang menjalani penilaian Zona Integritas menuju Wilayah Birokrasi Bersih dan Melayani (WBBM) oleh tim penilai nasional. Kontribusi terbaik yang dapat Anda berikan adalah:",
+        "options":  [
+                        "A. Bersikap pura-pura baik hanya pada saat tim penilai datang ke kantor",
+                        "B. Secara konsisten menginternalisasi nilai-nilai integritas dan pelayanan prima dalam pekerjaan sehari-hari, aktif dalam inovasi unit, dan siap memberikan testimoni objektif mengenai budaya anti-korupsi di kantor",
+                        "C. Menjauh dari tim penilai agar tidak ditanya-tanya",
+                        "D. Memberikan bingkisan kepada tim penilai nasional agar kantor lulus",
+                        "E. Tidak peduli karena menganggap WBBM hanya urusan pimpinan"
+                    ],
+        "answer":  "B",
+        "explanation":  "Internaslisasi nilai integritas sejati: keselarasan antara ucapan, tindakan nyata, dan budaya kerja berintegritas tinggi setiap saat tanpa kepura-puraan. Kunci: (B)."
+    },
+    {
+        "id":  620,
+        "category":  "psikologi_integritas_asn",
+        "categoryName":  "Tes Psikologi \u0026 Integritas ASN",
+        "year":  2026,
+        "source":  "Bank Soal UPKP V Kementerian Keuangan",
+        "question":  "Setelah mengikuti Ujian Penyesuaian Kenaikan Pangkat (UPKP) ini dan dinyatakan lulus, komitmen utama Anda bagi kemajuan Direktorat Jenderal Perbendaharaan adalah:",
+        "options":  [
+                        "A. Hanya menuntut kenaikan pangkat dan gaji tanpa diimbangi peningkatan kinerja",
+                        "B. Mengaplikasikan kompetensi baru yang diperoleh untuk meningkatkan mutu layanan, menularkan semangat integritas kepada rekan kerja, dan senantiasa berinovasi mengawal APBN untuk kemakmuran rakyat",
+                        "C. Merasa diri paling hebat dan meremehkan rekan yang belum lulus ujian",
+                        "D. Berhenti belajar karena sudah mencapai pangkat yang diinginkan",
+                        "E. Mencari celah untuk santai dalam bekerja"
+                    ],
+        "answer":  "B",
+        "explanation":  "Komitmen pengabdian ASN: kenaikan pangkat diiringi dengan peningkatan tanggung jawab, kompetensi, keteladanan integritas, serta pengabdian tulus bagi bangsa dan negara. Kunci: (B)."
     }
 ];

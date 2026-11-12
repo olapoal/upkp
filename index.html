@@ -400,16 +400,22 @@
 
           <!-- Score Breakdown Grid -->
           <div class="score-grid-summary">
-            <div class="score-metric-card">
+            <div class="score-metric-card" id="cardScorePotensi">
               <div class="score-metric-label">Nilai Tes Potensi</div>
               <div class="score-metric-value" id="scorePotensiVal">512</div>
               <div class="score-metric-threshold" id="scorePotensiThreshold">Passing Grade: ≥ 475</div>
             </div>
 
-            <div class="score-metric-card">
+            <div class="score-metric-card" id="cardScoreTskkwk">
               <div class="score-metric-label">Nilai TSKKWK</div>
               <div class="score-metric-value" id="scoreTskkwkVal">88.5</div>
-              <div class="score-metric-threshold">Passing Grade: ≥ 70.0</div>
+              <div class="score-metric-threshold" id="scoreTskkwkThreshold">Passing Grade: ≥ 70.0</div>
+            </div>
+
+            <div class="score-metric-card" id="cardScorePsikologi" style="display: none;">
+              <div class="score-metric-label">Nilai Tes Psikologi</div>
+              <div class="score-metric-value" id="scorePsikologiVal">85.0</div>
+              <div class="score-metric-threshold" id="scorePsikologiThreshold">Passing Grade: ≥ 70.0</div>
             </div>
 
             <div class="score-metric-card">
@@ -426,7 +432,7 @@
           </div>
 
           <!-- Evaluasi Resmi Pengawas Box -->
-          <div class="ayang-love-celebration" id="ayangCelebrationBox">
+          <div class="ayang-love-celebration evaluasi-official-box" id="ayangCelebrationBox">
             <h3>📋 Catatan & Rekomendasi Evaluasi Kelulusan:</h3>
             <p id="ayangLoveMessage">
               "Peserta telah menyelesaikan seluruh rangkaian materi simulasi UPKP. Silakan pelajari secara komprehensif butir-butir soal dan pembahasan regulasi di bawah ini untuk mengoptimalkan persiapan ujian dinas yang sesungguhnya."
