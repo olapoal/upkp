@@ -269,7 +269,7 @@
                         "D. Pusintek"
                     ],
         "answer":  "B",
-        "explanation":  "Kunci jawaban yang tepat adalah B."
+        "explanation":  "Pembahasan \u0026 Regulasi Teknis: Unit Pembina Teknis Jabatan Fungsional (UPTJF) untuk Jabatan Fungsional Analis Kebijakan di lingkungan Kementerian Keuangan dikoordinasikan di bawah Badan Kebijakan Fiskal (BKF). Berdasarkan PMK tentang petunjuk teknis jabatan fungsional di lingkungan Kemenkeu, BKF bertindak sebagai UPTJF yang bertanggung jawab atas penjaminan mutu, uji kompetensi, dan pengembangan kapasitas para pejabat fungsional Analis Kebijakan."
     },
     {
         "id":  18,
@@ -519,7 +519,7 @@
                         "C. Tidak dapat disimpulkan"
                     ],
         "answer":  "A",
-        "explanation":  "PG – LB - PG – S – Hi - LB"
+        "explanation":  "Langkah Analisis Rute (Graf Transportasi): Berdasarkan aturan lintasan yang ditentukan: (1) Dari Pulo Gadung (PG) harus transit ke Senen (S); (2) Dari Senen (S) lanjut transit ke Harmoni (H); (3) Dari Harmoni (H) menuju ke Lebak Bulus (LB). Rangkaian rute Pulo Gadung menuju Lebak Bulus menjadi: PG -\u003e Senen -\u003e Harmoni -\u003e Lebak Bulus (melewati total 4 halte). Tidak ada rute lain yang melewati halte lebih banyak dari kombinasi ini. Dengan demikian, kesimpulan bahwa rute Pulo Gadung ke Lebak Bulus melewati halte paling banyak adalah BENAR (A)."
     },
     {
         "id":  34,
@@ -619,7 +619,7 @@
                         "E. Saudara kandung"
                     ],
         "answer":  "D",
-        "explanation":  "Hubungan antara P dan Q adalah saudara tiri (Seayah berbeda ibu)"
+        "explanation":  "Langkah Analisis Hubungan Kekerabatan: (1) P lahir dari pasangan X dan Y; (2) Q lahir dari pasangan X dan Z (di mana Z berbeda dari Y); (3) Hal ini menunjukkan bahwa P dan Q memiliki salah satu orang tua kandung yang sama (yaitu X) tetapi lahir dari ibu/ayah yang berlainan (Y dan Z). Berdasarkan terminologi hukum hubungan kekeluargaan, dua anak yang berbagi satu orang tua kandung yang sama disebut bersaudara tiri (seayah atau seibu). Maka hubungan antara P dan Q adalah Saudara Tiri (D)."
     },
     {
         "id":  40,
@@ -636,7 +636,7 @@
                         "E. PT B"
                     ],
         "answer":  "C",
-        "explanation":  "Kunci jawaban yang tepat adalah C."
+        "explanation":  "Langkah Analisis Posisi Spasial: (1) Misalkan garis linier dengan PT E sebagai titik pusat (koordinat 0). Karena PT E terletak persis di tengah-tengah antara PT C dan PT D, maka jika jarak CD = 2x, letak C = -x dan letak D = +x. (2) Jarak AB = 2 × CD = 4x. (3) Berdasarkan kondisi jarak CA = DB = 1/2 AE pada garis lurus, PT D menempati posisi paling ujung terluar pada bentangan peta lokasi kantor tersebut. Maka PT yang posisinya paling jauh adalah PT D (Opsi C)."
     },
     {
         "id":  41,
@@ -684,7 +684,7 @@
                         "D. Kita telah melewati Duri"
                     ],
         "answer":  "D",
-        "explanation":  "(carilah jawaban yang sudah tidak bisa dibantah lagi)"
+        "explanation":  "Langkah Penarikan Kesimpulan (Silogisme Modus Ponens): Premis 1: Untuk menuju Manggarai, syarat mutlaknya adalah HARUS melewati Duri (Kondisi Keharusan / Necessary Condition). Premis 2: Duri dapat ditempuh dari Kampung Bandan ATAU Angke. Fakta: Posisi saat ini sudah berada di Manggarai. Kesimpulan sah: Karena melewati Duri merupakan keharusan mutlak agar bisa sampai di Manggarai, maka dapat dipastikan bahwa kita telah melewati Duri. Jalur sebelum Duri (Bandan/Angke) tidak dapat dipastikan karena bersifat pilihan (\u0027atau\u0027). Maka kesimpulan yang valid adalah \u0027Kita telah melewati Duri\u0027 (D)."
     },
     {
         "id":  44,
@@ -732,7 +732,7 @@
                         "D. Saya tidak boleh berharap banyak untuk lulus"
                     ],
         "answer":  "B",
-        "explanation":  "Saya telah mengecewakan orang-orang terdekat saya"
+        "explanation":  "Langkah Logika Formal Berantai (Silogisme Hipotetis \u0026 Modus Ponens): Premis 1: Malas -\u003e Tidak boleh berharap banyak untuk lulus pascasarjana. Premis 2: Tidak boleh berharap banyak untuk lulus pascasarjana -\u003e Telah mengecewakan orang-orang terdekat. Silogisme dari P1 \u0026 P2: Malas -\u003e Telah mengecewakan orang-orang terdekat. Premis 3 (Fakta): Saya malas. Berdasarkan Modus Ponens, karena anteseden \u0027malas\u0027 terpenuhi, maka kesimpulan mutlaknya adalah: \u0027Saya telah mengecewakan orang-orang terdekat saya\u0027 (B)."
     },
     {
         "id":  47,
@@ -993,7 +993,7 @@
                         "D. N M"
                     ],
         "answer":  "D",
-        "explanation":  "I K M L K M O N M +2 +2 -1 - 1 +2 +2, Dua suku selanjutnya -1, -1"
+        "explanation":  "Langkah Analisis Pola Deret Huruf: Konversikan huruf ke nomor urut alfabet (A=1, B=2, dst.): I(9), K(11), M(13), L(12), K(11), M(13), O(15). Amati pola operasi selisih antar suku: 9 -\u003e 11 (+2), 11 -\u003e 13 (+2), 13 -\u003e 12 (-1), 12 -\u003e 11 (-1), 11 -\u003e 13 (+2), 13 -\u003e 15 (+2). Pola perubahan berulang secara ritmis: (+2, +2, -1, -1, +2, +2, -1, -1). Dua suku berikutnya setelah O(15) harus mengikuti operasi (-1, -1): Suku ke-8 = 15 - 1 = 14 (huruf N); Suku ke-9 = 14 - 1 = 13 (huruf M). Maka dua huruf selanjutnya adalah N dan M (Opsi D)."
     },
     {
         "id":  63,
@@ -1057,7 +1057,7 @@
                         "D. 1548"
                     ],
         "answer":  "A",
-        "explanation":  "C (10,6) + C (10,7) + C(10,4) + C(10,9) 210 + 120 + 210 + 252 -\u003e 792"
+        "explanation":  "Langkah Kombinatorika Distribusi: Terdapat 10 orang yang akan didistribusikan ke Mobil 1 (kapasitas maks 6) dan Mobil 2 (kapasitas maks 7), dengan syarat setiap mobil minimal berisi 2 orang. Kemungkinan distribusi pasangan (Mobil 1, Mobil 2) adalah: (1) Pasangan (3, 7): C(10, 3) = 10! / (3! × 7!) = 120 cara; (2) Pasangan (4, 6): C(10, 4) = 10! / (4! × 6!) = 210 cara; (3) Pasangan (5, 5): C(10, 5) = 10! / (5! × 5!) = 252 cara; (4) Pasangan (6, 4): C(10, 6) = 210 cara. Total cara distribusi = 120 + 210 + 252 + 210 = 792 kemungkinan (Opsi A)."
     },
     {
         "id":  67,
@@ -1217,7 +1217,7 @@
                         "D. 12"
                     ],
         "answer":  "D",
-        "explanation":  "2 sendok sayur =   cangkir = 4 Sendok makan = 12 sendok teh"
+        "explanation":  "Langkah Perhitungan Konversi Bertingkat: (1) Konversi sendok sayur ke cangkir: 8 sendok sayur = 1 cangkir -\u003e 1 sendok sayur = 1/8 cangkir. Maka 2 sendok sayur = 2 × (1/8) = 1/4 cangkir. (2) Konversi cangkir ke sendok makan: 1 cangkir = 16 sendok makan -\u003e 1/4 cangkir = 1/4 × 16 = 4 sendok makan. (3) Konversi sendok makan ke sendok teh: 1 sendok makan = 3 sendok teh -\u003e 4 sendok makan = 4 × 3 = 12 sendok teh. Dengan demikian, nilai x = 12 sendok teh (Opsi D)."
     },
     {
         "id":  77,
@@ -1408,8 +1408,8 @@
                         "C. 5/12",
                         "D. Tidak ada jawaban"
                     ],
-        "answer":  "C",
-        "explanation":  "Kunci jawaban yang tepat adalah C."
+        "answer":  "B",
+        "explanation":  "Langkah Perhitungan Teori Peluang: (1) Jumlah kejadian siswa perempuan yang dapat dipilih: n(A) = 8 orang. (2) Jumlah ruang sampel seluruh siswa dalam kelompok: n(S) = 8 (perempuan) + 4 (laki-laki) = 12 orang. (3) Rumus peluang teoritis kejadian: P(A) = n(A) / n(S) = 8 / 12 (dapat disederhanakan menjadi 2/3). Karena pada pilihan jawaban tersedia bentuk pecahan 8/12, maka opsi yang tepat adalah B (8/12)."
     },
     {
         "id":  89,

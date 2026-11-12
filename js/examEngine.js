@@ -400,6 +400,8 @@ const ExamEngine = {
         isCorrect: isCorrect,
         isMarked: !!this.markedQuestions[idx],
         categoryName: q.categoryName,
+        subtestTitle: q.subtestTitle || (isPotensi ? 'Subtes I: Tes Potensi Akademik' : (isPsikologi ? 'Subtes III: Tes Psikologi & Integritas ASN' : 'Subtes II: TSKKWK & Perbendaharaan')),
+        subtestShortName: q.subtestShortName || (isPotensi ? 'Potensi' : (isPsikologi ? 'Psikologi' : 'TSKKWK')),
         explanation: q.explanation || `Kunci jawaban yang benar adalah ${correctAns}.`
       });
     });

@@ -745,7 +745,10 @@
 
       card.innerHTML = `
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
-          <strong style="color: var(--kemenkeu-blue);">Butir Soal #${item.number} • ${item.categoryName}</strong>
+          <div>
+            <span class="meta-pill" style="font-size: 0.72rem; margin-right: 6px; background: var(--kemenkeu-hover); border-color: var(--kemenkeu-border);">${item.subtestShortName || 'UPKP'}</span>
+            <strong style="color: var(--kemenkeu-blue);">Butir Soal #${item.number} • ${item.categoryName}</strong>
+          </div>
           ${badgeHtml}
         </div>
         <div style="font-weight: 500; margin-bottom: 0.5rem; line-height: 1.5;">${item.question}</div>
