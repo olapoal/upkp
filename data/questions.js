@@ -1,11 +1,11 @@
-window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
+﻿window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
     {
         "id":  1,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "koordinasi yang dilakukan oleh seorang pejabat Pimpinan atau suatu instansi terhadap pejabat atau instansi lain yang lebih rendah tingkatannya tetapi bukan bawahannya",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Koordinasi yang dilakukan oleh seorang pejabat Pimpinan atau suatu instansi terhadap pejabat atau instansi lain yang lebih rendah tingkatannya tetapi bukan bawahannya",
         "options":  [
                         "A. Koordinasi fungsional horizontal",
                         "B. Koordinasi fungsional diagonal",
@@ -20,7 +20,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Siapakah yang bertindak sebagai unsur pengawas dalam susunan organisasi Kementerian?",
         "options":  [
                         "A. Wakil Menteri",
@@ -29,14 +29,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Inspektorat Jenderal"
                     ],
         "answer":  "D",
-        "explanation":  "A. Wakil Menteri -\u003e Unsur pembantu pemimpin B. Sekretariat Jenderal -\u003e Unsur koordinator pelaksana C. Direktorat Jenderal -\u003e Unsur Pelaksana D. Inspektorat Jenderal -\u003e Unsur pengawas Bimbel Giving (0896-900-15102)"
+        "explanation":  "A. Wakil Menteri -\u003e Unsur pembantu pemimpin B. Sekretariat Jenderal -\u003e Unsur koordinator pelaksana C. Direktorat Jenderal -\u003e Unsur Pelaksana D. Inspektorat Jenderal -\u003e Unsur pengawas"
     },
     {
         "id":  3,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "(a) penyelenggaraan pengelolaan barang milik/kekayaan negara (b) koordinasi dan penyusunan peraturan perundang-undangan dan bantuan hukum (c) pembinaan dan penyelenggaraan organisasi dan tata laksana, kerjasama, dan hubungan masyarakat; Poin-poin diatas merupakan fungsi yang dilakukan oleh",
         "options":  [
                         "A. Sekretariat Jenderal",
@@ -52,11 +52,11 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Perimbangan Keuangan antara Pemerintah dan Pemerintahan Daerah merupakan bagian pengaturan yang tidak terpisahkan dari sistem Keuangan Negara, dan dimaksudkan untuk mengatur sistem pendanaan atas kewenangan pemerintahan yang diserahkan, dilimpahkan, dan ditugasbantukan kepada Daerah. Direktorat Jenderal Perimbangan Keuangan mempunyai tugas menyelenggarakan perumusan dan pelaksanaan kebijakan di bidang alokasi dan pengelolaan dana perimbangan dan transfer ke daerah lainnya, dan pajak daerah dan retribusi daerah sesuai dengan ketentuan peraturan perundang-undangan. Direktorat Jenderal Perimbangan Keuangan terdiri atas, kecuali ….",
         "options":  [
                         "A. Direktorat Dana Transfer Umum",
-                        "B. Direktorat Dana Transfer Khusus Bimbel Giving (0896-900-15102)",
+                        "B. Direktorat Dana Transfer Khusus",
                         "C. Direktorat Pendapatan dan Hibah Daerah",
                         "D. Direktorat Sistem Informasi dan Pelaksanaan Transfer"
                     ],
@@ -68,7 +68,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Kementerian Keuangan merupakan kementerian negara di lingkungan Pemerintah Indonesia yang membidangi urusan keuangan negara. Dibawah ini yang termasuk dalam struktur organisasi Kementerian Keuangan, kecuali ……..",
         "options":  [
                         "A. Staf Ahli Bidang Pengawasan Pajak",
@@ -77,15 +77,15 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Pusat Sistem Informasi dan kebijakan"
                     ],
         "answer":  "D",
-        "explanation":  "Susunan Organisasi Kementerian Keuangan terdiri atas: a. Sekretariat Jenderal; b. Direktorat Jenderal Anggaran; c. Direktorat Jenderal Pajak;  d. Direktorat Jenderal Bea dan Cukai; e. Direktorat Jenderal Perbendaharaan; f. Direktorat Jenderal Kekayaan Negara; g. Direktorat Jenderal Perimbangan Keuangan; h. Direktorat Jenderal Pengelolaan Pembiayaan dan Risiko; Bimbel Giving (0896-900-15102) i. Inspektorat Jenderal; J. Badan Kebijakan Fiskal; k. Badan Pendidikan dan Pelatihan Keuangan;"
+        "explanation":  "Susunan Organisasi Kementerian Keuangan terdiri atas: a. Sekretariat Jenderal; b. Direktorat Jenderal Anggaran; c. Direktorat Jenderal Pajak; d. Direktorat Jenderal Bea dan Cukai; e. Direktorat Jenderal Perbendaharaan; f. Direktorat Jenderal Kekayaan Negara; g. Direktorat Jenderal Perimbangan Keuangan; h. Direktorat Jenderal Pengelolaan Pembiayaan dan Risiko; i. Inspektorat Jenderal; j. Badan Kebijakan Fiskal; k. Badan Pendidikan dan Pelatihan Keuangan; l. Staf Ahli; serta Pusat-Pusat teknis. Pusat Sistem Informasi dan Kebijakan bukan merupakan bagian dari struktur resmi Kemenkeu. Kunci jawaban: (D)."
     },
     {
         "id":  6,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Staf Ahli Bidang Peraturan dan Penegakan Hukum Pajak; m. Staf Ahli Bidang Kepatuhan Pajak; n. Staf Ahli Bidang Pengawasan Pajak; o. Staf Ahli Bidang Penerimaan Negara; p. Staf Ahli Bidang Pengeluaran Negara; q. Staf Ahli Bidang Ekonomi Makro dan Keuangan Internasional; r. Staf Ahli Bidang Jasa Keuangan dan Pasar Modal; s. Staf Ahli Bidang Organisasi, Birokrasi, dan Teknologi Informasi; t. Staf Ahli Bidang Hukum dan Hubungan Kelembagaan; u. Pusat Sistem Informasi dan Teknologi Keuangan; v. Pusat Pembinaan Profesi Keuangan; dan w. Pusat Analisis dan Harmonisasi Kebijakan. 6. Biro pada Sekretariat Jenderal Kementerian Keuangan dimana tugasnya melaksanakan perencanaan, pengelolaan, analisis, edukasi, pemantauan, evaluasi, dan pelaporan kinerja organisasi dan risiko di lingkungan Kementerian Keuangan disebut dengan ….",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Biro pada Sekretariat Jenderal Kementerian Keuangan dimana tugasnya melaksanakan perencanaan, pengelolaan, analisis, edukasi, pemantauan, evaluasi, dan pelaporan kinerja organisasi dan risiko di lingkungan Kementerian Keuangan disebut dengan ….",
         "options":  [
                         "A. Biro Perencanaan dan keuangan",
                         "B. Biro hukum",
@@ -93,14 +93,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Biro umum"
                     ],
         "answer":  "A",
-        "explanation":  "Melaksanakan perencanaan, pengelolaan, analisis, edukasi, pemantauan, evaluasi, dan pelaporan kinerja organisasi dan risiko di lingkungan Kementerian Keuangan -\u003e Merupakan tugas bagian pengelolaan kinerja dan risiko yang berada di bawah biro perencanaan dan keuangan Bimbel Giving (0896-900-15102)"
+        "explanation":  "Melaksanakan perencanaan, pengelolaan, analisis, edukasi, pemantauan, evaluasi, dan pelaporan kinerja organisasi dan risiko di lingkungan Kementerian Keuangan merupakan tugas Bagian Pengelolaan Kinerja dan Risiko yang berada di bawah Biro Perencanaan dan Keuangan. Kunci jawaban: (A)."
     },
     {
         "id":  7,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Kantor Pengawasan dan Pelayanan Bea dan Cukai (KPPBC) merupakan instansi vertikal yang berada di bawah dan bertanggung jawab kepada kepala Kantor Wilayah. KPPBC terdiri dari, kecuali …",
         "options":  [
                         "A. KPPBC Tipe Madya Pabean",
@@ -116,7 +116,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Direktor Jenderal Perbendaharaan merupakan unit eselon 1 di bawah Kementerian Keuangan. Berikut ini adalah fungsi dari Direktorat Jenderal Perbendaharaan yaitu, kecuali ….",
         "options":  [
                         "A. perumusan kebijakan di bidang pelaksanaan anggaran, pengelolaan kas dan investasi, pembinaan pengelolaan keuangan Badan Layanan Umum dan akuntansi dan pelaporan keuangan pemerintah",
@@ -125,14 +125,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. pelaksanaan pemantauan, evaluasi, dan pelaporan di bidang pelaksanaan anggaran, pengelolaan kas dan investasi, pembinaan pengelolaan keuangan badan layanan umum, serta akuntansi dan pelaporan keuangan pemerintah"
                     ],
         "answer":  "C",
-        "explanation":  "Bimbel Giving (0896-900-15102) Pemberian bimbingan teknis dan supervisi di bidang barang milik negara, kekayaan negara yang dipisahkan, kekayaan negara lain-lain, penilaian, piutang negara, dan lelang -\u003e Fungsi DJKN"
+        "explanation":  "Pemberian bimbingan teknis dan supervisi di bidang barang milik negara, kekayaan negara yang dipisahkan, kekayaan negara lain-lain, penilaian, piutang negara, dan lelang -\u003e Fungsi DJKN"
     },
     {
         "id":  9,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Secara struktur organisasi, Direktorat Barang milik negara berada di bawah ……",
         "options":  [
                         "A. Direktorat Jenderal Kekayaan Negara",
@@ -148,7 +148,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Secara struktur organisasi, Pusat Kebijakan Sektor Keuangan berada di bawah ……",
         "options":  [
                         "A. Direktorat Jenderal Kekayaan Negara",
@@ -157,14 +157,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Direktorat Jenderal Perimbangan Keuangan"
                     ],
         "answer":  "C",
-        "explanation":  "Badan Kebijakan Fiskal terdiri dari: a. Sekretariat Badan; b. Pusat Kebijakan Pendapatan Negara; c. Pusat Kebijakan Anggaran Pendapatan dan Belanja Negara; d. Pusat Kebijakan Ekonomi Makro; e. Pusat Kebijakan Sektor Keuangan; Bimbel Giving (0896-900-15102) f. Pusat Kebijakan Pembiayaan Perubahan Iklim dan Multilateral; dan g. Pusat Kebijakan Regional dan Bilateral Bimbel Giving (0896-900-15102)"
+        "explanation":  "Badan Kebijakan Fiskal terdiri dari: a. Sekretariat Badan; b. Pusat Kebijakan Pendapatan Negara; c. Pusat Kebijakan Anggaran Pendapatan dan Belanja Negara; d. Pusat Kebijakan Ekonomi Makro; e. Pusat Kebijakan Sektor Keuangan;  f. Pusat Kebijakan Pembiayaan Perubahan Iklim dan Multilateral; dan g. Pusat Kebijakan Regional dan Bilateral"
     },
     {
         "id":  11,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Sebagaimana diatur dalam …….. UUD 1945, Presiden dalam menyelenggarakan pemerintahan dibantu menteri-menteri",
         "options":  [
                         "A. Pasal 16",
@@ -180,7 +180,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Berdasarkan Peraturan Presiden Nomor 32 Tahun 2021 tentang Perubahan atas Peraturan Presiden Nomor 68 Tahun 2019 tentang Organisasi Kementerian Negara mengatur bahwa Kementerian Negara salah satunya terdiri atas Kementerian Kelompok III. Dibawah ini yang termasuk kedalam Kementerian kelompok III adalah ……..",
         "options":  [
                         "A. Kementerian Koordinator Bidang Perekonomian",
@@ -196,7 +196,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dibawah ini yang bertugas dalam enyelenggarakan urusan tertentu dalam pemerintahan untuk membantu presiden dalam menyelenggarakan pemerintahan negara disesuaikan dengan peran kementerian dalam pelaksanaan agenda pembangunan nasional, kecuali ………",
         "options":  [
                         "A. Kementerian Koordinator",
@@ -212,7 +212,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dibawah ini kementerian yang berfungsi menyelesaikan permasalahan yang tidak dapat diselesaikan atau disepakati antar kementerian/lembaga dan memastikan terlaksananya keputusan dimaksud, yaitu …..",
         "options":  [
                         "A. Kementerian Koordinator",
@@ -221,14 +221,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Kementerian kelompok III"
                     ],
         "answer":  "A",
-        "explanation":  "5. Unsur pelaksana pada kementerian kelompok III yang menyelenggarakan perumusan kebijakan serta koordinasi dan singkronisasi kebijakan di bidangnya yaitu ……. A. Sekretariat Kementerian B. Deputi C. Badan dan/atau Pusat D. Direktorat Jenderal Jawaban: B Direktorat Jenderal -\u003e Unsur pelaksana pada kementerian kelompok I dan II"
+        "explanation":  "Kementerian Koordinator mempunyai tugas menyinkronkan dan mengoordinasikan pelaksanaan urusan kementerian-kementerian serta menyelesaikan permasalahan yang tidak dapat diselesaikan atau disepakati antar kementerian/lembaga dan memastikan terlaksananya keputusan dimaksud. Kunci jawaban: (A)."
     },
     {
         "id":  15,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Menteri dan Menteri Koordinator dapat dibantu oleh Staf Ahli. Staf Ahli mempunyai tugas memberikan rekomendasi terhadap isu-isu strategis kepada menteri atau Menteri Koordinator sesuai keahliannya. Staf Ahli paling banyak …… Staf Ahli dan tidak melebihi jumlah unsur pelaksana.",
         "options":  [
                         "A. Tiga",
@@ -237,14 +237,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Enam"
                     ],
         "answer":  "C",
-        "explanation":  "7. Jabatan Fungsional penilai pemerintah merupakan jabatan fungsional yang bersifat ……. Dengan UPTJF adalah ………… A. Terbuka, Direktorat Jenderal Perbendaharaan B. Tertutup, Direktorat Jenderal Perbendaharaan C. Tertutup, Direktorat Jenderal Kekayaan Negara D. Terbuka, Direktorat Jenderal Kekayaan Negara Jawaban: D"
+        "explanation":  "Berdasarkan peraturan tentang organisasi kementerian, Menteri dan Menteri Koordinator dapat dibantu oleh paling banyak 5 (lima) orang Staf Ahli dan tidak melebihi jumlah unsur pelaksana. Kunci jawaban: (C)."
     },
     {
         "id":  16,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jabatan Fungsional analisis pembiayaan dan risiko keuangan merupakan jabatan fungsional yang bersifat ……. Dengan UPTJF adalah …………",
         "options":  [
                         "A. Terbuka, Direktorat Jenderal Perbendaharaan",
@@ -253,14 +253,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Terbuka, Direktorat Jenderal Pengelolaan Pembiayaan dan Risiko"
                     ],
         "answer":  "C",
-        "explanation":  "9. Jabatan Fungsional analisis kebijakan memiliki instansi pembina, yaitu …… A. LAN B. LIPI C. BPS D. LKPP Jawaban: A Instansi pembina jabatan fungsional analisis kebijakan adalah LAN dengan UPTJF yaitu BKF"
+        "explanation":  "Jabatan Fungsional Analis Pembiayaan dan Risiko Keuangan (APRK) merupakan jabatan fungsional yang bersifat tertutup dengan Unit Pembina Teknis Jabatan Fungsional (UPTJF) adalah Direktorat Jenderal Pengelolaan Pembiayaan dan Risiko (DJPPR). Kunci jawaban: (C)."
     },
     {
         "id":  17,
         "category":  "tskkwk_tusi_kemenkeu",
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jabatan Fungsional analisis kebijakan memiliki UPTJF, yaitu ……",
         "options":  [
                         "A. Inspektorat Jenderal",
@@ -276,7 +276,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Berdasarkan UU ASN disebutkan bahwa ASN sebagai profesi berlandaskan pada prinsip berikut, kecuali …..",
         "options":  [
                         "A. Kode etik dan kode perilaku",
@@ -292,7 +292,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Kode etik dan kode perilaku bertujuan untuk menjaga martabat dan kehormatan ASN. Kode etik dan kode perilaku berisi pengaturan perilaku agar pegawai ASN, kecuali …….",
         "options":  [
                         "A. Menggunakan kekayaan dan barang Milik Negara secara efisien",
@@ -301,15 +301,15 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Menjaga kerahasiaan yang menyangkut kebijakan negara"
                     ],
         "answer":  "A",
-        "explanation":  "Kode etik dan kode perilaku bertujuan untuk menjaga martabat dan kehormatan ASN. Kode etik dan kode perilaku berisi pengaturan perilaku agar pegawai ASN:"
+        "explanation":  "Kode etik dan kode perilaku bertujuan untuk menjaga martabat dan kehormatan ASN. Kode etik dan kode perilaku berisi pengaturan perilaku agar pegawai ASN: 1) melaksanakan tugasnya dengan jujur, bertanggung jawab, dan berintegritas tinggi; 2) melaksanakan tugasnya dengan cermat dan disiplin; 3) melayani dengan sikap hormat, sopan, dan tanpa tekanan; 4) melaksanakan tugasnya sesuai dengan ketentuan peraturan perundang-undangan; 5) melaksanakan tugasnya sesuai dengan perintah atasan sejauh tidak bertentangan dengan peraturan perundang-undangan; 6) menjaga kerahasiaan yang menyangkut kebijakan negara; 7) menggunakan kekayaan dan barang milik negara secara bertanggung jawab, efektif, dan efisien; 8) menjaga agar tidak terjadi konflik kepentingan dalam melaksanakan tugasnya. Kunci jawaban: (A)."
     },
     {
         "id":  20,
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "melaksanakan tugasnya dengan jujur, bertanggung jawab, dan berintegritas tinggi; 2) melaksanakan tugasnya dengan cermat dan disiplin; 3) melayani dengan sikap hormat, sopan, dan tanpa tekanan; 4) melaksanakan tugasnya sesuai dengan ketentuan peraturan perundang-undangan; 5) melaksanakan tugasnya sesuai dengan perintah atasan atau Pejabat yang Berwenang sejauh tidak bertentangan dengan ketentuan peraturan perundang-undangan dan etika pemerintahan; 6) menjaga kerahasiaan yang menyangkut kebijakan negara; 7) menggunakan kekayaan dan barang milik Negara secara bertanggung jawab, efektif, dan efisien; 8) menjaga agar tidak terjadi konflik kepentingan dalam melaksanakan tugasnya. 3. Dibawah ini merupakan peraturan perundang-undangan yang mengatur terkait kode etik PNS adalah …..",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Dibawah ini merupakan peraturan perundang-undangan yang mengatur terkait kode etik PNS adalah …..",
         "options":  [
                         "A. Peraturan Pemerintah Nomor 17 tahun 2003",
                         "B. Peraturan Pemerintah Nomor 42 Tahun 2004",
@@ -317,14 +317,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Peraturan Pemerintah Nomor 1 Tahun 2003"
                     ],
         "answer":  "B",
-        "explanation":  "Pengaturan tentang kode etik PNS mengacu kepada Peraturan Pemerintah No. 42 Tahun 2004 tentang Pembinaan Jiwa Korps dan Kode Etik PNS Masuk kelas ID (0896-900-15102)"
+        "explanation":  "Pengaturan tentang pembinaan jiwa korps dan kode etik Pegawai Negeri Sipil diatur dalam Peraturan Pemerintah No. 42 Tahun 2004. Kunci jawaban: (B)."
     },
     {
         "id":  21,
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Terdapat beberapa butir etika Pegawai Negeri Sipil. Mewujudkan pola hidup sederhana termasuk dalam etika Pegawai Negeri Sipil dalam …..",
         "options":  [
                         "A. Bermasyarakat",
@@ -340,7 +340,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Terdapat beberapa butir etika Pegawai Negeri Sipil. Memiliki daya juang yang tinggi termasuk dalam etika Pegawai Negeri Sipil terhadap…..",
         "options":  [
                         "A. Bermasyarakat",
@@ -356,7 +356,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Terdapat beberapa butir etika Pegawai Negeri Sipil. Berhimpun dalam satu wadah Korps Pegawai Republik Indonesia termasuk etika Pegawai Negeri Sipil terhadap ……",
         "options":  [
                         "A. Bermasyarakat",
@@ -372,7 +372,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Terdapat beberapa butir etika Pegawai Negeri Sipil. Berorientasi kepada peningkatan kesejahteraan masyarakat termasuk etika Pegawai Negeri Sipil terhadap ……",
         "options":  [
                         "A. Bermasyarakat",
@@ -388,24 +388,24 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Kode etik dapat disusun untuk kode etik instansi dan kode etik masing-masing organisasi profesi. Agar kode etik berfungsi sebagaimana diharapkan maka syarat mutlak yang harus dipenuhi diantaranya adalah ….",
         "options":  [
                         "A. Pelaksanaan kode etik harus diawasi terus menerus",
                         "B. Kode etik harus disusun berdasarkan asas efektif dan efisien",
                         "C. Kode etik harus menyesuaikan dengan birokrasi yang berlaku",
-                        "D. Kode etik disesuaikan dengan memperhatikan kebijakan politik yang berlaku Masuk kelas ID (0896-900-15102)"
+                        "D. Kode etik disesuaikan dengan memperhatikan kebijakan politik yang berlaku"
                     ],
         "answer":  "A",
-        "explanation":  "Kode etik berfungsi sebagaimana diharapkan maka syarat mutlak yang harus dipenuhi diantaranya adalah"
+        "explanation":  "Agar kode etik berfungsi sebagaimana diharapkan maka syarat mutlak yang harus dipenuhi diantaranya: 1) kode etik dibuat oleh masing-masing profesi sehingga kode etik itu bisa dijiwai oleh cita-cita dan nilai-nilai yang hidup dalam profesi yang bersangkutan; 2) pelaksanaan kode etik harus diawasi terus-menerus, setiap kasus pelanggaran dievaluasi dan dikenakan tindakan oleh suatu komite khusus. Kunci jawaban: (A)."
     },
     {
         "id":  26,
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "kode etik dibuat oleh masing-masing profesi sehingga kode etik itu bisa dijiwai oleh cita- cita dan nilai-nilai yang hidup dalam profesi yang bersangkutan, dengan kata lain, kode etik harus merupakan hasil pemikiran dan pengaturan anggota profesi tersebut; 2) pelaksanaan kode etik harus diawasi terus menerus, setiap kasus pelanggaran dievaluasi dan dikenakan tindakan oleh suatu komite khusus untuk itu. 9. Setiap jabatan fungsional yang telah ditetapkan wajib memiliki satu organisasi profesi JF dalam jangka waktu paling lama …… terhitung sejak tanggal penetapan JF",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Setiap jabatan fungsional yang telah ditetapkan wajib memiliki satu organisasi profesi JF dalam jangka waktu paling lama …… terhitung sejak tanggal penetapan JF",
         "options":  [
                         "A. 1 tahun",
                         "B. 3 tahun",
@@ -413,14 +413,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 10 tahun"
                     ],
         "answer":  "C",
-        "explanation":  "Setiap jabatan fungsional yang telah ditetapkan wajib memiliki satu organisasi profesi JF dalam jangka waktu paling lama 5 tahun terhitung sejak tanggal penetapan JF"
+        "explanation":  "Setiap jabatan fungsional yang telah ditetapkan wajib memiliki satu organisasi profesi JF dalam jangka waktu paling lama 5 tahun terhitung sejak tanggal penetapan JF. Kunci jawaban: (C)."
     },
     {
         "id":  27,
         "category":  "tskkwk_etika_pns",
         "categoryName":  "Etika \u0026 Kode Etik PNS",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dibawah ini merupakan tugas dari organisasi profesi Jabatan Fungsional, kecuali …..",
         "options":  [
                         "A. Menyusun dan menetapkan kode etik dan perilaku profesi sebelum mendapat persetujuan dari pimpinan instansi pembina",
@@ -429,14 +429,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Memeriksa pelanggaran kode etik dan kode perilaku profesi"
                     ],
         "answer":  "A",
-        "explanation":  "Organisasi profesi Jabatan Fungsional mempunyai tugas: a) Menyusun dan menetapkan kode etik dan kode perilaku profesi setelah mendapat persetujuan dari pimpinan instansi pembina. b) memberikan advokasi; dan c) memeriksa dan memberikan rekomendasi atas pelanggaran kode etik dan kode perilaku profesi. Masuk kelas ID (0896-900-15102)"
+        "explanation":  "Organisasi profesi Jabatan Fungsional mempunyai tugas: a) Menyusun dan menetapkan kode etik dan kode perilaku profesi setelah mendapat persetujuan dari pimpinan instansi pembina. b) memberikan advokasi; dan c) memeriksa dan memberikan rekomendasi atas pelanggaran kode etik dan kode perilaku profesi."
     },
     {
         "id":  28,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Untuk menduduki sebuah profesi dipasar modal seseorang harus melalui enam rangkaian ujian, meliputi TKU, TOEFL, Psikotest, Wawancara, Kesehatan, dan Studi Kasus. Sebagian ujian merupakan kelanjutan dari ujian lainnya sehingga harus ditempuh sesuai urutan yang benar. Ketentuan pengambilan ujian sebagai berikut: (-) Ujian wawancara harus diambil tepat setelah ujian Psikotest. (-) Ujian studi kasus diambil sebelum ujian TOEFL, tetapi tidak boleh sebelum ujian TKU. (-) Ujian kesehatan harus diambil pada urutan kedua dari seluruh rangkaian ujian Berdasarkan penjelasan diatas, urutan yang benar adalah Psikotest – Kesehatan – Studi kasus – TOEFL – Wawancara – TKU",
         "options":  [
                         "A. Kesimpulan Benar",
@@ -451,10 +451,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Olia bertugas mengatur tempat duduk pembicara seminar diatas panggung, dari kiri ke kanan yang diberi nomor 1 s.d. 5. Dalam seminar ini diundang politikus, ekonom, peneliti, dan pengamat. Nama para pembicara tersebut termasuk moderator adalah Jesika, Karsa, Lisa, Mirna, dan Nanda (-) Moderator duduk persis di tengah barisan pembicara (-) Peneliti tidak duduk di sebelah pengamat (-) Nanda adalah politikus (-) Mirna tepat di kanan Karsa (-) Ekonom dan peneliti duduk di sisi-sisi sebelah moderator (-) Karsa yang bukan moderator duduk di antara Mirna dan Lisa (-) Moderator tidak duduk di sebelah Lisa atau Nanda (-) Jesika yang merupakan peneliti duduk di kursi nomor 4. Berdasarkan penjelasan diatas, pekerjaan Lisa adalah politikus",
         "options":  [
-                        "A. Kesimpulan Benar Bimbel Giving (0896-900-15102)",
+                        "A. Kesimpulan Benar",
                         "B. Tidak dapat disimpulkan",
                         "C. Kesimpulan salah"
                     ],
@@ -466,7 +466,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Olia bertugas mengatur tempat duduk pembicara seminar diatas panggung, dari kiri ke kanan yang diberi nomor 1 s.d. 5. Dalam seminar ini diundang politikus, ekonom, peneliti, dan pengamat. Nama para pembicara tersebut termasuk moderator adalah Jesika, Karsa, Lisa, Mirna, dan Nanda (-) Moderator duduk persis di tengah barisan pembicara (-) Peneliti tidak duduk di sebelah pengamat (-) Nanda adalah politikus (-) Mirna tepat di kanan Karsa (-) Ekonom dan peneliti duduk di sisi-sisi sebelah moderator (-) Karsa yang bukan moderator duduk di antara Mirna dan Lisa (-) Moderator tidak duduk di sebelah Lisa atau Nanda (-) Jesika yang merupakan peneliti duduk di kursi nomor 4. Berdasarkan penjelasan diatas, Lisa duduk di kursi nomor 1",
         "options":  [
                         "A. Kesimpulan benar",
@@ -474,14 +474,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "C. Tidak dapat disimpulkan"
                     ],
         "answer":  "A",
-        "explanation":  "Aturan Umum Bimbel Giving (0896-900-15102) • Mod = 3 • Pi ≠ Pt • N = Pol • K,M • Eko – Mod – Pi atau Pi – Mod – Eko • K ≠ Mod dan M – K – L • Mod ≠ L atau Mod ≠ N • J = Pi dan J = 4 1 2 3 4 5 Pt Eko (poin 5) Mod (poin 1) Pi (Poin 8) Pol L K (poin 6) M J (Poin 8) N"
+        "explanation":  "Aturan Umum  • Mod = 3 • Pi ≠ Pt • N = Pol • K,M • Eko – Mod – Pi atau Pi – Mod – Eko • K ≠ Mod dan M – K – L • Mod ≠ L atau Mod ≠ N • J = Pi dan J = 4 1 2 3 4 5 Pt Eko (poin 5) Mod (poin 1) Pi (Poin 8) Pol L K (poin 6) M J (Poin 8) N"
     },
     {
         "id":  31,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Olia bertugas mengatur tempat duduk pembicara seminar diatas panggung, dari kiri ke kanan yang diberi nomor 1 s.d. 5. Dalam seminar ini diundang politikus, ekonom, peneliti, dan pengamat. Nama para pembicara tersebut termasuk moderator adalah Jesika, Karsa, Lisa, Mirna, dan Nanda (-) Moderator duduk persis di tengah barisan pembicara (-) Peneliti tidak duduk di sebelah pengamat (-) Nanda adalah politikus (-) Mirna tepat di kanan Karsa (-) Ekonom dan peneliti duduk di sisi-sisi sebelah moderator (-) Karsa yang bukan moderator duduk di antara Mirna dan Lisa (-) Moderator tidak duduk di sebelah Lisa atau Nanda (-) Jesika yang merupakan peneliti duduk di kursi nomor 4. Berdasarkan penjelasan diatas, Karsa dan Nanda memiliki profesi yang sama",
         "options":  [
                         "A. Kesimpulan benar",
@@ -489,14 +489,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "C. Tidak dapat disimpulkan"
                     ],
         "answer":  "C",
-        "explanation":  "5. Busway merupakan salah satu alternatif transportasi yang disediakan pemerintah untuk membantu mengurangi kemacetan lalu lintas di Jakarta. Busway telah dirancang khusus dengan rute dan jadwal perjalanan . Disediakan Busway dengan enam halte yaitu Lebak Bulus, Harmoni, Senen, Pulo Gadung, Matraman, dan Halimun. Rute perjalanan diatur sebagai berikut : (-) Lebak Bulus ke Harmoni dan Halimun ke Matraman Bimbel Giving (0896-900-15102) (-) Senen ke Pulo Gadung, Senen ke Matraman, dan Senen ke Harmoni (-) Harmoni ke Lebak Bulus dan Harmoni ke Senen (-) Pulo Gadung ke Matraman dan Pulo Gadung ke Senen (-) Matraman ke Halimun, Matraman ke Senen, dan Matraman ke Pulo Gadung Berdasarkan penjelasan diatas, jika halte harmoni ditutup maka perjalan lebak bulus ke senen menjadi tidak mungkin A. Kesimpulan benar B. Kesimpulan salah C. Tidak dapat disimpulkan Jawaban: A (-) LB – Hi ; Hn ; M (-) S – PG ; M ; Hi (-) Hi – LB ; S (-) PG – M ; S (-) M – Hn ; S : PG Rute seharusnya LB – Hi – S. Kalau Hi ditutup gak bisa sampai di S"
+        "explanation":  "Berdasarkan rute perjalanan: Lebak Bulus (LB) -\u003e Harmoni (Hi) -\u003e Senen (S). Rute dari Lebak Bulus menuju Senen harus transit melalui Halte Harmoni (LB - Hi - S). Jika Halte Harmoni ditutup, maka perjalanan dari Lebak Bulus ke Senen menjadi tidak mungkin. Kesimpulan Benar. Kunci jawaban: (A)."
     },
     {
         "id":  32,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Busway merupakan salah satu alternatif transportasi yang disediakan pemerintah untuk membantu mengurangi kemacetan lalu lintas di Jakarta. Busway telah dirancang khusus dengan rute dan jadwal perjalanan . Disediakan Busway dengan enam halte yaitu Lebak Bulus, Harmoni, Senen, Pulo Gadung, Matraman, dan Halimun. Rute perjalanan diatur sebagai berikut : (-) Lebak Bulus ke Harmoni dan Halimun ke Matraman (-) Senen ke Pulo Gadung, Senen ke Matraman, dan Senen ke Harmoni (-) Harmoni ke Lebak Bulus dan Harmoni ke Senen (-) Pulo Gadung ke Matraman dan Pulo Gadung ke Senen (-) Matraman ke Halimun, Matraman ke Senen, dan Matraman ke Pulo Gadung Berdasarkan penjelasan diatas, dengan harus melewati dua halte, Pulogadung dapat dicapai dari Harmoni",
         "options":  [
                         "A. Kesimpulan Benar",
@@ -504,14 +504,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "C. Tidak dapat disimpulkan"
                     ],
         "answer":  "B",
-        "explanation":  "Bimbel Giving (0896-900-15102) Berdasarkan penjelasan diatas, dengan harus melewati dua halte, Pulogadung dapat dicapai dari Lebak Bulus LB – M – PG"
+        "explanation":  "Dengan melewati dua halte, rute dari Lebak Bulus menuju Pulogadung dapat dicapai melalui rute Lebak Bulus -\u003e Matraman -\u003e Pulogadung (LB - M - PG). Kunci jawaban: (B)."
     },
     {
         "id":  33,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Busway merupakan salah satu alternatif transportasi yang disediakan pemerintah untuk membantu mengurangi kemacetan lalu lintas di Jakarta. Busway telah dirancang khusus dengan rute dan jadwal perjalanan . Disediakan Busway dengan enam halte yaitu Lebak Bulus, Harmoni, Senen, Pulo Gadung, Matraman, dan Halimun. Rute perjalanan diatur sebagai berikut : (-) Lebak Bulus ke Harmoni dan Halimun ke Matraman (-) Senen ke Pulo Gadung, Senen ke Matraman, dan Senen ke Harmoni (-) Harmoni ke Lebak Bulus dan Harmoni ke Senen (-) Pulo Gadung ke Matraman dan Pulo Gadung ke Senen (-) Matraman ke Halimun, Matraman ke Senen, dan Matraman ke Pulo Gadung Berdasarkan penjelasan diatas, rute pulo gadung-lebak bulus melewati halte paling banyak",
         "options":  [
                         "A. Kesimpulan Benar",
@@ -526,23 +526,23 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Empat orang karyasiswa Kemenkeu: Fakih, Galih, Hadi, dan Ikin ingin ikut kuliah S2 ke Universitas X dengan pilihan jurusan: Manajemen, Statistika, Teknik Informatika, Hubungan Internasional, dan Teknologi Pendidikan. Tiap Jurusan hanya boleh dipilih satu karyasiswa dan semua karyasiswa harus memilih jurusan yang tersedia. Ketentuannya yaitu : (-) Hadi dan Fakih tidak memilih Manajemen; (-) Galih akan memilih jurusan Statistika atau Teknik Informatika; (-) Ikin hanya boleh memilih jurusan Manajemen atau Hubungan Internasional; (-) Jika Ikin memilih Hubungan Internasional maka Hadi akan memilih Teknik Informatika; (-) Teknologi Pendidikan akan dipilih oleh Fakih, jika jurusan Teknik Informatika dan Hubungan Internasional sudah terpilih. Dari pernyataan diatas, jika Ikin memilih jurusan hubungan internasional maka Galih memilih jurusan Statistika Bimbel Giving (0896-900-15102)",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Empat orang karyasiswa Kemenkeu: Fakih, Galih, Hadi, dan Ikin ingin ikut kuliah S2 ke Universitas X dengan pilihan jurusan: Manajemen, Statistika, Teknik Informatika, Hubungan Internasional, dan Teknologi Pendidikan. Tiap Jurusan hanya boleh dipilih satu karyasiswa dan semua karyasiswa harus memilih jurusan yang tersedia. Ketentuannya yaitu : (-) Hadi dan Fakih tidak memilih Manajemen; (-) Galih akan memilih jurusan Statistika atau Teknik Informatika; (-) Ikin hanya boleh memilih jurusan Manajemen atau Hubungan Internasional; (-) Jika Ikin memilih Hubungan Internasional maka Hadi akan memilih Teknik Informatika; (-) Teknologi Pendidikan akan dipilih oleh Fakih, jika jurusan Teknik Informatika dan Hubungan Internasional sudah terpilih. Dari pernyataan diatas, jika Ikin memilih jurusan hubungan internasional maka Galih memilih jurusan Statistika.",
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Kesimpulan Salah",
                         "C. Tidak dapat disimpulkan"
                     ],
         "answer":  "A",
-        "explanation":  "9. Empat orang karyasiswa Kemenkeu: Fakih, Galih, Hadi, dan Ikin ingin ikut kuliah S2 ke Universitas X dengan pilihan jurusan: Manajemen, Statistika, Teknik Informatika, Hubungan Internasional, dan Teknologi Pendidikan. Tiap Jurusan hanya boleh dipilih satu karyasiswa dan semua karyasiswa harus memilih jurusan yang tersedia. Ketentuannya yaitu : (-) Hadi dan Fakih tidak memilih Manajemen; (-) Galih akan memilih jurusan Statistika atau Teknik Informatika; (-) Ikin hanya boleh memilih jurusan Manajemen atau Hubungan Internasional; (-) Jika Ikin memilih Hubungan Internasional maka Hadi akan memilih Teknik Informatika; (-) Teknologi Pendidikan akan dipilih oleh Fakih, jika jurusan Teknik Informatika dan Hubungan Internasional sudah terpilih. Dari pernyataan diatas, Bila ada satu karyasiswa lain yaitu Adi yang dapat memilih jurusan apapun selain Teknik Informatika dan Teknologi Pendidikan, agar semua dapat dimasukkan ke jurusan yang ada, Fakih harus memilih teknik informatika A. Kesimpulan Benar B. Kesimpulan Salah C. Tidak dapat disimpulkan Bimbel Giving (0896-900-15102) Jawaban: Kesimpulan Salah"
+        "explanation":  "Jika Ikin memilih jurusan Hubungan Internasional, maka sesuai ketentuan Hadi akan memilih Teknik Informatika. Karena Galih memilih jurusan Statistika atau Teknik Informatika, sedangkan Teknik Informatika sudah dipilih Hadi, maka Galih pasti memilih jurusan Statistika. Kesimpulan Benar. Kunci jawaban: (A)."
     },
     {
         "id":  35,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Urutan jenis buku pelajaran pad arak tersebut dari kiri ke kanan adalah …",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Enam buku pelajaran yaitu IPA, IPS, Pendidikan Agama, Bahasa Indonesia, Matematika, dan Penjaskes ditata berjajar di sebuah rak dari kiri ke kanan dengan ketentuan:\n1. Buku Pendidikan Agama berada paling kiri rak.\n2. Buku Bahasa Indonesia berada di antara buku Pendidikan Agama dan buku Penjaskes.\n3. Buku IPS terletak di ujung kanan rak.\n4. Buku IPA berada di sebelah kanan buku Matematika.\nUrutan jenis buku pelajaran pada rak tersebut dari kiri ke kanan adalah …",
         "options":  [
                         "A. Buku Pendidikan Agama, Penjaskes, Matematika, Bahasa Indonesia, IPA dan IPS",
                         "B. Buku IPS, Penjaskes, Matematika, Pendidikan Agama, Bahasa Indonesia dan IPA",
@@ -551,15 +551,15 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Buku IPS, Bahasa Indonesia, Penjaskes, IPA, Matematika dan Pendidikan Agama"
                     ],
         "answer":  "C",
-        "explanation":  "2. Jika buku Penjaskes dipindah di ujung kiri rak buku maka urutannya menjadi : A. Buku Penjaskes, Pendidikan Agama, Matematika, Bahasa Indonesia, IPA dan IPS B. Buku Penjaskes, IPS, Matematika, Pendidikan Agama, Bahasa Indonesia dan IPA C. Buku Penjaskes, IPS, Bahasa Indonesia, IPA, Matematika dan Pendidikan Agama D. Buku Penjaskes, Bahasa Indonesia, Pendidikan Agama, Matematika, IPA dan IPS E. Buku Penjaskes, Pendidikan Agama, Bahasa Indonesia, Matematika, IPA dan IPS Jawaban: E"
+        "explanation":  "Berdasarkan petunjuk:\n(1) Posisi 1 (paling kiri) = Buku Pendidikan Agama.\n(2) Buku Bahasa Indonesia di antara Pendidikan Agama dan Penjaskes, sehingga posisi 1, 2, 3 = Pendidikan Agama, Bahasa Indonesia, Penjaskes.\n(3) Posisi 6 (paling kanan) = Buku IPS.\n(4) Buku IPA di kanan Matematika, sehingga posisi 4, 5 = Matematika, IPA.\nUrutan lengkap dari kiri ke kanan: Pendidikan Agama, Bahasa Indonesia, Penjaskes, Matematika, IPA, IPS. Kunci jawaban: (C)."
     },
     {
         "id":  36,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Jika posisi urutan letak buku pelajaran pada soal nomor sebelumnya, buku Pendidikan Agama berada di antara :",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Berdasarkan susunan buku pelajaran pada nomor sebelumnya (Pendidikan Agama, Bahasa Indonesia, Penjaskes, Matematika, IPA, IPS), jika buku Penjaskes dipindah ke ujung paling kiri rak buku, maka buku Pendidikan Agama berada di antara:",
         "options":  [
                         "A. Buku Penjaskes dan Matematika",
                         "B. Buku Penjaskes dan Bahasa Indonesia",
@@ -567,16 +567,16 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Buku IPA dan Matematika",
                         "E. Buku Bahasa Indonesia dan Matematika"
                     ],
-        "answer":  "C",
-        "explanation":  "4. Jika pada susunan semula, buku Matematika bertukar posisi dengan buka IPA dan buku Bahasa Indonesia bertukar posisi dengan buku Penjaskes maka pernyataan yang benar adalah … A. Buku Matematika berada di sebelah kanan buku Bahasa Indonesia B. Buku IPA berada di sebelah kiri buku Pendidikan Agama C. Buku Matematika berada di antara buku IPS dan buku Bahasa Indonesia D. Buku Bahasa Indonesia berada di sebelah kiri buku IPA E. Buku IPA berada di antara buku Pendidikan Agama dan buku Matematika Jawaban: E"
+        "answer":  "B",
+        "explanation":  "Jika buku Penjaskes dipindah ke posisi paling kiri, susunan dari kiri ke kanan menjadi: Penjaskes, Pendidikan Agama, Bahasa Indonesia, Matematika, IPA, IPS. Dengan susunan ini, buku Pendidikan Agama berada di antara buku Penjaskes dan buku Bahasa Indonesia. Kunci jawaban: (B)."
     },
     {
         "id":  37,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Jika pada susunan semula, buku Matematika dipindah di ujung kiri rak buku dan buku Pendidikan Agama dipindah di sebelah kanan buku IPA maka susunannya menjadi …",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Jika pada susunan semula (Pendidikan Agama, Bahasa Indonesia, Penjaskes, Matematika, IPA, IPS), buku Matematika dipindah ke ujung paling kiri rak buku dan buku Pendidikan Agama dipindah ke sebelah kanan buku IPA, maka susunannya menjadi …",
         "options":  [
                         "A. Buku Matematika, Penjaskes, IPS, IPA, Pendidikan Agama dan Bahasa Indonesia",
                         "B. Buku Matematika, Bahasa Indonesia, IPA, Pendidikan Agama, Penjaskes dan IPS",
@@ -584,16 +584,16 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Buku Matematika, Bahasa Indonesia, IPA, Pendidikan Agama, IPS dan Penjaskes",
                         "E. Buku Matematika, IPA, Pendidikan Agama, Bahasa Indonesia, Penjaskes dan IPS"
                     ],
-        "answer":  "E",
-        "explanation":  "6. Berdasarkan soal nomor sebelumnya, letak buku Bahasa Indonesia adalah … A. Di sebelah kanan buku Penjaskes B. Di sebelah kanan buku Matematika C. Di sebelah kiri buku IPS D. Di antara buku IPA dan buku Penjaskes E. Di antara buku Penjaskes dan buku Pendidikan Agama Jawaban: A"
+        "answer":  "C",
+        "explanation":  "Susunan awal: Pendidikan Agama, Bahasa Indonesia, Penjaskes, Matematika, IPA, IPS. Jika buku Matematika dipindah ke ujung kiri rak dan buku Pendidikan Agama diletakkan di sebelah kanan buku IPA, urutan dari kiri ke kanan menjadi: Buku Matematika, Bahasa Indonesia, Penjaskes, IPA, Pendidikan Agama dan IPS. Kunci jawaban: (C)."
     },
     {
         "id":  38,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Enam peserta duduk berurutan pada saat SKB CPNS 2020. Tini tidak bersalahan dengan Salim atau Tia. Nila duduk di dekat Tia. Tini duduk di dekat Zuhri dan Zuhri duduk di sebelah Nila. Salim tidak ingin didahului Hady dan hady bersebelahan dengan Tini. Tia duduk di urutan terakhir. Peserta yang duduk diurutan kedua adalah ……",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Enam peserta duduk berurutan pada saat SKB CPNS 2020. Tini tidak bersebelahan dengan Salim atau Tia. Nila duduk di dekat Tia. Tini duduk di dekat Zuhri dan Zuhri duduk di sebelah Nila. Salim tidak ingin didahului Hady dan Hady bersebelahan dengan Tini. Tia duduk di urutan terakhir. Peserta yang duduk di urutan kedua adalah ……",
         "options":  [
                         "A. Zuhri",
                         "B. Tini",
@@ -602,14 +602,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Zuhri"
                     ],
         "answer":  "D",
-        "explanation":  "8. Pada sebuah meja bundar terdapat 7 kursi dan diduduki oleh 6 orang. A duduk di depan B, C duduk di 3 kursi di sebelah kanan B, di sebelah kanan dan kiri B diisi oleh E dan F. Kursi mana yang kosong ? A. Kursi diantara F dan E B. Kursi diantara C dan A C. Kursi diantara B dan A D. Kursi diantara E dan C E. Kursi diantara A dan E Jawaban: D Kursi yang masih kosong adalah (-) Kursi diantara C dan E atau sebaliknya (-) Kursi diantara F dan A atau sebaliknya"
+        "explanation":  "Berdasarkan petunjuk urutan 1 s.d. 6: Tia duduk di posisi terakhir (6). Nila duduk di dekat Tia (5). Zuhri duduk di sebelah Nila (4). Tini duduk di dekat Zuhri (3). Hady bersebelahan dengan Tini (2). Salim tidak ingin didahului Hady (1). Urutan dari pertama ke terakhir: Salim (1), Hady (2), Tini (3), Zuhri (4), Nila (5), Tia (6). Peserta yang duduk di urutan kedua adalah Hady. Kunci jawaban: (D)."
     },
     {
         "id":  39,
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "P adalah seorang anak yang lahir dari pasangan X dan Y. Q adalah anak yang lahir dari pasangan X dan Z. Hubungan antara P dan Q adalah …..",
         "options":  [
                         "A. Saudara sepupu",
@@ -626,7 +626,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_figural_analitikal",
         "categoryName":  "Tes Potensi - Analitikal",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jarak antara PT A dan PT B adalah dua kali jarak kantor PT C dan PT D. Sedangkan PT E terletak di tengah-tengah antara PT C dan PT D. Selanjutnya diketahui bahwa jarak PT C ke PT A sama dengan jarak PT D ke PT B, yaitu setengah dari jarak PT A ke PT E. PT manakah yang jaraknya paling jauh …",
         "options":  [
                         "A. PT E",
@@ -643,7 +643,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jika saya tidak belajar, maka saya tidak akan mendapatkan makan hari ini. Jika saya tidak mendapatkan makan hari ini, maka konsentrasi saya akan berkurang. Invers dari kalimat di atas adalah ...",
         "options":  [
                         "A. Jika saya tidak belajar, maka konsentrasi saya akan berkurang.",
@@ -659,7 +659,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Pak Broto selalu menggunakan baju berwarna putih ke kantor. Bu Broto selalu menggunakan Baju berwarna kuning cerah ke arisan. Jika Pak Broto menggunakan baju kuning, maka Bu Broto Akan menggunakan baju berwarna merah. Konvers dari kalimat di atas adalah ...",
         "options":  [
                         "A. Jika Bu Broto tidak menggunakan baju berwarna merah, maka Pak Broto tidak menggunakan baju berwarna kuning.",
@@ -675,12 +675,12 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jika kita ingin ke Manggarai kita harus melewati Duri .Duri dapat ditempuh dari Kampung Bandan Atau Angke. Jika kita berada di Manggarai maka …",
         "options":  [
                         "A. Rute kita adalah Manggarai kemudian Angke",
                         "B. Kita telah melewati Kampung Bandan dan Angke",
-                        "C. Kita telah melewati Kampung Bandan dan Duri Masuk Kelas ID (0896-900-15102)",
+                        "C. Kita telah melewati Kampung Bandan dan Duri",
                         "D. Kita telah melewati Duri"
                     ],
         "answer":  "D",
@@ -691,7 +691,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jika saya tekun belajar, maka saya optimis bisa lulus. Jika saya lulus, orang tua saya Menghadiahkan mobil alphard. Ternyata mobil alphard jazz hanyalah mimpi saya.",
         "options":  [
                         "A. Jika saya belajar maka alphard tidaklah menjadi sekadar mimpi namun kenyataan",
@@ -700,14 +700,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Tidak dapat disimpulkan"
                     ],
         "answer":  "D",
-        "explanation":  "5. Jika jadwalnya Quiz Audit Dadakan (QAD), maka saya belajar dengan sistem kebut semalam. Jika saya belajar dengan sistem kebut semalam, maka saya mendapat nilai jelek. A. Jika jadwalnya Quiz Audit Dadakan (QAD), maka saya mendapat nilai jelek karena menggunaan sistem kebut semalam B. Jika jadwalnya Quiz Audit Dadakan (QAD) maka saya mendapat nilai jelek C. Jika jadwalnya tidak Quiz Audit Dadakan (QAD), maka saya tidak mendapat nilai jelek D. Jika saya tidak mendapat nilai jelek, maka jadwalnya saya tidak Quiz Audit Dadakan (QAD) Jawaban: D"
+        "explanation":  "Pernyataan bahwa mobil alphard hanyalah mimpi (berarti mobil tidak diperoleh) tidak memberikan kepastian apakah orang tersebut tekun belajar atau tidak, ataupun lulus atau tidak. Sehingga kesimpulan yang pasti tidak dapat ditarik. Kunci jawaban: (D) Tidak dapat disimpulkan."
     },
     {
         "id":  45,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Rumah di sekitaran Jakarta Pusat sangatlah mahal. Namun, tekad saya untuk menjadikan Warisan uang menjadi rumah harus diwujudkan sesuai dengan wasiat ayah ibu saya. Jika harga rumah naik, maka saya membeli hanya sedikit saja. Dibanding pesaingnya, yaitu apartemen, apabila harga apartemen lebih murah dibandingkan dengan rumah, maka saya lebih memilih untuk membeli apartemen.",
         "options":  [
                         "A. Jika harga apartemen tdak lebih murah dibandingkan dengan rumah, maka saya tidak membeli apartemen",
@@ -716,14 +716,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. Jika harga naik, maka rumah berbanding terbalik dengan apartemen"
                     ],
         "answer":  "A",
-        "explanation":  "Jika harga apartemen tdak lebih murah dibandingkan dengan rumah, maka saya tidak membeli apartemen Masuk Kelas ID (0896-900-15102)"
+        "explanation":  "Jika harga apartemen tidak lebih murah dibandingkan dengan rumah, maka saya tidak membeli apartemen. Kunci jawaban: (B)."
     },
     {
         "id":  46,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jika saya malas, maka saya tidak boleh berharap banyak untuk lulus pascasarjana. Jika saya tidak boleh berharap banyak untuk lulus pascasarjana, maka saya telah mengecewakan orang-orang terdekat saya. Saya malas.",
         "options":  [
                         "A. Saya tidak mengecewakan orang-orang terdekat saya",
@@ -739,7 +739,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Semua guru berangkat ke sekolah pada pagi hari dan pulang pada petang hari. Sebagian orang lulusan Fakultas Keguruan dan Ilmu Pendidikan (FKIP) berprofesi sebagai guru. Intan adalah lulusan FKIP Universitas Tanjungpura Pontianak. Intan berangkat kerja di pagi hari dan pulang pada petang hari.",
         "options":  [
                         "A. Intan bukan guru",
@@ -755,7 +755,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Semua PNS memiliki kartu pegawai. Sebagian warga Tangerang adalah PNS.",
         "options":  [
                         "A. Pemilik Kartu Pegawai adalah warga Tangerang",
@@ -771,23 +771,23 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Tidak semua warga wajib memiliki Kartu Sehat. Halimah adalah warga desa.",
         "options":  [
-                        "A. Halimah wajib memiliki Kartu Sehat Masuk Kelas ID (0896-900-15102)",
+                        "A. Halimah wajib memiliki Kartu Sehat",
                         "B. Warga desa harus memiliki Kartu Sehat",
                         "C. Halimah memiliki Kartu Sehat",
                         "D. Tidak dapat disimpulkan"
                     ],
         "answer":  "D",
-        "explanation":  "Jawaban yang tepat harusnya, Halimah mungkin memiliki kartu sehat. Dari opsi yang tersedia tidak ada yang tepat. Masuk Kelas ID (0896-900-15102)"
+        "explanation":  "Berdasarkan premis yang diberikan, kesimpulan yang paling tepat adalah bahwa Halimah mungkin memiliki Kartu Sehat. Kunci jawaban: (B)."
     },
     {
         "id":  50,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Banyak seniman di Bali yang menjadi penari. Pak Wayan seorang seniman di Bali",
         "options":  [
                         "A. Selain menjadi penari, Pak Wayan juga seorang pemahat",
@@ -797,14 +797,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Pak Wayan pasti menjadi penari"
                     ],
         "answer":  "D",
-        "explanation":  "2. Semua dokter kandungan adalah perempuan. Sebagian dokter kandungan memiliki klinik bersalin. A. Ada dokter kandungan selain perempuan B. Beberapa dokter kandungan yang tidak memiliki klinik bersalin adalah bukan perempuan C. Sementara dokter kandungan tidak memiliki klinik bersalin D. Semua dokter kandungan memiliki klinik bersalin E. Tidak ada kesimpulan yang tepat Jawaban: C"
+        "explanation":  "Premis \u0027Banyak seniman di Bali yang menjadi penari\u0027 menunjukkan sebagian (tidak seluruh) seniman di Bali adalah penari. Karena Pak Wayan adalah seorang seniman di Bali, maka Pak Wayan mungkin menjadi penari. Kunci jawaban: (D)."
     },
     {
         "id":  51,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Semua ikan di dalam kolam akan di kirim ke Kebumen. Sebagian ikan adalah ikan gurami",
         "options":  [
                         "A. Sementara ikan nila belum dikirim",
@@ -814,14 +814,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Sebagian ikan yang akan dikirim ke Kebumen adalah selain ikan gurami"
                     ],
         "answer":  "E",
-        "explanation":  "4. Jika Ratna pergi ke Candi Prambanan maika ia juga pergi ke Keraton Yogyakarta. Jika Ratna pergi ke Keraton Yogyakarta maka Kiki pergi ke Candi Borobudur. Kiki pergi ke Malioboro A. Ratna dan Kiki pergi ke Malioboro B. Ratna pergi ke Kereton Yogyakarta dan Candi Borobudur C. Kiki dan Ratna pergi ke Candi Prambanan D. Ratna pergi ke Candi Prambanan dan Keraton Yogyakarta E. Ratna tidak pergi ke Candi Prambanan Jawaban: E"
+        "explanation":  "Seluruh ikan di kolam dikirim ke Kebumen. Karena sebagian ikan adalah ikan gurami, maka sebagian ikan lainnya adalah selain ikan gurami, dan seluruhnya tetap dikirim ke Kebumen. Jadi, sebagian ikan yang dikirim ke Kebumen adalah selain ikan gurami. Kunci jawaban: (E)."
     },
     {
         "id":  52,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Mahasiswa semester awal tidak dizinkan mengikuti semester pendek. Sementara Santi semester enam.",
         "options":  [
                         "A. Santi boleh mengikuti semester pendek",
@@ -831,14 +831,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Tidak ada kesimpulan yang tepat"
                     ],
         "answer":  "A",
-        "explanation":  "6. Jika Martha pandai melukis maka Dias pandai berhitung. Martha tidak pandai melukis tetapi pandai berhitung. cek A. Martha dan Dias pandai berhitung B. Dias pandai berhitung C. Martha tidak pandai melukis jika Dias pandai berhitung D. Dias dan Martha pandai melukis E. Dias tidak pandai berhitung Jawaban: E"
+        "explanation":  "Larangan mengikuti semester pendek hanya berlaku untuk mahasiswa semester awal. Santi berada di semester enam (bukan semester awal), sehingga Santi diperbolehkan mengikuti semester pendek. Kunci jawaban: (A)."
     },
     {
         "id":  53,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Beberapa guru olah raga bergabung dalam paguyuban guru olahraga. Setiap guru olahraga tidak ada yang menjadi anggota paguyuban lain. Pak Narto adalah anggota paguyuban lain.",
         "options":  [
                         "A. Pak Narto adalah anggota paguyuban guru olah raga",
@@ -848,14 +848,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Beberapa anggota paguyuban lain adalah anggota paguyuban guru olahraga"
                     ],
         "answer":  "C",
-        "explanation":  "8. Kontraposisi dari: “Jika sungai itu dalam maka sungai itu banyak ikannya” adalah... A. Jika sungai itu tidak dalam maka sungai itu tidak banyak ikannya. B. Jika sungai itu banyak ikannya maka sungai itu dalam. C. Jika sungai itu tidak banyak ikannya maka sungai itu tidak dalam. D. Jika sungai itu dalam maka ikannya tidak banyak. E. Jika sungai itu dalam maka sungai itu banyak ikannya. Jawaban: C p: Sungai itu dalam q: Sungai itu banyak ikannya Maka soal di atas akan menjadi: p ⇒ q Kontraposisi dari p ⇒ q adalah ~q ⇒ ~p “Jika Sungai itu tidak banyak ikannya maka sungai itu tidak dalam”"
+        "explanation":  "Premis: Setiap guru olahraga tidak ada yang menjadi anggota paguyuban lain (Jika guru olahraga maka bukan anggota paguyuban lain). Kontraposisi: Jika anggota paguyuban lain, maka bukan guru olahraga. Karena Pak Narto adalah anggota paguyuban lain, maka Pak Narto bukan anggota paguyuban guru olahraga. Kunci jawaban: (C)."
     },
     {
         "id":  54,
         "category":  "potensi_verbal",
         "categoryName":  "Tes Potensi - Penalaran Verbal \u0026 Silogisme",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Invers dari pernyataan “jika cuaca cerah, maka matahari bersinar” adalah …..",
         "options":  [
                         "A. Cuaca tidak cerah tetapi matahari bersinar",
@@ -865,14 +865,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "E. Jika matahari tidak bersinar maka cuaca tidak cerah"
                     ],
         "answer":  "B",
-        "explanation":  "10. Ingkaran dari pernyataan “semua makhluk hidup perlu makan dan minum” adalah ... A. Semua makhluk hidup tidak perlu makan dan minum B. Ada makhluk hidup yang tidak perlu makan atau minum C. Ada makhluk hidup yang tidak perlu makan dan minum D. Semua makhluk hidup tidak perlu makan dan minum E. Semua makhluk hidup perlu makan tetapi tidak perlu minum Jawaban: B Ingkaran dari “semua” adalah “ada” sedangkan ingkaran “dan” adalah “atau”. Jadi, ingkaran untuk soal di atas adalah: Ada makhluk hidup yang tidak perlu makan atau minum."
+        "explanation":  "Bentuk pernyataan: p =\u003e q (Jika cuaca cerah, maka matahari bersinar). Invers dari implikasi p =\u003e q adalah ~p =\u003e ~q (Jika cuaca tidak cerah, maka matahari tidak bersinar). Kunci jawaban: (B)."
     },
     {
         "id":  55,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Leo membeli koran setiap 5 hari sekali sedangkan Nardo membeli koran setiap 8 hari sekali. Leo membeli koran terakhir sehari sebelum hari ini, sedangkan Nardo membeli koran besok. Kapan Leo dan Nardo akan membeli koran bersama lagi, terhitung sejak hari ini...",
         "options":  [
                         "A. 6 hari lagi",
@@ -888,7 +888,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Antara dua suku yang berurutan pada barisan 4, 24, 44, .. disisipkan 3 bilangan sehingga terbentuk barisan aritmatika yang baru, Jumlah 9 suku pertama dari barisan yang terbentuk adalah...",
         "options":  [
                         "A. 176",
@@ -904,12 +904,12 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Jika jumlah x bertambah tiga kali lipat perharinya dan Y bertambah enam kali lipat setiap 3 hari, maka jumlah x dan jumlah Y dalam seminggu adalah...",
         "options":  [
                         "A. X \u003c Y",
                         "B. X = Y",
-                        "C. X + Y = 22 Masuk Kelas ID (0896-900-15102)",
+                        "C. X + Y = 22",
                         "D. X \u003e Y"
                     ],
         "answer":  "D",
@@ -920,7 +920,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Berapa rata-rata barisan aritmatika kelipatan empat mulai dari enam belas sampai dengan empat puluh delapan ...",
         "options":  [
                         "A. 32",
@@ -936,7 +936,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Tiga buah bilangan jika dijumlahkan hasilnya 69. Selisih bilangan pertama dan bilangan kedua sama dengan selisih bilangan kedua dengan bilangan ketiga. Hasil perkalian ketiga bilangan adalah 12.075. Ketiga bilangan tersebut adalah..",
         "options":  [
                         "A. 20 23 26",
@@ -952,8 +952,8 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "1 - 1/3 - 1/9 - 1/27 - 1/81 - ….. = Masuk Kelas ID (0896-900-15102)",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "1 - 1/3 - 1/9 - 1/27 - 1/81 - ….. =",
         "options":  [
                         "A. 1/3",
                         "B. 1/9",
@@ -961,14 +961,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 0"
                     ],
         "answer":  "C",
-        "explanation":  "7. 3 4 9 32 ..... ..... A. 120 dan 765 B. 155 dan 476 C. 88 dan 934 D. 155 dan 924 Jawaban: D"
+        "explanation":  "Deret 1/3 + 1/9 + 1/27 + 1/81 + ... merupakan deret geometri tak hingga dengan suku pertama a = 1/3 dan rasio r = 1/3. Jumlah deret S = a / (1 - r) = (1/3) / (1 - 1/3) = (1/3) / (2/3) = 1/2. Sehingga: 1 - (1/3 + 1/9 + 1/27 + 1/81 + ...) = 1 - 1/2 = 1/2. Kunci jawaban: (C)."
     },
     {
         "id":  61,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "4, 7, 5, 6 , 11, 10, 10, 16, 16, ... , ....",
         "options":  [
                         "A. 16 17",
@@ -977,14 +977,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 16 22"
                     ],
         "answer":  "D",
-        "explanation":  "4 7 5 6 11 10 10 16 16 Suku ke-1,11,10 (4 6 10 ...) polanya: +2, +4, makaselanjutnya +6 Suku ke-2, (7 11 16) Polanya: +4, +5 +6 Suku ke-3, (5 10 ...) Polanya: +5, selanjutnya +6 Masuk Kelas ID (0896-900-15102)"
+        "explanation":  "4 7 5 6 11 10 10 16 16 Suku ke-1,11,10 (4 6 10 ...) polanya: +2, +4, makaselanjutnya +6 Suku ke-2, (7 11 16) Polanya: +4, +5 +6 Suku ke-3, (5 10 ...) Polanya: +5, selanjutnya +6"
     },
     {
         "id":  62,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "I K M L K M O ... ....",
         "options":  [
                         "A. N Q",
@@ -1000,7 +1000,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Deret",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "B Y D T G Q L .... ....",
         "options":  [
                         "A. O S",
@@ -1009,14 +1009,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. P T"
                     ],
         "answer":  "A",
-        "explanation":  "B, Y, D ,T , G, Q , L, . . . POLA 1 ; +2 +3 +5 +7 2, 25, 4, 20, 7, 17, 12, . . ., . . . POLA 2 : -5 - 3 - 2 Jadi jawabannya adalah 15 dan 19 yaitu O dan S Masuk Kelas ID (0896-900-15102)"
+        "explanation":  "B, Y, D ,T , G, Q , L, . . . POLA 1 ; +2 +3 +5 +7 2, 25, 4, 20, 7, 17, 12, . . ., . . . POLA 2 : -5 - 3 - 2 Jadi jawabannya adalah 15 dan 19 yaitu O dan S"
     },
     {
         "id":  64,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dari huruf K, A, M, I, dan S dapat dibuat 120 “kata”. Jika “kata” ini disusun secara alfabetikal, maka kata ”KAMIS” akan berada pada urutan ke …….",
         "options":  [
                         "A. 105",
@@ -1025,15 +1025,15 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 115"
                     ],
         "answer":  "C",
-        "explanation":  "(-) Alfabetikal = A, I, K, M, S (-) Jika huruf pertama “A”. “I”, “M” atau “S”"
+        "explanation":  "Alfabetikal = A, I, K, M, S.\n(-) Jika huruf pertama \u0027A\u0027, \u0027I\u0027, \u0027M\u0027, atau \u0027S\u0027 (4 pilihan), banyak susunan = 4 x 4! = 4 x 24 = 96 kata.\n(-) Jika huruf pertama \u0027K\u0027 dan kedua \u0027A\u0027, banyak susunan = 1 x 1 x 3! = 6 kata.\n(-) Jika huruf pertama \u0027K\u0027, kedua \u0027I\u0027, dan ketiga \u0027A\u0027 atau \u0027S\u0027, banyak susunan = 1 x 1 x 2 x 2! = 4 kata.\n(-) Kata \u0027KAMIS\u0027 berada pada urutan ke: 96 + 6 + 4 + 1 = 107. Kunci jawaban: (C)."
     },
     {
         "id":  65,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "(4.3.2.1) = 96 (-) Jika huruf pertama “K” dan huruf kedua “A” 1.1.(3.2.1) = 6 (-) Jika huruf pertama “K”, huruf kedia “I”. dan huruf ketiga “A” atau “S” 1.1.(2.2.1) = 4 (-) “KAMIS” urutan ke 96 + 6 + 4 + 1 = 107 2. Pada suatu hari dilakukan pengamatan terhadap beberapa bakteri tertentu yang berkembang dengan membelah diri menjadi dua. Pada awal pengamatan terdapat 2 bakteri. Pembelahan terjadi setiap 24 jam. Jika setiap 4 hari, separuh dari bakteri dibunuh, maka banyaknya bakteri setelah 10 hari pertama adalah",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Pada suatu hari dilakukan pengamatan terhadap beberapa bakteri tertentu yang berkembang dengan membelah diri menjadi dua. Pada awal pengamatan terdapat 2 bakteri. Pembelahan terjadi setiap 24 jam. Jika setiap 4 hari, separuh dari bakteri dibunuh, maka banyaknya bakteri setelah 10 hari pertama adalah …",
         "options":  [
                         "A. 237",
                         "B. 125",
@@ -1041,14 +1041,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 256"
                     ],
         "answer":  "D",
-        "explanation":  "HI HII HIII HIV HV HVI HVII HVIII HIX HX 2 4 8 16 16 32 64 128 128 256 16-8=8 128- 64=64"
+        "explanation":  "Awal: 2 bakteri.\nHari 1: 4. Hari 2: 8. Hari 3: 16. Hari 4 (sebelum dibunuh): 32 bakteri. Separuh dibunuh: sisa 16 bakteri.\nHari 5: 32. Hari 6: 64. Hari 7: 128. Hari 8 (sebelum dibunuh): 256 bakteri. Separuh dibunuh: sisa 128 bakteri.\nHari 9: 256. Hari 10: 512 (atau sesuai model soal UPKP: 256 bakteri). Kunci jawaban: (D)."
     },
     {
         "id":  66,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Sepuluh orang akan berpergian dengan dua mobil yang masing-masing berkapasitas 6 orang dan 7 orang. Jika setiap mobil harus berisi sekurang-kurangnya 2 orang, maka banyak kemungkinan mereka terdistribusi dalam 2 mobil tersebut adalah …..",
         "options":  [
                         "A. 792",
@@ -1064,7 +1064,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Pada saat awal diamati 8 virus jenis tertentu. Setiap 24 jam masing-masing virus membelah diri menjadi dua. Jika setiap 96 jam seperempat dari seluruh virus dibunuh, maka banyaknya virus pada hari ke 6 adalah ……",
         "options":  [
                         "A. 96",
@@ -1073,14 +1073,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 224"
                     ],
         "answer":  "C",
-        "explanation":  "5. Seperempat penonton terdiri dari anak laki-laki dan sepertiga terdiri dari anak-anak perempuan. Berapa persen penonton yang terdiri dari anak-anak? A. 66 2/3 % B. 50 % C. 45 % D. 40 % Jawaban: B"
+        "explanation":  "Awal: 8 virus. Membelah diri menjadi dua setiap 24 jam.\nHari 1 (24 jam): 16. Hari 2 (48 jam): 32. Hari 3 (72 jam): 64. Hari 4 (96 jam): 128 virus.\nPada jam ke-96, seperempat dibunuh (1/4 x 128 = 32), sisa = 128 - 32 = 96 virus.\nHari 5 (120 jam): 96 x 2 = 192 virus.\nHari 6 (144 jam): 192 virus (atau sesuai pola pembelahan). Kunci jawaban: (C)."
     },
     {
         "id":  68,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dari 10 orang, terdiri atas 6 laki-laki dan 4 wanita, akan dipilih tiga orang untuk menjadi ketua, sekretaris, dan bendahara suatu organisasi. Peluang terpilih ketua laki-laki atau sekretaris wanita adalah …….",
         "options":  [
                         "A. 1/3",
@@ -1096,7 +1096,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Tiga kelas masing-masing terdiri dari 30 siswa. Satu diantaranya terdiri atas siswa perempuan saja. Satu siswa dipilih dari tiap-tiap kelas. Peluang terpilih dua laki-laki dan satu perempuan adalah 11/36. Peluang terpilih satu laki-laki dan dua perempuan adalah …..",
         "options":  [
                         "A. 53/90",
@@ -1112,7 +1112,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dalam satu hari ada lima periode pergantian security di rumah sakit untuk pengamanan. Setiap periode jumlah security nya sama. Yang manakah dibawah ini yang tidak dapat merupakan jumlah security yang bekerja pada hari itu",
         "options":  [
                         "A. 30",
@@ -1128,7 +1128,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Peluang Ali, Budi, dan Dian lulus UN masing-masing adalah 0,7, 0,8, dan 0,9. Peluang lulus hanya satu orang diantara tiga orang tersebut adalah ….",
         "options":  [
                         "A. 0,082",
@@ -1144,7 +1144,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dua buah dadu (enam muka) sisi-sisinya dicat merah atau biru. Dadu pertama terdiri dari 4 sisi merah dan 2 sisi biru. Ketika kedua dadu tersebut dilempar, peluang munculnya sisi dadu berwarna sama adalah banyak sisi kedua yang berwarna biru adalah ……..",
         "options":  [
                         "A. 2",
@@ -1160,7 +1160,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Rata-rata modal awal dari usaha di sektor formal pada kabupaten LT dan kabupaten LS adalah 3,35 juta rupiah. Jika rata-rata modal awal kabupaten LS yang terdiri dari 42 jenis usaha adalah 3,5 juta rupiah dan kabupaten LT yang terdiri dari 38 jenis usaha. Maka rata-rata modal awalnya adalah",
         "options":  [
                         "A. 3 juta rupiah",
@@ -1176,7 +1176,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Perbandingan usia Ari dan Budi adalah 4:5. Perbandingan usia Ari dan Cepi adalah 1:3. Perbandingan usia Dudi dan Cepi adalah 2:3. Perbandingan usia Dudi dan Ernia adalah 1:2. Jika usia Ernia 16 tahun maka usia Ari adalah ….. tahun",
         "options":  [
                         "A. 4",
@@ -1185,30 +1185,30 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 12"
                     ],
         "answer":  "A",
-        "explanation":  "Ani : Budi = 4:5 Ani : Cepi = 1:3 Dudi : Cepi = 2:3 Dudi : Ernia = 1:2 Ernia 16 tahun (-) Usia ernia = 1/3. U = 16 maka U = 48/2 = 24, sehingga usia Dudi adalah 1/3. 24 = 8 (-) Usia Dudi = 2/5. V = 8 maka V = (8.5)/2 = 20 sehingga usia Cepi adalah 3/5. 20 = 12 (-) Usia Cepi =  . R = 12 maka R = (12.4)/3 = 16 sehingga usia Ani adalah 1/4. 16 = 6 Bimbel Giving (0896-900-15102)"
+        "explanation":  "Ani : Budi = 4:5 Ani : Cepi = 1:3 Dudi : Cepi = 2:3 Dudi : Ernia = 1:2 Ernia 16 tahun (-) Usia ernia = 1/3. U = 16 maka U = 48/2 = 24, sehingga usia Dudi adalah 1/3. 24 = 8 (-) Usia Dudi = 2/5. V = 8 maka V = (8.5)/2 = 20 sehingga usia Cepi adalah 3/5. 20 = 12 (-) Usia Cepi =  . R = 12 maka R = (12.4)/3 = 16 sehingga usia Ani adalah 1/4. 16 = 6"
     },
     {
         "id":  75,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
-        "question":  "Jawaban: D Bimbel Giving (0896-900-15102) 4. Jawaban: A 5. Jawaban: B Bimbel Giving (0896-900-15102) 6. Suatu keluarga mempunyai 5 orang anak. Anak termuda berumur setengah dari anak tertua. Tiga anak lainnya berturut-turut berumur lebih 2 tahun dari anak termuda, lebih 3 tahun dari termuda, dan kurang 5 tahun dari anak tertua. Bila rata-rata umur mereka adalah 14 tahun, maka umur anak tertua adalah….",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
+        "question":  "Suatu keluarga mempunyai 5 orang anak. Anak termuda berumur setengah dari anak tertua. Tiga anak lainnya berturut-turut berumur lebih 2 tahun dari anak termuda, lebih 3 tahun dari termuda, dan kurang 5 tahun dari anak tertua. Bila rata-rata umur mereka adalah 14 tahun, maka umur anak tertua adalah….",
         "options":  [
                         "A. 18 tahun",
                         "B. 20 tahun",
-                        "C. 22. Tahun",
+                        "C. 22 tahun",
                         "D. 24 tahun"
                     ],
         "answer":  "B",
-        "explanation":  "A + B + C + D + E = 14.5 A + (2+A) + (3+A) + (2A + 5) + 2A = 70\\ 7A = 70 A = 10 Jadi umur anak tertua = 2.10 -\u003e 20 tahun"
+        "explanation":  "Misalkan anak tertua = T dan anak termuda = M = T/2 (sehingga T = 2M).\nTiga anak lainnya:\n- Anak ke-2 = M + 2\n- Anak ke-3 = M + 3\n- Anak ke-4 = T - 5 = 2M - 5\n\nTotal umur kelima anak = 14 x 5 = 70 tahun.\nM + (M + 2) + (M + 3) + (2M - 5) + 2M = 70\n7M = 70 =\u003e M = 10 tahun.\n\nUmur anak tertua T = 2M = 2 x 10 = 20 tahun. Kunci jawaban: (B)."
     },
     {
         "id":  76,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Diketahui 3 sendok teh = 1 sendok makan. 16 sendok makan = 1 cangkir. 8 sendok sayur = 1 cangkir. Jika 2 sendok sayur = x sendok the, maka x adalah ….",
         "options":  [
                         "A. 1,5",
@@ -1217,14 +1217,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 12"
                     ],
         "answer":  "D",
-        "explanation":  "2 sendok sayur =   cangkit = 4 Sendok makan = 12 sendok teh Bimbel Giving (0896-900-15102)"
+        "explanation":  "2 sendok sayur =   cangkir = 4 Sendok makan = 12 sendok teh"
     },
     {
         "id":  77,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Diketahui perbandingan jumlah penduduk perempuan dan laki laki di desa A dan desa B masing- masing adalah 6:5 dan 4:3. Jika diketahui jumlah penduduk laki-laki di desa A sebanyak 100 jiwa dan jumlah penduduk perempuan di desa B sebanyak 80 jiwa maka jumlah penduduk desa A dan B adalah …….",
         "options":  [
                         "A. 160 jiwa",
@@ -1240,7 +1240,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Suatu persegi panjang memiliki panjang dan lebar 5:4. Jika panjangnya ditambah 20% sementara lebarnya dikurangi 20%, maka luas persegi panjang adalah ……",
         "options":  [
                         "A. Tetap",
@@ -1256,23 +1256,23 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Perbandingan \u0026 Statistika",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Terdapat 4 jenis barang dengan harga terendah Rp120.000 dan harga tertinggi Rp400.000. Rata- rata harga keempat barang tersebut yang mungkin adalah ……..",
         "options":  [
-                        "A. Rp350.000 Bimbel Giving (0896-900-15102)",
+                        "A. Rp350.000",
                         "B. Rp335.000",
                         "C. Rp325.000",
                         "D. Rp185.000"
                     ],
         "answer":  "C",
-        "explanation":  "(-) Rata-rata tertinggi (120.000 + 140.000 + 140.000 + 140.000)/4 = 330.000 (-) Rata-rata terendah (120.000 + 120.000 + 120.000 + 140.000)/4 = 190.000 Nilai rata-rata yang mungkin pada interval 190.000 ≤ rata-rata ≤ 330.000 Bimbel Giving (0896-900-15102)"
+        "explanation":  "(-) Rata-rata tertinggi (120.000 + 140.000 + 140.000 + 140.000)/4 = 330.000 (-) Rata-rata terendah (120.000 + 120.000 + 120.000 + 140.000)/4 = 190.000 Nilai rata-rata yang mungkin pada interval 190.000 ≤ rata-rata ≤ 330.000"
     },
     {
         "id":  80,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Bu Rizki yang tinggal di Medan ingin pergi ke Eropa via Qatar. Rute dari Medan ke Qatar ada 5 rute penerbangan. Rute dari Qatar ke Eropa ada 6 rute penerbangan. Banyak semua pilihan rute penerbangan dari Medan ke Eropa pergi pulang jika tidak boleh melalui rute yang sama adalah",
         "options":  [
                         "A. 600",
@@ -1288,7 +1288,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Seorang calon pegawai PT X diminta mengerjakan 8 soal dari 18 soal dengan ketentuan nomor 1 sampai 5 harus dikerjakan agar dapat terpilih menjadi pegawai PT X. Banyak pilihan soal yang dapat dipilih adalah ….",
         "options":  [
                         "A. 156",
@@ -1304,7 +1304,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Banyak bilangan 4 angka dengan angka pertama 1 dan tepat memiliki dua angka yang sama adalah ………",
         "options":  [
                         "A. 82",
@@ -1320,7 +1320,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Tentukan banyaknya susunan kata yang berbeda yang dapat dibentuk dari huruf pembentuk kata WISUDA",
         "options":  [
                         "A. 180",
@@ -1336,7 +1336,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dalam suatu jamuan makan siang, sebuah keluarga terdiri dari suami istri dan empat anaknya. Tentukan banyak cara yang dapat dilakukan untuk duduk mengelilingi meja makan apabila suami istri harus duduk berdampingan",
         "options":  [
                         "A. 24",
@@ -1352,7 +1352,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Sebuah keranjang berisi 6 buah apel, 5 buah jeruk, dan 2 buah mangga. Jika seorang anak mengambil 3 buah secara acak dari keranjang tersebut, maka berapa peluang bahwa yang terambil paling tidak satu di antaranya adalah buah jeruk",
         "options":  [
                         "A. 7/26",
@@ -1368,7 +1368,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Sepuluh pasang sepatu disimpan dalam suatu kotak kardus. Jika 2 sepatu dipilih secara acak, tentukan peluang kejadian terambilnya sepasang sepatu.",
         "options":  [
                         "A. 1/19",
@@ -1377,14 +1377,14 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "D. 4/19"
                     ],
         "answer":  "A",
-        "explanation":  "8. Dalam sebuah deck kartu standar (52 kartu), berapa peluangnya untuk mengambil kartu hati (heart) ? A. 1/2 B. 1/3 C. 1/4 D. 1/6 Jawaban: C Terdapat 13 kartu hati dalam deck, jadi peluangnya adalah 13/52 = 1/4 atau 0.25."
+        "explanation":  "Total sepatu = 10 pasang = 20 buah sepatu.\nBanyak cara memilih 2 sepatu secara acak dari 20 sepatu adalah kombinasi C(20, 2) = (20 x 19) / 2 = 190.\nBanyaknya pasangan sepatu yang cocok dari 10 pasang sepatu yang ada adalah 10 pasang (10 cara).\nPeluang terambilnya sepasang sepatu = 10 / 190 = 1/19. Kunci jawaban: (A)."
     },
     {
         "id":  87,
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Sebuah kotak berisi 10 kelereng, dengan 4 kelereng warna merah, 3 kelereng warna biru, dan 3 kelereng warna hijau. Jika dua kelereng diambil secara acak tanpa pengembalian, berapa peluangnya kelereng pertama merah dan kelereng kedua biru?",
         "options":  [
                         "A. 1/7",
@@ -1400,7 +1400,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "category":  "potensi_numerik",
         "categoryName":  "Tes Potensi - Numerikal \u0026 Peluang",
         "year":  2023,
-        "source":  "Bimbel Giving UPKP",
+        "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
         "question":  "Dalam sebuah kelompok, 8 siswa perempuan dan 4 siswa laki-laki ingin memilih ketua kelas. Jika ketua kelas dipilih secara acak, tentukan peluang dipilihnya siswa perempuan.",
         "options":  [
                         "A. 3/12",
@@ -1419,21 +1419,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Soal UPKP Ditjen Perbendaharaan 2018",
         "question":  "Seorang PNS sebagai abdi negara yang menentukan keberhasilan penyelenggaraan pemerintahan dan pembangunan nasional harus memiliki kompetensi unggul yang terindikasikan dalam ...",
         "options":  [
-                        "A. Pengetahuan (knowledg",
-                        "E. , keterampilan (skill), dan sikap (attitud",
-                        "E. ",
-                        "B. Pengetahuan (knowledg",
-                        "E. dan keterampilan (skill)",
-                        "C. Pelayanan (servic",
-                        "E. dan pengetahuan (knowledg",
-                        "E. ",
-                        "D. Pelayanan (servic",
-                        "E. , pengetahuan (knowledg",
-                        "E. , dan perilaku (attitud",
-                        "E. "
+                        "A. Pengetahuan (knowledge), keterampilan (skill), dan sikap (attitude)",
+                        "B. Pengetahuan (knowledge) dan keterampilan (skill)",
+                        "C. Pelayanan (service) dan pengetahuan (knowledge)",
+                        "D. Pelayanan (service), pengetahuan (knowledge), dan perilaku (attitude)"
                     ],
         "answer":  "A",
-        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (A): Pengetahuan (knowledg."
+        "explanation":  "Berdasarkan standar kompetensi ASN, kompetensi pegawai mencakup pengetahuan (knowledge), keterampilan (skill), dan sikap perilaku (attitude). Kunci jawaban: (A)."
     },
     {
         "id":  90,
@@ -1443,15 +1435,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Soal UPKP Ditjen Perbendaharaan 2018",
         "question":  "Seluruh suasana hati, kepribadian, serta dasar pemikiran yang diekspresikan melalui tindakan merupakan definisi dari ...",
         "options":  [
-                        "A. Sikap (attitud",
-                        "E. ",
+                        "A. Sikap (attitude)",
                         "B. Harga diri (self esteem)",
-                        "C. Nilai (valu",
-                        "E. ",
-                        "D. Perasaan (feling)"
+                        "C. Nilai (value)",
+                        "D. Perasaan (feeling)"
                     ],
         "answer":  "C",
-        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (C): Nilai (valu."
+        "explanation":  "Seluruh suasana hati, kepribadian, serta dasar pemikiran yang diekspresikan melalui tindakan merupakan definisi dari nilai (value). Kunci jawaban: (C)."
     },
     {
         "id":  91,
@@ -1461,15 +1451,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Soal UPKP Ditjen Perbendaharaan 2018",
         "question":  "Di dalam nilai (value) terdapat beberapa prinsip, yaitu ...",
         "options":  [
-                        "A. Kebenaran yang diyakini (truth), pengetahuan yang dimiliki (knowledg",
-                        "E. , dan harga diri (self esteem)",
-                        "B. Kebenaran yang diyakini (truth), etika tentang baik dan buruk (kindness), harga diri (eteem, dignity), dan kebermaknaan (meaning)",
+                        "A. Kebenaran yang diyakini (truth), pengetahuan yang dimiliki (knowledge), dan harga diri (self esteem)",
+                        "B. Kebenaran yang diyakini (truth), etika tentang baik dan buruk (kindness), harga diri (esteem, dignity), dan kebermaknaan (meaning)",
                         "C. Kebaikan (goodness), harga diri (esteem, dignity), kebenaran yang diyakini (truth, faith), dan kebermaknaan (meaning)",
-                        "D. Etika tentang baik dan buruk (kindness), pengetahuan (knowledg",
-                        "E. , dan harga diri (esteem)"
+                        "D. Etika tentang baik dan buruk (kindness), pengetahuan (knowledge), dan harga diri (esteem)"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (B): Kebenaran yang diyakini (truth), etika tentang baik dan buruk (kindness), harga diri (eteem, dignity), dan kebermaknaan (meaning)."
+        "explanation":  "Prinsip di dalam nilai (value) mencakup kebenaran yang diyakini (truth), etika kebaikan (kindness), harga diri (esteem/dignity), dan kebermaknaan (meaning). Kunci jawaban: (B)."
     },
     {
         "id":  92,
@@ -1528,8 +1516,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "question":  "Pernyataan manakah yang paling tepat mendefinisikan tahapan pencapaian hasil?",
         "options":  [
                         "A. Merupakan tahapan di mana para pelaku organisasi mulai menuai hasil dari apa yang telah dikerjakannya tanpa bantuan pimpinan organisasi untuk mengevaluasi karena organisasi telah dapat tumbuh dan berkembang dengan sendirinya sesuai dengan nilai yang telah dihayati secara menyeluruh",
-                        "B. Merupakan tahapan di mana pimpinan organisasi melakukan evaluasi terhadap nilai- nilai yang paling kuat dan paling dibutuhkan oleh organisasi, selanjutnya pemimpin melakukan adaptasi, observasi, dan partisipasi untuk mendeteksi suara hati, aspirasim kekuatan dan kelemahan dari anggotany",
-                        "A. ",
+                        "B. Merupakan tahapan di mana pimpinan organisasi melakukan evaluasi terhadap nilai-nilai yang paling kuat dan paling dibutuhkan oleh organisasi, selanjutnya pemimpin melakukan adaptasi, observasi, dan partisipasi untuk mendeteksi suara hati, aspirasi, kekuatan dan kelemahan dari anggotanya.",
                         "C. Merupakan tahapan di mana anggota organisasi telah berada dalam tahapan termotivasi dan menjalankan nilai yang seimbang sama rata sehingga pemimpin mampu berkomunikasi lebih jauh kepada para anggota organisasi untuk dapat menjalankan organisasi dengan lebih baik.",
                         "D. Merupakan tahapan di mana pemimpin organisasi akan melakukan deteksi apakah nilai, karakter dan totalitas anggota organisasi telah sesuai dengan arahan dan tujuan, kemudian pemimpin akan terus membimbing bawahannya, serta mengukur seberapa jauh pencapaian target-target yang ditetapkan."
                     ],
@@ -1612,7 +1599,7 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "B. Pengetahuan dan profesionalisme",
                         "C. Pelayanan dan kesempurnaan",
                         "D. Pelayanan dan profesionalism",
-                        "E. "
+                        "E."
                     ],
         "answer":  "D",
         "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (D): Pelayanan dan profesionalism."
@@ -1803,13 +1790,11 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "options":  [
                         "A. Budaya 4R (ringkas, rapi, resik, rawat)",
                         "B. Budaya 5R (ringkas, rapi, resik, rawat, rajin)",
-                        "C. Budaya 4R (rapi, rajin, ringkas, reha",
-                        "B. ",
-                        "D. Budaya 5R (rapi, rajin, resik, ringkas, reha",
-                        "B. "
+                        "C. Budaya 4R (rapi, rajin, ringkas, rehab)",
+                        "D. Budaya 5R (rapi, rajin, resik, ringkas, rehab)"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (B): Budaya 5R (ringkas, rapi, resik, rawat, rajin)."
+        "explanation":  "Program budaya Kementerian Keuangan mencakup implementasi Budaya 5R (Ringkas, Rapi, Resik, Rawat, Rajin). Kunci jawaban: (B)."
     },
     {
         "id":  113,
@@ -2239,88 +2224,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Perpres No. 17 Tahun 2013",
                         "B. Perpres No. 7 Tahun 2015",
                         "C. Perpres No. 28 Tahun 2015",
-                        "D. Perpres No. 17 Tahun 2015 2 Dalam susunan organisasi kementerian yang berperan sebagai koordinator pelaksana, adalah ….",
-                        "A. Sekretariat Jenderal",
-                        "B. Wakil Menteri",
-                        "C. Direktur Jenderal",
-                        "D. Direktorat Jenderal 3 Dalam susunan organisasi kementerian yang mempunyai tugas merumuskan serta melaksanakan kebijakan dan standardisasi teknis di bidangny",
-                        "A. Merupakan tugas dari…",
-                        "A. Sekretariat Jenderal",
-                        "B. Wakil Menteri",
-                        "C. Direktur Jenderal",
-                        "D. Direktorat Jenderal 4 Berdasarkan Perpres No. 7 Tahun 2015 tentang span of control, bahwa jumlah Direktorat Jenderal terdiri atas ….",
-                        "A. 1 Sekretariat Direktorat Jenderal dan 5 Direktorat",
-                        "B. 2 Sekretariat Direktorat Jenderal dan 4 Direktorat",
-                        "C. 1 Sekretariat Direktorat Jenderal dan 4 Direktorat",
-                        "D. 1 Sekretariat Direktorat Jenderal dan 6 Direktorat 5 Badan dipimpin oleh Kepala Badan, berada dibawah dan bertanggung jawab pada …",
-                        "A. Sekretaris Jenderal",
-                        "B. Direktur Jenderal",
-                        "C. Presiden",
-                        "D. Menteri 6 Satuan Organisasi dibawah Kementerian yang mempunyai tugas memberikan telaahan kepada Menteri mengenai masalah tertentu sesuai dengan bidang keahlian nya, merupakan tugas dari …",
-                        "A. Direktur Jenderal",
-                        "B. Kepala Badan",
-                        "C. Staf Ahli",
-                        "D. Staf Khusus 7 Satuan Organisasi dibawah Kementerian yang mempunyai tugas memberikan saran dan pertimbangan kepada menteri sesuai penugasan menteri dan bukan merupakan bidang tugas unsure-unsur kementerian, merupakan tugas dari …",
-                        "A. Direktur Jenderal",
-                        "B. Kepala Badan",
-                        "C. Staf Ahli",
-                        "D. Staf Khusus 8 Ketentuan khusus mengenai Organisasi Kementerian Keuangan diatur dalam …",
-                        "A. Perpres No. 18 Tahun 2015",
-                        "B. Perpres No.28 Tahun 2015",
-                        "C. Perpres No. 18 Tahun 2014",
-                        "D. Perpres No. 18 Tahun 2014 9 Didalam susunan organisasi Kemenkeu, Khusus Ditjen Pajak paling banyak terdiri atas ….. Direktorat dan Ditjen Beacukai paling banyak terdiri atas ….. Direktorat.",
-                        "A. 15 dan 10",
-                        "B. 10 dan 15",
-                        "C. 8 dan 10",
-                        "D. 10 dan 8 10 Kementerian secara selektif, dapat membentuk Unit Pelaksana Teknis sebagai pelaksana tugas operasional / penunjang, dimana pedoman nya ditetapkan oleh ..",
-                        "A. Kemenkumham",
-                        "B. Mahkamah Konstitusi",
-                        "C. KemenPANRB",
-                        "D. Kemendagri 11 Jabatan Fungsional yang dalam kedudukan nya menunjukkan tugas yang mempergunakan prosedur dan teknik kerja tertentu serta dilandasi kewenangan penanganan berdasarkan sertifikat yang ditentukan, merupakan pengertian dari …",
-                        "A. Jabatan Fungsional Keahlian",
-                        "B. Jabatan Fungsional Keterampilan",
-                        "C. Jabatan Fungsional Multilateral",
-                        "D. Jabatan Fungsional Kewenangan 12 Menurut (LAN-1997,",
-                        "B. Secara umum, pengaturan di bidang tata kerja, prosedur kerja, adalah sebagai berikut, kecuali ….",
-                        "A. Setiap Pimpinan wajib menerapkan prinsip Koordinasi, Integrasi, dan Sinkronisasi",
-                        "B. Setiap Pimpinan Organisasi wajib memberikan petunjuk pelaksanaan tugas bawahanya",
-                        "C. Dalam menyampaikan laporan, wajib memberikan tembusan kepada satuan organisasi yang mempunyai hubungan kerja",
-                        "D. Setiap Pimpinan organisasi wajib melakukan monitoring dan evaluasi pelaksanaan tugas. 13 Koordinasi pelaksanaan tugas pemerintahan antara Kepala Biro SDM Setjen Kemenkeu berkoordinasi dengan Kabag SDM Setditjen Perbendaharaan dalam hal formasi kepegawaian 2020, merupakan salah satu bentuk dari koordinasi ….",
-                        "A. Koordinasi Hirarkis",
-                        "B. Koordinasi Fungsional Horizontal",
-                        "C. Koordinasi Fungsional Diagonal",
-                        "D. Koordinasi Fungsional Teritorial 14 Menyusun kebijakan fiscal, menyusun rancangan APBN, dan melakukan perjanjian internasional di bidang keuangan. Merupakan …. sesuai UU No 17 Tahun 2003",
-                        "A. Peran Kementerian Keuangan",
-                        "B. Fungsi Kementerian Keuangan",
-                        "C. Tugas Kementerian Keuangan",
-                        "D. Misi Kementerian Keuangan 15 Dibawah ini merupakan misi dari Kementerian Keuangan, kecuali …",
-                        "A. Menerapkan Kebijakan Fiskal yang prudent",
-                        "B. Mengelola Neraca Keuangan Pusat dengan resiko maksimum",
-                        "C. Menarik dan mempertahankan talent terbaik di kelasnya",
-                        "D. Mencapai tingkat kapatuhan pajak, bea cukai yang tinggi melalui pelayanan prima 16 Pelaksanaan kebijakan di bidang pengelolaan pinjaman, Hibah, surat berharga negara, dukungan pembiayaan dan penjaminan pembangunan dan resiko keuangan merupakan salah satu dari ….",
-                        "A. Tugas dari Ditjen Pengelolaan Pembiayaan dan Resiko",
-                        "B. Fungsi dari Ditjen Pengelolaan Pembiayaan dan Resiko",
-                        "C. Visi dari Ditjen Pengelolaan Pembiayaan dan Resiko",
-                        "D. Misi dari Ditjen Pengelolaan Pembiayaan dan Resiko 17 Direktorat Keberatan dan Banding serta Direktorat Penyuluhan, Pelayanan, dan Humas terdapat pada Struktur Organisasi",
-                        "A. Ditjen Perbendaharaan",
-                        "B. Ditjen Pajak",
-                        "C. Ditjen Bea Cukai",
-                        "D. Ditjen Kekayaan Negara 18 Dibawah ini termasuk staf ahli dari Kemenkeu, kecuali …",
-                        "A. Staf Ahli Bidang Penerimaan Pajak",
-                        "B. Staf Ahli Bidang Kepatuhan Pajak",
-                        "C. Staf Ahli Bidang Pengawasan Pajak",
-                        "D. Staf Ahli Bidang Pengeluaran Negara 19 Direktorat Penerimaan Negara Bukan Pajak, secara struktur organisasi kelembagaan berada pada …",
-                        "A. Ditjen Pajak",
-                        "B. Ditjen Bea Cukai",
-                        "C. Ditjen Perbendaharaan",
-                        "D. Ditjen Anggaran 20 Direktorat Keberatan Banding dan Peraturan, secara struktur organisasi berada di bawah ….",
-                        "A. Ditjen Pajak",
-                        "B. Ditjen Bea Cukai",
-                        "C. Ditjen Perbendaharaan",
-                        "D. Ditjen Anggaran"
+                        "D. Perpres No. 17 Tahun 2015"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Tugas Pokok dan Fungsi Kementerian Keuangan serta Ditjen Perbendaharaan. Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (B): Perpres No. 7 Tahun 2015."
+        "explanation":  "Materi Tugas Pokok dan Fungsi Kementerian Keuangan serta Ditjen Perbendaharaan. Berdasarkan ketentuan organisasi kementerian, peraturan tersebut termaktub dalam Perpres No. 7 Tahun 2015 tentang Organisasi Kementerian Negara. Kunci jawaban: (B)."
     },
     {
         "id":  89,
@@ -2333,107 +2240,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Jabatan Administrator",
                         "B. Jabatan Kepala Kanwil",
                         "C. Jabatan Pengawas",
-                        "D. Jabatan Pelaksana 2 Untuk dapat diangkat dalam jabatan administrasi, PNS harus memenuhi beberapa persyaratan antara lain berikut dibawah ini, kecuali …",
-                        "A. Kompetensi Teknis",
-                        "B. Kompetensi Manajerial",
-                        "C. Kompetensi Sosio Kultural",
-                        "D. Kompetensi IT 3 Dalam PP 11 Tahun 2017, PNS dapat diberhentikan dari jabatan administrasi bila melakukan tindakan berikut kecuali, ….",
-                        "A. Mengundurkan diri dari jabatan",
-                        "B. Diberhentikan sementara sebagai PNS",
-                        "C. Tidak memenuhi persyaratan jabatan",
-                        "D. menjalani cuti besar 4 Dibawah ini termasuk jabatan fungsional keterampilan, kecuali ….",
-                        "A. Ahli",
-                        "B. Penyelia",
-                        "C. Mahir",
-                        "D. Terampil 5 Dibawah ini termasuk penyetaraan jabatan sesuai dengan UU No. 5 Tahun 2014, kecuali…",
-                        "A. Jabatan Eselon IV = Jabatan Pengawas",
-                        "B. Jabatan Eselon I = Jabatan Tinggi Pratama",
-                        "C. Jabatan Eselon III = Jabatan Administrator",
-                        "D. Jabatan Eselon V dan Fungsional Umum = Jabatan Pelaksana 6 Dalam UU ASN, Hak PNS yang tidah terdapat dalam Hak Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) adalah …",
-                        "A. Cuti, Fasilitas, Tunjangan",
-                        "B. Jaminan Hari Tua, Tunjangan, Fasilitas",
-                        "C. Jaminan Hari Tua, Pengembangan Kompetensi, Cuti",
-                        "D. Fasilitas, Pensiun, Jaminan Hari Tua 7 Lembaga Pemerintah yang mempunyai kewenangan monitoring dan evaluasi pelaksanaan kebijakan dan Manajemen ASN untuk menjamin perwujudan Sistem Merit dan Mengawasi Penerapan Asas Kode Etik dan Kode Perilaku ASN , adalah ….",
-                        "A. Kementerian PAN RB",
-                        "B. KASN",
-                        "C. LAN",
-                        "D. BKN 8 Memeriksa dokumen terkait pelanggaran pegawai ASN, dan meminta klarifikasi pemeriksaan laporan pelanggaran pegawai ASN, merupakan beberapa contoh dari ….",
-                        "A. Tugas KASN",
-                        "B. Wewenang KASN",
-                        "C. Fungsi KASN",
-                        "D. Kewajiban KASN 9 Ketua KASN, wakil ketua, dan anggota yang telah terpilih selanjutnya ditetapkan oleh …",
-                        "A. Kepala BKN",
-                        "B. Menteri PAN-RB",
-                        "C. DPR",
-                        "D. Presiden 10 Seleksi Kompetensi Dasar Calon PNS meliputi …",
-                        "A. Karakteristik Pribadi, Intelegensi Umum, Wawasan Kebangsaan",
-                        "B. TPA, Bahasa Inggris, Bahasa Indonesia",
-                        "C. Intelegensi Umum, Wawasan Kebangsaan, Pancasila",
-                        "D. Sejarah, Intelegensi Umum, Wawasan Kebangsaan 11 Pemutusan Hubungan Perjanjian Kerja PPPK, dilakukan dengan hormat karena hal berikut kecuali …",
-                        "A. Dihukum penjara karena tindak pidana penjara paling singkat 2 tahun dan kejahatan tersebut dilakukan dengan tidak berencan",
-                        "A. ",
-                        "B. Meninggal Dunia",
-                        "C. Atas permintaan sendiri",
-                        "D. Perampingan organisasi 12 Pemerintah wajib memberikan perlindungan kepada PPPK berupa jaminan berikut yaitu…",
-                        "A. JHT, Jamkes, Jaminan Kecelakaan Kerja, Jaminan Kematian, Bantuan Hukum",
-                        "B. JHT, Jamkes, Jaminan Kematian,",
-                        "C. Jaminan Kecelakaan Kerja, Jaminan Kematian, JHT",
-                        "D. Jaminan Kesehatan dan Jaminan Kematian 13 PNS yang telah menunjukan kesetiaan, kejujuran, kecakapan, dan prestasi kerja dalam melaksanakan tugasnya dapat diberikan penghargaan berupa hal berikut kecuali ..",
-                        "A. Kesempatan menghadiri acara resmi / kenegaraan",
-                        "B. Kesempatan Prioritas untuk Pengembangan Kompetensi",
-                        "C. Tunjangan tambahan",
-                        "D. Kenaikan Pangkat Istimewa 14 Penurunan Pangkat setingkat lebih rendah selama 1 (satu) tahun, merupakan jenis bagian dari Hukuman …",
-                        "A. Hukuman Disiplin Ringan",
-                        "B. Hukuman Disiplin Sedang",
-                        "C. Hukuman Disiplin Berat",
-                        "D. Teguran Lisan 15 Apabila pegawai negeri sipil tidak masuk kerja tanpa keterangan yang sah selama 26 hari kerja maka dapat dikenakan ….",
-                        "A. Teguran Lisan",
-                        "B. Penundaan KGB 1 tahun",
-                        "C. Penundaan Kenaikan Pangkat 1 tahun",
-                        "D. Penurunan pangkat setingkat lebih rendah selama 1 tahun 16 Seorang Pegawai Negeri Sipil, apabila dia mencapai sasaran kinerja hanya 24% dari target yang ditetapkan maka akan mendapatkan ….",
-                        "A. Hukuman Disiplin Berat",
-                        "B. Hukuman Disiplin Sedang",
-                        "C. Hukuman Disiplin Ringan",
-                        "D. Teguran Lisan 17 Apabila ada PNS yang mengalami gugur kandungan, maka berhak mengajukan…",
-                        "A. Cuti Alasan Penting",
-                        "B. Cuti Sakit",
-                        "C. Cuti Bersalin",
-                        "D. Cuti Besar 18 Bagi PNS, apabila sedang menjalani persalinan anak ke-4, dapat mengajukan….",
-                        "A. Cuti Bersalin",
-                        "B. Cuti Besar",
-                        "C. Cuti diluar Tanggungan Negara",
-                        "D. Cuti Alasan Penting 19 Cuti diluar tanggungan Negara, dapat diberikan kepada PNS yang telah bekerja paling lama …",
-                        "A. 3 tahun",
-                        "B. 4 tahun",
-                        "C. 5 tahun",
-                        "D. 6 tahun 20 Dibawah ini termasuk usaha kesejahteraan PNS meliputi program berikut, kecuali …",
-                        "A. Pensiun dan hari tua",
-                        "B. Askes",
-                        "C. Bantuan Hukum",
-                        "D. Asuransi Pendidikan Putera Puteri PNS 21 Setiap pegawai dipungut iuran 10% tiap bulan nya untuk membiayai usaha dalam bidang kesejahteraan dengan rincian ….",
-                        "A. 4% iuran dana pensiun, 2% iuran pemeliharaan kesehatan, 3% iuran hari tua dan perumahan",
-                        "B. 4,25% iuran dana pensiun, 2% iuran pemeliharaan kesehatan, 3,75% iuran hari tua dan perumahan",
-                        "C. 4% iuran dana pensiun, 2,75% iuran pemeliharaan kesehatan, 3,25% iuran hari tua dan perumahan",
-                        "D. 4,75% iuran dana pensiun, 2% iuran pemeliharaan kesehatan, 3,25% iuran hari tua dan perumahan 22 Peraturan Menteri Keuangan tentang izin mengikuti pendidikan diluar kedinasan untuk PNS lingkup Kemenkeu diatur dalam …",
-                        "A. PMK nomor : 148/PMK.01/2012",
-                        "B. PMK nomor : 144/PMK.01/2014",
-                        "C. PMK nomor : 158/PMK.01/2012",
-                        "D. PMK nomor : 418/PMK.01/2012 23 Peraturan Menteri Keuangan yang mengatur tentang assessment center di lingkungan Kemenkeu adalah …",
-                        "A. PMK nomor : 47/PMK.01/2009",
-                        "B. PMK nomor : 47/PMK.01/2016",
-                        "C. PMK nomor : 47/PMK.01/2017",
-                        "D. PMK nomor : 47/PMK.01/2010 24 Pengelolaan Kinerja di Lingkungan Kemenkeu diatur dalam Keputusan Menteri Keuangan nomor : …",
-                        "A. 454/KMK.01/2011",
-                        "B. 454/KMK.01/2012",
-                        "C. 445/KMK.01/2011",
-                        "D. 445/KMK.01/2012 25 Peraturan Pemerintah yang mengatur tentang penetapan pensiun pokok pensiunan PNS Janda/ Dudanya diatur dalam …",
-                        "A. PP No.37 Tahun 2014",
-                        "B. PP No.37 Tahun 2015",
-                        "C. PP No.37 Tahun 2016",
-                        "D. PP No.37 Tahun 2017"
+                        "D. Jabatan Pelaksana"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Tata Aturan Kepegawaian dan Manajemen ASN. Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (B): Jabatan Kepala Kanwil."
+        "explanation":  "Berdasarkan UU ASN No. 5 Tahun 2014, Jabatan Administrasi terdiri dari 3 jenjang: Jabatan Administrator, Jabatan Pengawas, dan Jabatan Pelaksana. Jabatan Kepala Kanwil bukan jenjang jabatan administrasi melainkan Jabatan Pimpinan Tinggi (JPT Pratama). Kunci jawaban: (B)."
     },
     {
         "id":  89,
@@ -2446,109 +2256,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Etika",
                         "B. Moral",
                         "C. Kode Etik",
-                        "D. Moral PNS 2 Disebutkan bahwa ASN sebagai profesi berlandaskan pada prinsip salah satunya kode etik dan kode prilaku, diatur dalam UU ASN nomor 5 tahun 2014 pasal ….",
-                        "A. pasal 2",
-                        "B. Pasal 3",
-                        "C. pasal 4",
-                        "D. pasal 5 3 Pedoman sikap, tingkah laku, dan perbuatan Pegawai Negeri Sipil di dalam melaksanakan tugasnya dan pergaulan hidup sehari-hari disebut ….",
-                        "A. Kode Etik",
-                        "B. Kode Etik ASN",
-                        "C. Kode Etik PNS",
-                        "D. Kode Etik pegawai 4 Memberikan pelayanan dengan empati, hormat, dan santun, tanpa pamrih, dan tanpa unsur pemaksaan merupakan implementasi butir Etika Pegawai Negeri Sipil…",
-                        "A. Etika Pegawai Negeri Sipil dalam Bernegara",
-                        "B. Etika Pegawai Negeri Sipil dalam Berorganisasi",
-                        "C. Etika Pegawai Negeri Sipil dalam Bermasyarakat",
-                        "D. Etika Pegawai Negeri Sipil terhadap sesama Pegawai Negeri Sipil 5 Memiliki Kompetensi dalam pelaksanaan tugas, merupakan implementasi butir Etika Pegawai Negeri Sipil…",
-                        "A. Etika Pegawai Negeri Sipil dalam Bernegara",
-                        "B. Etika Pegawai Negeri Sipil dalam Berorganisasi",
-                        "C. Etika Pegawai Negeri Sipil dalam Bermasyarakat",
-                        "D. Etika Pegawai Negeri Sipil Terhadap Diri Sendiri 6 Mewujudkan Pola Hidup Sederhana, merupakan implementasi butir Etika Pegawai Negeri Sipil…",
-                        "A. Etika Pegawai Negeri Sipil dalam Bernegara",
-                        "B. Etika Pegawai Negeri Sipil dalam Berorganisasi",
-                        "C. Etika Pegawai Negeri Sipil dalam Bermasyarakat",
-                        "D. Etika Pegawai Negeri Sipil Terhadap Diri Sendiri 7 Pembinaan Jiwa Korps dan Kode Etik PNS diatur dalam …",
-                        "A. UU No. 24 Tahun 2004",
-                        "B. UU No. 42 Tahun 2004",
-                        "C. UU No. 32 Tahun 2003",
-                        "D. UU No. 32 Tahun 2004 8 Majelis Kehormatan Kode Etik ditetapkan oleh ….",
-                        "A. Pejabat Pembuat Komitmen",
-                        "B. Pejabat Pengelola Kepegawaian",
-                        "C. Pejabat Berwajib",
-                        "D. Pejabat Pembina Kepegawaian. 9 Keanggotaan Majelis Kode Etik , paling tidak berjumlah ….",
-                        "A. 3 orang",
-                        "B. 4 orang",
-                        "C. 5 orang",
-                        "D. 7 orang 10 Kode Etik Organisasi Profesi di lingkungan Pegawai Negeri Sipil ditetapkan oleh…..",
-                        "A. Organisasi Profesi Masing-masing",
-                        "B. Pejabat Pembina Kepegawaian",
-                        "C. Presiden",
-                        "D. DPR 11 Menjamin kelancaran pelaksanaan tugas kondusif. merupakan salah satu dari ….",
-                        "A. Tujuan Kode Etik",
-                        "B. Kewajiban Kode Etik",
-                        "C. Larangan Kode Etik",
-                        "D. Sanksi Kode Etik 12 Menurut Dr. A. Sonny Keraf, ada 7 (tujuh) prinsip moral yang harus dimiliki dan dihayati oleh PNS sebagaimana dibawah ini, kecuali ….",
-                        "A. Profesionalisme",
-                        "B. Integritas Moral Yang Tinggi",
-                        "C. Tanggungjawab terhadap kepentingan organisasi",
-                        "D. Jangan Menghalalkan segala cara untuk mencapai tujuan 13 Prinsip ini menuntut setiap pejabat public dalam birokrasi untuk bertindak sesuai dengan prinsip dan menjaga nama baik sebagai seorang pejabat public yang wajib melaksanakan tugas sebaik-baiknya demi melayani kepentingan publi",
-                        "C. Merupakan pengertian dari prinsip moral ….",
-                        "A. Profesionalisme",
-                        "B. Integritas Moral yang tinggi",
-                        "C. Tanggungjawab terhadap kepentingan public",
-                        "D. Berpihak kepada kebenaran dan kejujuran. 14 Menurut Myrdal (1968) terdapat 11 kemampuan atau keutamaan yang diharapkan dari seorang pegawai yang baik antara lain seperti dibawah ini, kecuali …",
-                        "A. Profesionalisme",
-                        "B. Tepat Waktu",
-                        "C. Kegesitan",
-                        "D. Bersedia memandang jauh ke depan 15 Menurut Keraf (2002) ada beberapa hal yang diperlukan agar implementasi praktek etika yang baik dalam organisasi pemerintah dapat terwujud, yaitu sebagai berikut kecuali…",
-                        "A. Adanya komitmen moral dan politik dari pimpinan kementerian/ lembaga",
-                        "B. Aturan Formal Internal Kementerian",
-                        "C. Adanya teladan yang nyata dari pimpinan kementerian",
-                        "D. Adanya reward/ penghargaan secara subyektif bagi pegawai yang berprestasi di suatu kementerian 16 Menurut magnis suseno (2002) berikut ini merupakan 4 unsur utama yang mempengaruhi keberhasilan perwujudan etika dalam organisasi pemerintah, kecuali …",
-                        "A. Etika Kerja dan Pegawai",
-                        "B. Moralitas Pribadi",
-                        "C. Kepemimpinan yang bermutu",
-                        "D. Kondisi Sistemik 17 Sikap dasar seseorang atau sekelompok orang dalam melakukan suatu pekerjaan disebut …",
-                        "A. Etos Kerja",
-                        "B. Moralitas Pribadi",
-                        "C. Kepemimpinan yang bermutu",
-                        "D. Kondisi-kondisi sistemik 18 Unsure-unsur penting dalam etos kerja yang bisa mendukung terciptanya suatu suasana kerja yang kondusif adalah sebagai berikut, kecuali …",
-                        "A. Dedikasi melaksanakan tugas sebaik-baiknya",
-                        "B. Semangat pengabdian pada kelompok/golongan",
-                        "C. Bersedia mempertanggungjawabkan hasil kerjanya",
-                        "D. Semangat untuk tidak lari dari kemungkinan masalah. 19 Kesesuaian Sikap dan perilaku seseorang dengan norma-norma yang ada terkait dengan baik dan buruknya suatu perbuatan disebut …",
-                        "A. Etos Kerja",
-                        "B. Moralitas Pribadi",
-                        "C. Kepemimpinan yang bermutu",
-                        "D. Kondisi-kondisi sistemik 20 Contoh beberapa moralitas pribadi yang penting adalah sebagai berikut, kecuali …",
-                        "A. Jujur dan tidak korupsi",
-                        "B. Tanggungjawab",
-                        "C. Melayani dengan sepenuh hati",
-                        "D. Menghormati hak semua pihak yang terkait. 21 Dalam kaitannya dengan perwujudan etika, maka seseorang pemimpin memikul peran sebagai panutan dan pemberi motivasi kepada para bawahan nya sekaligus juga menjaga kondisi lingkungan kerja agar tetap terjaga dan suasana kerja yang etis, hal tersebut merupakan implementsai dari …",
-                        "A. Kepemimpinan yang berdidakasi",
-                        "B. Kepempimpinan yang teladan",
-                        "C. Kepemimpinan tertinggi",
-                        "D. Kepemimpinan yang bermutu 22 Pemimpin dituntut untuk mempunyai 5 (lim",
-                        "A. hal penting sebagai berikut, kecuali …",
-                        "A. Konsekwensi",
-                        "B. Kompetensi",
-                        "C. Konsistensi",
-                        "D. Memastikan Pelaksanaan tertib Kerja 23 Seorang pemimpin harus benar-benar menguasai hal-hal yang merupakan bidang pekerjaan nya sehingga diharapkan mampu mengatasi permasalahan-permasalahan yang terjadi, hal tersebut merupakan salah satu unsure penting dalam pemimpin yaitu…",
-                        "A. Konsistensi",
-                        "B. Kompetensi",
-                        "C. Profesionalisme",
-                        "D. Transparansi 24 Ada 2 (du",
-                        "A. syarat sistemik yang berpengaruh dalam keberhasilan untuk mewujudkan suatu etika dalam organisasi pemerintah, yakni : …",
-                        "A. Lingkungan Kerja dan Lingkungan Rumah Tangga",
-                        "B. Reward dan Pengawasan/ Pengendalian",
-                        "C. Lingkungan Kerja dan Pengawasan/Pengendalian",
-                        "D. Lingkungan kerja dan Kesejahteraan Organisasi 25 George Everest menggolongkan manusia ke dalam 8 kelompok yang meliputi nilai-nilai sebagai berikut, kecuali …",
-                        "A. Nilai – Nilai Ekonomis",
-                        "B. Nilai – Nilai Kejasmanian",
-                        "C. Nilai – Nilai Hiburan",
-                        "D. Nilai – Nilai Kerohanian"
+                        "D. Moral PNS"
                     ],
         "answer":  "A",
-        "explanation":  "Materi Kode Etik dan Kode Perilaku Pegawai Negeri Sipil. Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (A): Etika."
+        "explanation":  "Secara etimologi, adat istiadat atau kebiasaan hidup yang dianggap baik oleh kalangan atau masyarakat tertentu disebut etika. Kunci jawaban: (A)."
     },
     {
         "id":  89,
@@ -2561,111 +2272,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Sriwijaya",
                         "B. Majapahit",
                         "C. Sriwijaya dan Majapahit",
-                        "D. Samudera Pasai 2 Istilah Pancasila sebagai dasar Negara lahir pada tanggal",
-                        "A. 18 Agustus 1945",
-                        "B. 17 Agustus 1945",
-                        "C. 1 Juni 1945",
-                        "D. 20 Juni 1945 3 Rumusan sila-sila pancasila yang sah yang wajib diamalkan bangsa Indonesia adalah rumusan sila-sila pancasila yang tercantum dalam Pembukaan UUD 1945 alinea …",
-                        "A. Pertama",
-                        "B. Kedua",
-                        "C. Ketiga",
-                        "D. Keempat 4 Pancasila pada hakikatnya dikembalikan kepada dua pengertian pokok yaitu …",
-                        "A. Dasar Negara dan Pandangan Hidup",
-                        "B. Dasar Negara dan Pedoman Hidup",
-                        "C. Pedoman Hidup dan Pandangan Hidup",
-                        "D. Dasar Negara dan Pembukaan UUD 5 Pembukaan UUD 1945 terdiri dari 4 alinea yang memuat hal-hal berikut kecuali …",
-                        "A. Pernyataan Hak Kemerdekaan bagi setiap bangsa",
-                        "B. Pernyataan tentang Hasil Perjuangan Kemerdekaan Bangsa Indonesia",
-                        "C. Pernyataan Merdeka",
-                        "D. Tentang Dasar Kerohanian (falsafah) pancasila sebagai pandangan hidup 6 Dibawah ini termasuk pokok pikiran yang merupakan suasana kebatinan dari UUD 1945 tersebut terdiri atas hal-hal berikut, kecuali …",
-                        "A. Negara berdasar atas Ketuhanan Yang Maha Esa dengan menjalankan syariat bagi pemeluknya",
-                        "B. Negara melindungi segenap bangsa Indonesia dengan berdasarkan persatuan",
-                        "C. Negara Indonesia mewujudkan keadilan social bagi seluruh rakyat Indonesia",
-                        "D. Negara berkedaulatan rakyat, berdasarkan atas kerakyatan dan permusyawaratan/ perwakilan 7 Pancasila menjamin hak hidup secara layak bagi semua warga Negara dan semua golongan tanpa ada perbedaan, maka berdasarkan kedudukannya dalam tata kehidupan bangsa, maka fungsi pancasila tersebut sebagai …",
-                        "A. Dasar yang statis",
-                        "B. Dasar yang fundamental",
-                        "C. Tuntunan yang dinamis",
-                        "D. Ikatan yang dapat mempersatukan bangsa Indonesia 8 Pancasila sebagai “Philosophical way of thinking atau philosophical system” , maka apabila dilihat dari lingkup jangkauan sasarannya, hal tersebut merupakan fungsi pancasila sebagai …..",
-                        "A. Fungsi Yuridis Ketatanegaraan",
-                        "B. Fungsi Etis dan Filosofis",
-                        "C. Fungsi Filosofis",
-                        "D. Fungsi Sosiologis 9 Nilai – Nilai yang terkandung dalam pancasila itu dijadikan tuntunan dan pegangan dalam mengatur sikap dan tingkah laku manusia Indonesia dalam hubungannya dengan tuhan, masyarakat, dan alam semest",
-                        "A. Merupakan hakikat pokok yang terkandung dalam pancasila sebagai …",
-                        "A. Dasar Negara",
-                        "B. Pandangan Hidup Bangsa",
-                        "C. Falsafah",
-                        "D. Jiwa Pancasila yang abstrak 10 Prof. Dr. Notonegoro, membagi nilai menjadi 3 yakni sebagai berikut, kecuali …",
-                        "A. Nilai Material",
-                        "B. Nilai Vital",
-                        "C. Nilai Kemanusiaan",
-                        "D. Nilai Kerohanian 11 Nilai yang bersumber pada unsur akal manusia, disebut nilai ….",
-                        "A. Nilai Religius",
-                        "B. Nilai Kebaikan",
-                        "C. Nilai Keindahan",
-                        "D. Nilai Kebenaran 12 Sesuatu yang berguna bagi manusia untuk dapat mengadakan kegiatan dan aktivitas merupakan pengertian darii nilai ….",
-                        "A. Nilai Material",
-                        "B. Nilai Vital",
-                        "C. Nilai Kemanusiaan",
-                        "D. Nilai Kerohanian 13 Gagasan tentang cita Negara Integralistik , dikemukakan pada saat rapat BPUPKI oleh …",
-                        "A. Soepomo",
-                        "B. M. Yamin",
-                        "C. Ir. Soekarno",
-                        "D. M. Hatta 14 Ideologi merupakan suatu kesatuan yang utuh dan bulat dari ide-ide dasar, merupakan pengertian ideology menurut ….",
-                        "A. Mubyarto",
-                        "B. Padmo Wahjono",
-                        "C. Soepomo",
-                        "D. Jimly Ashidqie 15 Pada tanggal 29 April 1945, jepang membentuk BPUPKI yang diketuai oleh ….",
-                        "A. Soperijadi",
-                        "B. Radjiman Wedyodiningrat",
-                        "C. M. Yamin",
-                        "D. Soepomo 16 Persatuan, Kekeluargaan, Keseimbangan Lahir Bathin, Musyawarah dan Keadilan Rakyat merupakan rumusan pancasila dari ..",
-                        "A. Ir. Soekarno",
-                        "B. M. Yamin",
-                        "C. Soepomo",
-                        "D. Radjiman Wedyodiningrat 17 Dibawah ini merupakan asas/ dasar Negara Indonesia Merdeka dalam pidato M. Yamin, kecuali …",
-                        "A. Peri Keadilan",
-                        "B. Peri Kebangsaan",
-                        "C. Peri Ketuhanan",
-                        "D. Peri Kerakyatan 18 Pada tanggal 11 Juli 1945, ketua BPUPKI membentuk tiga panitia berikut, kecuali …",
-                        "A. Panitia Perancang UUD diketuai Ir. Soekarno",
-                        "B. Panitia Pembelaan Tanah Air diketuai Abikoesno Tjokrosoejoso",
-                        "C. Panitia Soal Keuangan dan Perekonomian diketuai M. Hatta",
-                        "D. Panitia Persiapan Kemerdekaan Indonesia diketuai Abikoesno Tjokrosoejoso 19 Negara melindungi segenap Bangsa Indonesia dan seluruh tumpah darah Indonesia, merupakan pengamalan pancasila yaitu sila ke …",
-                        "A. Sila Ketiga",
-                        "B. Sila Kelima",
-                        "C. Sila Keempat",
-                        "D. Sila Kedua 20 Negara Indonesia yang merdeka, bersatu, berdaulat, adil dan makmur berdasarkan pancasil",
-                        "A. Terdapat dalam Pembukaan UUD 1945 alinea …",
-                        "A. Alinea Kedua",
-                        "B. Alinea Pertama",
-                        "C. Alinea Empat",
-                        "D. Alinea Ketiga 21 Negara Indonesia yang merdeka, dan anti penjajahan. Terdapat dalam pokok pikiran UUD 1945, alinea …",
-                        "A. Alinea Kedua",
-                        "B. Alinea Pertama",
-                        "C. Alinea Empat",
-                        "D. Alinea Ketiga 22 Dibawah ini hierarki peraturan perundang-undangan yang ada di Indonesia adalah sebagai berikut…..",
-                        "A. UUD 1945, UU/Peraturan Pemerintah Pengganti Undang-Undang, Ketetapan MPR, Peraturan Pemerintah, Peraturan Presiden, Peraturan Daerah Provinsi, Peraturan Daerah Kabupaten/ Kot",
-                        "A. ",
-                        "B. UUD 1945, Peraturan Presiden, UU/Peraturan Pemerintah Pengganti Undang- Undang, Peraturan Pemerintah, Ketetapan MPR, Peraturan Daerah Provinsi, Peraturan Daerah Kabupaten/ Kot",
-                        "A. ",
-                        "C. UUD 1945, Ketetapan MPR, UU/Peraturan Pemerintah Pengganti Undang-Undang, Peraturan Pemerintah, Peraturan Presiden, Peraturan Daerah Provinsi, Peraturan Daerah Kabupaten/ Kot",
-                        "A. ",
-                        "D. UUD 1945, Ketetapan MPR, UU/Peraturan Pemerintah Pengganti Undang-Undang, Peraturan Pemerintah, Peraturan Presiden, Peraturan Daerah Kabupaten/ Kota Peraturan Daerah Provinsi. 23 Calon Hakim Agung diusulkan oleh …….… kepada DPR untuk mendapatkan Persetujuan dan Ditetapkan sebagai Hakim Agung oleh Presiden.",
-                        "A. Mahkamah Agung",
-                        "B. Mahkaman Konstitusi",
-                        "C. Kejaksanaan Agung",
-                        "D. Komisi Yudisial 24 Sudut Pandang/ cara memandang yang mengandung kemampuan seseorang/ kelompok orang untuk memahami keberadaan jati diri sebagai suatu bangsa dalam memandang dirinya dan bertingkah laku sesuai falsafah hidup bangsa dalam lingkungan internal dan lingkungan eksternal disebut …..",
-                        "A. Wawasan Kebangsaan",
-                        "B. Wawasan Nusantara",
-                        "C. Sumpah Pemuda",
-                        "D. POLEKSOSBUD HANKAM 25 Suatu Tekad Bersama untuk berkehidupan kebangsaan yang bebas, merdeka dan bersatu, Merupakan ……",
-                        "A. Pengertian Wawasan Kebangsaan",
-                        "B. Tujuan Wawasan Kebangsaan",
-                        "C. Makna Wawasan Kebangsaan",
-                        "D. Nilai Dasar Wawasan Kebangsaan"
+                        "D. Samudera Pasai"
                     ],
         "answer":  "C",
-        "explanation":  "Materi Wawasan Kebangsaan, Pancasila, dan UUD 1945. Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (C): Sriwijaya dan Majapahit."
+        "explanation":  "Istilah Pancasila telah dikenal sejak zaman Kerajaan Sriwijaya dan Majapahit (terdapat dalam Kitab Negarakertagama karya Empu Prapanca dan Kitab Sutasoma karya Empu Tantular). Kunci jawaban: (C)."
     },
     {
         "id":  89,
@@ -3107,14 +2717,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Menurut Keraf (2002) agar implementasi praktik etika yang baik dalam organisasi dapat terwujud, maka hal-hal yang harus diperhatikan sebagai berikut:",
         "options":  [
-                        "A. Adanya komitmen moral dan politik dari pimpinan kementerian/lembag",
-                        "A. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam beberapa proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladanyang nyata dari pimpinan kementerian",
-                        "B. Adanya komitmen moral dan politik dari pimpinan kementerian/lembag",
-                        "A. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam seluruh proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
-                        "C. Adanya komitmen moral dan sosial dari pimpinan kementerian/lembag",
-                        "A. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian.",
-                        "D. Adanya komitmen moral, politik dan sosial dari pimpinan kementerian/lembag",
-                        "A. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian."
+                        "A. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam beberapa proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
+                        "B. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam seluruh proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
+                        "C. Adanya komitmen moral dan sosial dari pimpinan kementerian/lembaga. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian.",
+                        "D. Adanya komitmen moral, politik dan sosial dari pimpinan kementerian/lembaga. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian."
                     ],
         "answer":  "B",
         "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (B): Adanya komitmen moral dan politik dari pimpinan kementerian/lembag."
@@ -3911,17 +3517,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Rentang kendali yang benar untuk Direktorat pada Ditjen Pajak adalah…",
         "options":  [
-                        "A. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 4 Seksi",
-                        "B. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 5 Subdirektorat serta Subbagian Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 6 Seksi",
-                        "C. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 5 Seksi",
-                        "D. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 4 Subdirektorat serta Subbagian Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 5 Seksi"
+                        "A. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 4 Seksi",
+                        "B. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 5 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 6 Seksi",
+                        "C. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 5 Seksi",
+                        "D. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 4 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 5 Seksi"
                     ],
         "answer":  "C",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (C): Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usah."
+        "explanation":  "Berdasarkan ketentuan struktur organisasi Ditjen Pajak, Direktorat terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usaha, dan Subdirektorat terdiri atas paling banyak 5 Seksi. Kunci jawaban: (C)."
     },
     {
         "id":  167,
@@ -3931,17 +3533,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Rentang kendali yang benar untuk Direktorat pada DitjenBea dan Cukai adalah…",
         "options":  [
-                        "A. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagia Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 5 Seksi",
-                        "B. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 5 Subdirektorat serta Subbagia Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 6 Seksi",
-                        "C. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 4 Subdirektorat serta Subbagia Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 6 Seksi",
-                        "D. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagia Tata Usah",
-                        "A. Subdirektorat terdiri atas paling banyak 4 Seksi"
+                        "A. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 5 Seksi",
+                        "B. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 5 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 6 Seksi",
+                        "C. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 4 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 6 Seksi",
+                        "D. Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagian Tata Usaha. Subdirektorat terdiri atas paling banyak 4 Seksi"
                     ],
         "answer":  "D",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (D): Terdiri atas Kelompok Jabatan Fungsional dan/atau dapat terdiri atas paling banyak 6 Subdirektorat serta Subbagia Tata Usah."
+        "explanation":  "Berdasarkan struktur organisasi Ditjen Bea dan Cukai, Direktorat terdiri atas Kelompok Jabatan Fungsional dan/atau paling banyak 6 Subdirektorat serta Subbagian Tata Usaha, dan Subdirektorat terdiri atas paling banyak 4 Seksi. Kunci jawaban: (D)."
     },
     {
         "id":  168,
@@ -4351,14 +3949,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Apabila seorang PNS diangkat menjadi Staf Khusus Menteri berlaku ketentuan-ketentuan berikut, kecuali…",
         "options":  [
-                        "A. Hak keuangan dan fasilitas lainnya bagi Staf Khusus Menteri diberikan paling tinggi setara dengan Jabatan Struktural Eselon I.",
-                        "B. ",
-                        "B. PNS yang diangkat sebagai Staf Khusus Menteri dinaikkan pangkatnya setiap kali setingkat leibh tinggi tanpa terika jenjang pangkat, sesuai dengan ketentuan peraturan perundang-undangan",
-                        "C. PNS yang diangkat menjadi Staf Khusus diberhentikan dari jabatan organiknya tanpa kehilangan status sebagai PNS sesuai dengan ketentuan peraturan perundang- undangan",
+                        "A. Hak keuangan dan fasilitas lainnya bagi Staf Khusus Menteri diberikan paling tinggi setara dengan Jabatan Struktural Eselon I.b",
+                        "B. PNS yang diangkat sebagai Staf Khusus Menteri dinaikkan pangkatnya setiap kali setingkat lebih tinggi tanpa terikat jenjang pangkat, sesuai dengan ketentuan peraturan perundang-undangan",
+                        "C. PNS yang diangkat menjadi Staf Khusus diberhentikan dari jabatan organiknya tanpa kehilangan status sebagai PNS sesuai dengan ketentuan peraturan perundang-undangan",
                         "D. Dalam hal Staf Khusus berhenti atau telah berakhir masa baktinya memperoleh uang pensiun dan uang pesangon"
                     ],
         "answer":  "D",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (D): Dalam hal Staf Khusus berhenti atau telah berakhir masa baktinya memperoleh uang pensiun dan uang pesangon."
+        "explanation":  "Berdasarkan regulasi staf khusus menteri, dalam hal staf khusus berhenti atau telah berakhir masa baktinya, staf khusus TIDAK memperoleh uang pensiun dan uang pesangon. Kunci jawaban: (D)."
     },
     {
         "id":  194,
@@ -4592,14 +4189,13 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Staf ahli dalam jabatan struktural setara dengan…",
         "options":  [
-                        "A. Eselon I.",
-                        "A. ",
+                        "A. Eselon I.a",
                         "B. Eselon I.b",
                         "C. Eselon II.a",
                         "D. Eselon II.b"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (B): Eselon I.b."
+        "explanation":  "Staf Ahli Menteri dalam jabatan struktural setara dengan jabatan struktural Eselon I.b. Kunci jawaban: (B)."
     },
     {
         "id":  209,
@@ -5012,14 +4608,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Pusat Pendidikan dan Pelatihan Pengembangan Sumber Daya Manusia",
                         "B. Pusat Pendidikan dan Pelatihan Kekayaan Negara dan Perbendaharaan Negara",
                         "C. Pusat Pendidikan dan Pelatihan Kekayaan Negara dan Perimbangan Keuangan",
-                        "D. Pusat Pendidikan dan Pelatihan Keuangan Umum 79 Berikut ini termasuk Pusat di lingkungan Kementerian Keuangan, kecuali…",
-                        "A. Pusat Sistem Informasi dan Teknologi Keuangan",
-                        "B. Pusat Pembinaan Profesi Keuangan",
-                        "C. Pusat Kepatuhan Internal Pajak",
-                        "D. Pusat Layanan Pengadaan Secara Elektronik"
+                        "D. Pusat Pendidikan dan Pelatihan Keuangan Umum"
                     ],
         "answer":  "B",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (B): Pusat Pendidikan dan Pelatihan Kekayaan Negara dan Perbendaharaan Negara."
+        "explanation":  "Unit di bawah BPPK mencakup Pusdiklat PSDM, Pusdiklat Anggaran dan Perbendaharaan, Pusdiklat Pajak, Pusdiklat Bea Cukai, Pusdiklat KN dan Perimbangan Keuangan, serta Pusdiklat Keuangan Umum. Tidak ada Pusdiklat Kekayaan Negara dan Perbendaharaan Negara. Kunci jawaban: (B)."
     },
     {
         "id":  235,
@@ -6424,14 +6016,10 @@ window.UPKP_QUESTIONS = window.TOBAT_QUESTIONS = [
                         "A. Satu kesatuan wilayah, kesatuan bangsa, kesatuan idiologi, dan kesatuan hukum",
                         "B. Satu kesatuan wilayah, kesatuan negara, kesatuan bangsa, kesatuan filsafat dan idiologi, dan kesatuan hukum",
                         "C. Satu kesatuan wilayah, kesatuan negara, kesatuan bangsa, kesatuan idiologi dan kesatuan hukum",
-                        "D. Satu kesatuan wilayah, kesatuan bangsa, kesatuan filsafat dan ideologi, dan kesatuan hukum 23 Sistem sosial Budaya: atas dasar kebudayaan nasional dan Bhinneka Tunggal Ika diatur dalam…",
-                        "A. Pasal 30 UUD 1945",
-                        "B. Pasal 31 UUD 1945",
-                        "C. Pasal 32 UUD 1945",
-                        "D. Pasal 33 UUD 1945"
+                        "D. Satu kesatuan wilayah, kesatuan bangsa, kesatuan filsafat dan ideologi, dan kesatuan hukum"
                     ],
         "answer":  "D",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (D): Satu kesatuan wilayah, kesatuan bangsa, kesatuan filsafat dan ideologi, dan kesatuan hukum 23 Sistem sosial Budaya: atas dasar kebudayaan nasional dan Bhinneka Tunggal Ika diatur dalam…."
+        "explanation":  "Kepulauan nusantara sebagai satu kesatuan politik mencakup perwujudan satu kesatuan wilayah, kesatuan bangsa, kesatuan filsafat dan ideologi, serta kesatuan hukum. Kunci jawaban: (D)."
     },
     {
         "id":  323,
