@@ -200,13 +200,38 @@ const ExamEngine = {
   remainingSeconds: 0,
   autosaveInterval: null,
 
+  // Sanitizer Pembersihan Teks Watermark & Stray Promosi
+  sanitizeText(str) {
+    if (!str || typeof str !== 'string') return str || '';
+    return str
+      .replace(/Bimbel\s*Giving\s*(\([0-9\-\s]+\))?/gi, '')
+      .replace(/Masuk\s*Kelas\s*(\([0-9\-\s]+\))?/gi, '')
+      .replace(/\(0896[- ]*900[- ]*15102\)/gi, '')
+      .replace(/0896[- ]*900[- ]*15102/gi, '')
+      .replace(/Bimbel\s*Giving/gi, '')
+      .replace(/\s{2,}/g, ' ')
+      .trim();
+  },
+
+  sanitizeQuestion(q) {
+    if (!q) return q;
+    const cleanQ = { ...q };
+    cleanQ.question = this.sanitizeText(cleanQ.question);
+    if (Array.isArray(cleanQ.options)) {
+      cleanQ.options = cleanQ.options.map(opt => this.sanitizeText(opt));
+    }
+    cleanQ.explanation = this.sanitizeText(cleanQ.explanation);
+    return cleanQ;
+  },
+
   // Pilih soal dari Bank Soal sesuai distribusi paket
   assembleQuestions(examPackage) {
     const rawBank = window.UPKP_QUESTIONS || window.TOBAT_QUESTIONS || [];
     if (!rawBank.length) return [];
 
     const grouped = {};
-    rawBank.forEach(q => {
+    rawBank.forEach(rawQ => {
+      const q = this.sanitizeQuestion(rawQ);
       const cat = q.category || 'general';
       if (!grouped[cat]) grouped[cat] = [];
       grouped[cat].push(q);

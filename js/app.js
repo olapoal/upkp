@@ -477,7 +477,7 @@
     DOM.currentQuestionCategoryTag.textContent = `${data.categoryName} (${data.year || 'UPKP'})`;
 
     // Question Text
-    DOM.currentQuestionText.textContent = data.question;
+    DOM.currentQuestionText.textContent = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(data.question) : data.question;
 
     // Options (A, B, C, D, E)
     DOM.currentOptionsContainer.innerHTML = '';
@@ -487,7 +487,8 @@
       // Parse Letter (A/B/C/D/E)
       const letterMatch = optStr.match(/^([A-E])\.\s*(.*)/i);
       const letter = letterMatch ? letterMatch[1].toUpperCase() : String.fromCharCode(65 + optIdx);
-      const textOnly = letterMatch ? letterMatch[2] : optStr;
+      const rawText = letterMatch ? letterMatch[2] : optStr;
+      const textOnly = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(rawText) : rawText;
 
       const isSelected = (selectedAnswer === letter);
 
@@ -742,10 +743,14 @@
           } else if (item.userAnswer && letter.toUpperCase() === item.userAnswer.toUpperCase()) {
             optClass += ' review-opt-wrong';
           }
-          optionsHtml += `<div class="${optClass}">${opt}</div>`;
+          const cleanOpt = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(opt) : opt;
+          optionsHtml += `<div class="${optClass}">${cleanOpt}</div>`;
         });
         optionsHtml += '</div>';
       }
+
+      const cleanQuestion = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(item.question) : item.question;
+      const cleanExpl = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(item.explanation) : item.explanation;
 
       card.innerHTML = `
         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
@@ -755,7 +760,7 @@
           </div>
           ${badgeHtml}
         </div>
-        <div style="font-weight: 500; margin-bottom: 0.5rem; line-height: 1.5;">${item.question}</div>
+        <div style="font-weight: 500; margin-bottom: 0.5rem; line-height: 1.5;">${cleanQuestion}</div>
         ${optionsHtml}
         <div style="font-size: 0.85rem; margin-top: 0.5rem;">
           <strong>Jawaban Peserta:</strong> <span style="font-weight: 700;">${item.userAnswer || '(Kosong / Tidak Dijawab)'}</span> | 
@@ -763,7 +768,7 @@
         </div>
         <div class="review-pembahasan-box">
           <div class="pembahasan-label">📖 Pembahasan & Penjelasan Resmi:</div>
-          <div>${item.explanation}</div>
+          <div>${cleanExpl}</div>
         </div>
       `;
 
