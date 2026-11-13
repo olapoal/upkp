@@ -197,34 +197,76 @@ Biro SDM Setjen Kemenkeu RI & Ditjen Perbendaharaan`.trim();
     return true;
   },
 
-  // 5. Kirim via Web Backend API (jika server lokal port 8080 aktif)
+  // 5. Kirim via Web Backend API (Server Lokal / FormSubmit HTTPS pada GitHub Pages)
   async sendViaWebApi(recipientEmail, resultData) {
     const report = this.generateReport(resultData);
+    const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const isHttp = window.location.protocol === 'http:' || window.location.protocol === 'https:';
 
-    const endpoints = [
-      '/api/send-email',
-      'http://localhost:8080/api/send-email'
-    ];
+    // A. Coba server lokal jika sedang berjalan di localhost
+    if (isLocalhost || window.location.protocol === 'file:') {
+      const localEndpoints = isLocalhost
+        ? ['/api/send-email']
+        : ['http://localhost:8080/api/send-email'];
 
-    for (const url of endpoints) {
+      for (const url of localEndpoints) {
+        try {
+          const response = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              to: recipientEmail,
+              subject: report.subject,
+              text: report.plainText,
+              summary: this.generateSummaryText(resultData),
+              result: resultData
+            })
+          });
+
+          if (response.ok) {
+            return { success: true, method: 'local-api' };
+          }
+        } catch (e) {
+          // Lanjut ke opsi berikutnya
+        }
+      }
+    }
+
+    // B. Jika diakses melalui Web Server / GitHub Pages (http/https), gunakan FormSubmit AJAX
+    if (isHttp && !isLocalhost) {
       try {
-        const response = await fetch(url, {
+        const fsRes = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(recipientEmail)}`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
           body: JSON.stringify({
-            to: recipientEmail,
-            subject: report.subject,
-            text: report.plainText,
-            summary: this.generateSummaryText(resultData),
-            result: resultData
+            _subject: report.subject,
+            _template: 'box',
+            name: 'Simulasi KLC-CAT UPKP Kemenkeu',
+            peserta: resultData.user.nama,
+            nip: resultData.user.nip,
+            paket_ujian: resultData.exam.title,
+            ringkasan_nilai: this.generateSummaryText(resultData),
+            pembahasan_salah: report.plainText.substring(0, 8000)
           })
         });
 
-        if (response.ok) {
-          return { success: true, method: 'local-api' };
+        if (fsRes.ok) {
+          const fsData = await fsRes.json();
+          if (fsData && (fsData.success === 'true' || fsData.success === true)) {
+            const needsActivation = (fsData.message || '').toLowerCase().includes('activat');
+            return {
+              success: true,
+              method: 'formsubmit',
+              needsActivation: needsActivation,
+              message: fsData.message || ''
+            };
+          }
         }
       } catch (e) {
-        // Try next endpoint
+        // Fallback ke mailto
       }
     }
 

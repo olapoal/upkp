@@ -819,7 +819,15 @@
     try {
       const res = await window.EmailService.sendViaWebApi(email, AppState.lastResultData);
       if (res && res.success) {
-        showEmailNotification(`✓ Rapor resmi hasil evaluasi UPKP berhasil dicatat dan diproses untuk email: ${email}! Salinan berkas tersimpan di folder logs.`, "success");
+        if (res.method === 'formsubmit') {
+          if (res.needsActivation) {
+            showEmailNotification(`📩 Email verifikasi aktivasi telah dikirim ke ${email}! Silakan cek kotak masuk (atau folder Spam) dan klik tombol 'Activate Form' pada email dari FormSubmit. Setelah diaktifkan, pengiriman berikutnya otomatis masuk langsung ke inbox.`, "info");
+          } else {
+            showEmailNotification(`✓ Rapor resmi hasil evaluasi UPKP berhasil dikirim langsung ke email: ${email}! Silakan periksa kotak masuk (atau folder Spam).`, "success");
+          }
+        } else {
+          showEmailNotification(`✓ Rapor resmi hasil evaluasi UPKP berhasil dicatat dan diproses untuk email: ${email}! Salinan berkas tersimpan di folder logs.`, "success");
+        }
         return;
       }
 
