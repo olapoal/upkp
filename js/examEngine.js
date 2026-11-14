@@ -209,6 +209,9 @@ const ExamEngine = {
       .replace(/\(0896[- ]*900[- ]*15102\)/gi, '')
       .replace(/0896[- ]*900[- ]*15102/gi, '')
       .replace(/Bimbel\s*Giving/gi, '')
+      .replace(/\/lembag(?=[\s\.,]|$)/gi, '/lembaga')
+      .replace(/kementerian\/lembag(?=[\s\.,]|$)/gi, 'kementerian/lembaga')
+      .replace(/[\r\n]+/g, ' ')
       .replace(/\s{2,}/g, ' ')
       .trim();
   },
@@ -218,7 +221,19 @@ const ExamEngine = {
     const cleanQ = { ...q };
     cleanQ.question = this.sanitizeText(cleanQ.question);
     if (Array.isArray(cleanQ.options)) {
-      cleanQ.options = cleanQ.options.map(opt => this.sanitizeText(opt));
+      cleanQ.options = cleanQ.options
+        .map(opt => this.sanitizeText(opt))
+        .filter(opt => opt && opt.length > 3 && !/^[A-E]\.?\s*$/i.test(opt.trim()));
+
+      // Pastikan urutan prefiks huruf opsi (A, B, C, D, E) konsisten dan rapi
+      cleanQ.options = cleanQ.options.map((opt, idx) => {
+        const expectedLetter = String.fromCharCode(65 + idx);
+        if (!new RegExp(`^${expectedLetter}\\.\\s+`, 'i').test(opt)) {
+          const stripped = opt.replace(/^[A-E]\.\s*/i, '');
+          return `${expectedLetter}. ${stripped}`;
+        }
+        return opt;
+      });
     }
     cleanQ.explanation = this.sanitizeText(cleanQ.explanation);
     return cleanQ;

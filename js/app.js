@@ -735,12 +735,14 @@
       let optionsHtml = '';
       if (item.options && item.options.length) {
         optionsHtml = '<div style="margin: 0.75rem 0; font-size: 0.88rem; display: flex; flex-direction: column; gap: 4px;">';
-        item.options.forEach(opt => {
-          const letter = (opt.match(/^([A-E])\./i) || [])[1] || '';
+        item.options.forEach((opt, optIdx) => {
+          if (!opt || opt.trim().length <= 2) return;
+          const letterMatch = opt.match(/^([A-E])\./i);
+          const letter = letterMatch ? letterMatch[1].toUpperCase() : String.fromCharCode(65 + optIdx);
           let optClass = 'review-opt-line';
-          if (letter.toUpperCase() === item.correctAnswer.toUpperCase()) {
+          if (letter === (item.correctAnswer || '').toUpperCase()) {
             optClass += ' review-opt-correct';
-          } else if (item.userAnswer && letter.toUpperCase() === item.userAnswer.toUpperCase()) {
+          } else if (item.userAnswer && letter === item.userAnswer.toUpperCase()) {
             optClass += ' review-opt-wrong';
           }
           const cleanOpt = ExamEngine.sanitizeText ? ExamEngine.sanitizeText(opt) : opt;

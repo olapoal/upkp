@@ -202,7 +202,7 @@ window.UPKP_QUESTIONS = [
         "categoryName":  "Tusi Kemenkeu \u0026 DJPb",
         "year":  2023,
         "source":  "Materi Modul \u0026 Bank Soal UPKP Kemenkeu",
-        "question":  "Dibawah ini yang bertugas dalam enyelenggarakan urusan tertentu dalam pemerintahan untuk membantu presiden dalam menyelenggarakan pemerintahan negara disesuaikan dengan peran kementerian dalam pelaksanaan agenda pembangunan nasional, kecuali ………",
+        "question":  "Dibawah ini yang bertugas dalam menyelenggarakan urusan tertentu dalam pemerintahan untuk membantu presiden dalam menyelenggarakan pemerintahan negara disesuaikan dengan peran kementerian dalam pelaksanaan agenda pembangunan nasional, kecuali ………",
         "options":  [
                         "A. Kementerian Koordinator",
                         "B. Kementerian kelompok I",
@@ -446,7 +446,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Kesimpulan Salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "B",
         "explanation":  "(-) Aturan Umum * P,W (tanda koma berarti tepat setelah atau tepat sebelum. Tidak ada elemen lain yang dapat memisahkannya) * SK – TO dan TKU – SK → logikanya TKU – SK – TO * K = 2 (-) TKU – Kesehatan – Studi Kasus – TOEFL -Psikotest – Wawancara"
@@ -461,7 +462,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Tidak dapat disimpulkan",
-                        "C. Kesimpulan salah"
+                        "C. Kesimpulan salah",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "C",
         "explanation":  "Aturan Umum • Mod = 3 • Pi ≠ Pt • N = Pol • K,M • Eko – Mod – Pi atau Pi – Mod – Eko • K ≠ Mod dan M – K – L • Mod ≠ L atau Mod ≠ N • J = Pi dan J = 4 1 2 3 4 5 Pt Eko (poin 5) Mod (poin 1) Pi (Poin 8) Pol L K (poin 6) M J (Poin 8) N Lisa itu pengamat"
@@ -476,7 +478,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan benar",
                         "B. Kesimpulan salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "A",
         "explanation":  "Aturan Umum  • Mod = 3 • Pi ≠ Pt • N = Pol • K,M • Eko – Mod – Pi atau Pi – Mod – Eko • K ≠ Mod dan M – K – L • Mod ≠ L atau Mod ≠ N • J = Pi dan J = 4 1 2 3 4 5 Pt Eko (poin 5) Mod (poin 1) Pi (Poin 8) Pol L K (poin 6) M J (Poin 8) N"
@@ -491,10 +494,11 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan benar",
                         "B. Kesimpulan salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
-        "answer":  "C",
-        "explanation":  "Berdasarkan rute perjalanan: Lebak Bulus (LB) -\u003e Harmoni (Hi) -\u003e Senen (S). Rute dari Lebak Bulus menuju Senen harus transit melalui Halte Harmoni (LB - Hi - S). Jika Halte Harmoni ditutup, maka perjalanan dari Lebak Bulus ke Senen menjadi tidak mungkin. Kesimpulan Benar. Kunci jawaban: (A)."
+        "answer":  "B",
+        "explanation":  "Berdasarkan susunan tempat duduk: Moderator di kursi 3, Jesika (Peneliti) di kursi 4, sehingga kursi 2 adalah Ekonom dan kursi 5 adalah Politikus (Nanda). Karena Karsa bukan moderator dan berada di antara Mirna dan Lisa, posisi Karsa adalah di kursi 2 (Ekonom). Jadi, Karsa adalah Ekonom sedangkan Nanda adalah Politikus. Kesimpulan bahwa Karsa dan Nanda memiliki profesi yang sama adalah SALAH. Kunci jawaban: (B)."
     },
     {
         "id":  32,
@@ -506,7 +510,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Kesimpulan Salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "B",
         "explanation":  "Dengan melewati dua halte, rute dari Lebak Bulus menuju Pulogadung dapat dicapai melalui rute Lebak Bulus -\u003e Matraman -\u003e Pulogadung (LB - M - PG). Kunci jawaban: (B)."
@@ -521,7 +526,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Kesimpulan Salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "A",
         "explanation":  "Langkah Analisis Rute (Graf Transportasi): Berdasarkan aturan lintasan yang ditentukan: (1) Dari Pulo Gadung (PG) harus transit ke Senen (S); (2) Dari Senen (S) lanjut transit ke Harmoni (H); (3) Dari Harmoni (H) menuju ke Lebak Bulus (LB). Rangkaian rute Pulo Gadung menuju Lebak Bulus menjadi: PG -\u003e Senen -\u003e Harmoni -\u003e Lebak Bulus (melewati total 4 halte). Tidak ada rute lain yang melewati halte lebih banyak dari kombinasi ini. Dengan demikian, kesimpulan bahwa rute Pulo Gadung ke Lebak Bulus melewati halte paling banyak adalah BENAR (A)."
@@ -536,7 +542,8 @@ window.UPKP_QUESTIONS = [
         "options":  [
                         "A. Kesimpulan Benar",
                         "B. Kesimpulan Salah",
-                        "C. Tidak dapat disimpulkan"
+                        "C. Tidak dapat disimpulkan",
+                        "D. Tidak ada kesimpulan yang sesuai"
                     ],
         "answer":  "A",
         "explanation":  "Jika Ikin memilih jurusan Hubungan Internasional, maka sesuai ketentuan Hadi akan memilih Teknik Informatika. Karena Galih memilih jurusan Statistika atau Teknik Informatika, sedangkan Teknik Informatika sudah dipilih Hadi, maka Galih pasti memilih jurusan Statistika. Kesimpulan Benar. Kunci jawaban: (A)."
@@ -1603,11 +1610,10 @@ window.UPKP_QUESTIONS = [
                         "A. Sinergi dan integritas",
                         "B. Pengetahuan dan profesionalisme",
                         "C. Pelayanan dan kesempurnaan",
-                        "D. Pelayanan dan profesionalism",
-                        "E."
+                        "D. Pelayanan dan profesionalisme"
                     ],
         "answer":  "D",
-        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (D): Pelayanan dan profesionalism."
+        "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (D): Pelayanan dan profesionalisme."
     },
     {
         "id":  101,
@@ -1812,8 +1818,7 @@ window.UPKP_QUESTIONS = [
                         "A. Kebiasaan pegawai untuk mempertahankan apa yang sudah dicapai dan tidak perlu mencari-cari program yang lebih modern",
                         "B. Melakukan apa yang harus dilakukan dan tidak melakukan apa yang tidak boleh dilakukan",
                         "C. Mengerjakan semua pekerjaan yang diperintahkan atasan dengan mempertimbangkan segala kepentingan pribadi agar tidak mengganggu urusan pribadi",
-                        "D. Melakukan segala pekerjaan tanpa perlu membagi (shar",
-                        "E. pekerjaan dengan rekan pegawai lainnya karena yakin bisa menyelesaikan semua pekerjaan dengan lebih baik jika dikerjakan sendirian."
+                        "D. Melakukan segala pekerjaan tanpa perlu membagi (share) pekerjaan dengan rekan pegawai lainnya karena yakin bisa menyelesaikan semua pekerjaan dengan lebih baik jika dikerjakan sendirian."
                     ],
         "answer":  "B",
         "explanation":  "Materi Nilai-Nilai Kementerian Keuangan (Integritas, Profesionalisme, Sinergi, Pelayanan, Kesempurnaan). Berdasarkan materi resmi UPKP Ditjen Perbendaharaan Kementerian Keuangan, jawaban yang tepat adalah (B): Melakukan apa yang harus dilakukan dan tidak melakukan apa yang tidak boleh dilakukan."
@@ -2722,13 +2727,13 @@ window.UPKP_QUESTIONS = [
         "source":  "Kumpulan Soal UPKP V Kemenkeu",
         "question":  "Menurut Keraf (2002) agar implementasi praktik etika yang baik dalam organisasi dapat terwujud, maka hal-hal yang harus diperhatikan sebagai berikut:",
         "options":  [
-                        "A. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam beberapa proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
-                        "B. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga. Komitmen moral dan politik itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam seluruh proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
-                        "C. Adanya komitmen moral dan sosial dari pimpinan kementerian/lembaga. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian.",
-                        "D. Adanya komitmen moral, politik dan sosial dari pimpinan kementerian/lembaga. Komitmen moral dan sosial itu diterjemahkan kedalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian."
+                        "A. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga yang diterjemahkan ke dalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam beberapa proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
+                        "B. Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga yang diterjemahkan ke dalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada PNS pada saat pertama kali masuk, dalam pelatihan dan dalam seluruh proses pembenahan. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari pimpinan kementerian",
+                        "C. Adanya komitmen moral dan sosial dari pimpinan kementerian/lembaga yang diterjemahkan ke dalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian.",
+                        "D. Adanya komitmen moral, politik dan sosial dari pimpinan kementerian/lembaga yang diterjemahkan ke dalam aturan formal internal kementerian. Etos/etika birokrasi tersebut disosialisasikan dan diajarkan kepada semua PNS. Adanya sanksi yang diterapkan secara konsekuen serta adanya teladan yang nyata dari seluruh anggota kementerian."
                     ],
         "answer":  "B",
-        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (B): Adanya komitmen moral dan politik dari pimpinan kementerian/lembag."
+        "explanation":  "Materi Modul UPKP Kementerian Keuangan. Kunci jawaban resmi adalah (B): Adanya komitmen moral dan politik dari pimpinan kementerian/lembaga."
     },
     {
         "id":  117,
